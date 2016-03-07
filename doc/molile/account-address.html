@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My_LED</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/public.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/media-query.css" type="text/css"/>
+</head>
+<body>
+    <div class="bgcolor">
+	 <div class="grey-bg on-cancel"></div>
+        <div class="all-categories-page">
+            <a class="icon-arrow-left"></a>
+            <div class="all-login">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="register.html">Join Free</a>
+            </div>
+            <div  id="language" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Language</h4>
+                <ul class="secondary-list">
+                    <li class="green-color">English</li>
+                    <li>Deutsch</li>
+                    <li>Français</li>
+                    <li>Español</li>
+                    <li>Italiano</li>
+                    <li>Português</li>
+                </ul>
+             </div>
+            <div  id="currency" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Currency</h4>
+            <ul class="secondary-list"  >
+                <li value="USD" class="green-color">USD</li>
+                <li value="AUD">AUD</li>
+                <li value="BRL">BRL</li>
+                <li value="CAD">CAD</li>
+                <li value="CHF">CHF</li>
+                <li value="CLP">CLP</li>
+                <li value="CNY">CNY</li>
+                <li value="DKK">DKK</li>
+                <li value="EUR">EUR</li>
+                <li value="GBP">GBP</li>
+                <li value="HKD">HKD</li>
+                <li value="ILS">ILS</li>
+                <li value="INR">INR</li>
+                <li value="JPY">JPY</li>
+                <li value="MXN">MXN</li>
+                <li value="NOK">NOK</li>
+                <li value="RUB">RUB</li>
+                <li value="SEK">SEK</li>
+                <li value="USD">USD</li>
+            </ul>
+            </div>
+            <ul class="all-list">
+                <li><a href="all_categories.html">All Categories</a></li>
+                <li>
+                   <a class="to-language"> Language <span>English</span></a>
+                </li>
+                <li>
+                    <a class="to-currency"> Currency<span>AUD</span> </a>
+                </li>
+                <li><a>About</a></li>
+            </ul>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="menu">
+                <a class="icon-search" href="#" ></a>
+                <a class="icon-list" href="javascript:void(0)"></a>
+                <a class="active icon-user"   href="#"></a>
+                <a class="icon-shopping-cart"   href="shopping_cart.html" ></a>
+            </div>
+            <a href="index.html" class="logo"><img src="images/public/logo.png"  width="150"  /></a>
+        </header>
+        <div class="head-title">
+            <a class="icon-angle-left left-btn"></a>Address Book<a class="icon-plus right-btn" href="addressbook.html"></a>
+        </div>
+ <!-- query-input ------------------------------------------->
+        <section class="query-page" style="display: none">
+            <div class="input-bg clearfix">
+                <div class="query-input" >
+                    <span class="icon-search"></span>
+                    <form action="product_list.html" id="queryform" onsubmit="return common.search_input();">
+                         <input type="search"  name="search" id="search"  class="query search-input" placeholder="Search MyLed" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" />
+                    </form>
+                </div>
+                <div>
+                    <a class="cancel">Cancel</a>
+                </div>
+            </div>
+            <ul class="query-list query-data" style="display: none">
+                <li><a href="product_list.html">led</a></li>
+            </ul>
+            <div class="local-data">
+                <h4>Recent searches</h4>
+                <ul class="query-list">
+
+                </ul>
+                <div style="text-align: center"><a class="min-btn grey-bg-btn clearbtn" style="padding:0.5em 5em;margin-top: 1em;">clear</a></div>
+            </div>
+        </section>
+        <!-- query-input end------------------------------------------->
+        
+
+
+        <div class="spacing"></div>
+        <ul  class="tab-chagne a-block tab-active address-list">
+            <li class="active">
+                <a class="radius-btn more-info"><span class="icon-angle-down"></span></a>
+
+                Stone ( <span class="green-color">Default</span> )<br>
+                <span class="grey"> Lexington Avenue, 10th Floor, Room 202</span>
+                <div class="more-box">
+                   <a class="button orange-bg"  href="addressbook.html">Edit</a> <a class="button green-btn">Default</a> <a class="button grey-bg-btn address-del">Del</a>
+                </div>
+            </li>
+            <li>
+                <a class="radius-btn more-info"><span class="icon-angle-down"></span></a>
+
+                kili <br>
+                <span class="grey"> Lexington Avenue, 10th Floor, Room 202</span>
+                <div class="more-box">
+                    <a class="button orange-bg" href="addressbook.html">Edit</a> <a class="button green-btn">Default</a> <a class="button grey-bg-btn address-del">Del</a>
+                </div>
+            </li>
+        </ul>
+
+
+     </div>
+
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

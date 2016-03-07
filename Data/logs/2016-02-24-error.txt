@@ -1,0 +1,255 @@
+2016-02-24 2:40:31 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-02-24 2:40:31 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-02-24 2:40:31 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-02-24 2:40:32 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-02-24 2:40:32 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-02-24 2:40:32 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-02-24 3:03:13 - PHP Notice:  Undefined index: keyword in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\catalog\product.php on line 617
+2016-02-24 3:03:14 - PHP Notice:  Undefined variable: error_url_path in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\product_form.tpl on line 111
+2016-02-24 3:35:05 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:36:35 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:45:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:45:54 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:45:57 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:46:00 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 3:46:03 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:34:44 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:34:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:34:47 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:34:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:34:52 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:48:15 - PHP Notice:  Undefined variable: heading_title in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 14
+2016-02-24 4:48:15 - PHP Notice:  Undefined variable: action in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 18
+2016-02-24 4:49:04 - PHP Notice:  Undefined variable: heading_title in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 14
+2016-02-24 4:49:04 - PHP Notice:  Undefined variable: action in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 18
+2016-02-24 4:49:21 - PHP Notice:  Undefined index: group_attribure in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\attribute_group.php on line 82
+2016-02-24 4:49:43 - PHP Notice:  Undefined variable: heading_title in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 14
+2016-02-24 4:49:43 - PHP Notice:  Undefined variable: action in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 18
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: heading_title in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 14
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: action in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 18
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 221
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 222
+2016-02-24 4:50:01 - PHP Notice:  Undefined variable: attribute_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:50:01 - PHP Notice:  Undefined offset: 0 in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\attribute_group_filter.tpl on line 224
+2016-02-24 4:54:05 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 4:54:17 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:03:30 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:04:31 - PHP Notice:  Undefined index: keyword in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\catalog\category.php on line 394
+2016-02-24 5:05:02 - PHP Notice:  Undefined index: keyword in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\catalog\category.php on line 394
+2016-02-24 5:05:10 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:12:31 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:20 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:39 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:45 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:51 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:53 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:55 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:13:58 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:00 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:01 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:03 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:06 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:10 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:20 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:29 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:48 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:14:59 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:15:04 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:15:43 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:15:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:14 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:27 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:29 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:31 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:32 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:34 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:16:37 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:24:10 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:24:15 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:24:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:32 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:36 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:40 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:45 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 5:27:48 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 7:36:10 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 7:36:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 7:36:27 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 7:37:08 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 7:37:12 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 8:18:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 8:18:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 8:32:27 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 8:32:44 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:15:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:15:43 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:15:48 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:16:19 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:16:38 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:16:42 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:16:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 9:50:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:04:13 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:04:20 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:04:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:04:33 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:10:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:10:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:10:28 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:10:28 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:10:42 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:12:03 - PHP Notice:  Undefined index: keyword in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\catalog\product.php on line 617
+2016-02-24 10:12:03 - PHP Notice:  Undefined variable: error_url_path in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\product_form.tpl on line 111
+2016-02-24 10:19:53 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:01 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:07 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:13 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:17 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:31 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:39 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:20:47 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:20:47 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:20:47 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:20:47 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:20:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:20:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:20:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 10:20:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 10:21:13 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:22:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:22:52 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:22:56 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:22:58 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:23:03 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:23:07 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:24:15 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:24:29 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:32:16 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:42:37 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:42:41 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:42:44 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:42:50 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:43:01 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:44:33 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:44:38 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:48:24 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:57:51 - PHP Notice:  Undefined variable: current_url in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\information_list.tpl on line 55
+2016-02-24 10:58:05 - PHP Notice:  Undefined variable: current_url in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\information_list.tpl on line 55
+2016-02-24 10:58:15 - PHP Notice:  Undefined variable: current_url in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\information_list.tpl on line 55
+2016-02-24 10:59:00 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:59:06 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 10:59:39 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 11:00:19 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 11:00:19 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 11:00:19 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-24 11:00:19 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-24 11:26:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-24 11:26:24 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52

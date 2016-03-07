@@ -1,0 +1,35 @@
+<?php 
+$_['heading_title']="Recherche";
+$_['text_search']="Produits répondant aux critères de recherche";
+$_['text_keyword']="Mots-clés";
+$_['text_category']="Catégories";
+$_['text_any_category']="Toutes les catégories";
+$_['text_sub_category']="Chercher dans les sous-catégories";
+$_['text_critea']="Critères de recherche";
+$_['text_empty']="Il n'existe aucun produit correspondant aux critères de recherche.";
+$_['text_quantity']="Quantité:";
+$_['text_manufacturer']="Marque:";
+$_['text_model']="Code du produit:";
+$_['text_points']="Points de récompense:";
+$_['text_price']="Prix:";
+$_['text_reviews']="Basé sur %s commentaires.";
+$_['text_compare']="Comparer des produits (%s)";
+$_['text_display']="Affichage:";
+$_['text_list']="Liste";
+$_['text_grid']="Quadrillage";
+$_['text_popularity']="Popularité";
+$_['text_rating']="Commentaires";
+$_['text_new_arrivals']="Nouveautés";
+$_['text_limit']="Présentation:";
+$_['text_as_low']="Jusqu'à ";
+$_['text_description']="Description:";
+$_['text_product_detail']="Détails du produit »";
+$_['entry_search']="Chercher";
+$_['entry_description']="Chercher dans les descriptions de produits";
+$_['text_relevance']="pertinence";
+$_['text_no_res']="Sorry, no results found for:<span class='red'>%s";
+$_['text_suggestions']="Suggestions:";
+$_['text_suggestions_01']="•Make sure all words are spelled correctly. ";
+$_['text_suggestions_02']="•Try again with other keywords.";
+$_['text_suggestions_03']="•You can also contact our customer service for help: cs@MoreSKU.com";
+?>

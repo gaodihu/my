@@ -1,0 +1,87 @@
+<?php
+
+
+// HTTP
+define('HTTP_SERVER', 'http://www.mydev.com/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://www.mydev.com/');
+
+define('IMG_SERVER', 'http://www.mydev.com/image/');
+
+define("STATIC_SERVER",'http://www.mydev.com/');
+
+$dir = str_replace("\\",'/',__DIR__);
+$dir = substr($dir,0,0 -strlen('Application'));
+define('DIR_BASE', $dir);
+
+define('DIR_MODEL',   $dir . 'Application/model/');
+define('DIR_SYSTEM',  $dir . 'Application/system/');
+define('DIR_DATABASE',$dir . 'Application/system/database/');
+define('DIR_CONFIG',  $dir . 'Application/system/config/');
+define('DIR_IMAGE',   $dir . 'Public/image/');
+define('DIR_DOWNLOAD',$dir . 'Public/download/');
+define('DIR_CACHE',   $dir . 'Data/cache/');
+
+define('DIR_LOGS',    $dir . 'Data/logs/');
+
+
+//判断手机
+
+require_once(DIR_SYSTEM . 'lib/Mobile-Detect/Mobile_Detect.php');
+$detect = new Mobile_Detect;
+//if($detect->isMobile() && !$detect->isTablet()){
+if(0){
+    define('VISTOR_TYPE', 'MOBILE');
+    define('DIR_APPLICATION', $dir . 'Application/mobile/');
+    define('DIR_LANGUAGE',    $dir . 'Application/mobile/language/');
+    define('DIR_TEMPLATE',    $dir . 'Application/mobile/view/');
+}else{
+    define('VISTOR_TYPE', 'PC');
+    define('DIR_APPLICATION', $dir . 'Application/catalog/');
+    define('DIR_LANGUAGE',    $dir . 'Application/catalog/language/');
+    define('DIR_TEMPLATE',    $dir . 'Application/catalog/view/theme/');
+}
+
+// DB
+define('DB_DRIVER', 'mysqli');
+
+define('DB_HOSTNAME', '172.168.90.236');
+define('DB_USERNAME', 'myled');
+define('DB_PASSWORD', '123456');
+define('DB_DATABASE', 'charles_20160202');
+
+
+define('DB_PREFIX', 'oc_');
+
+//images size config
+define('CATALOG_SEO_IMG_WIDTH',960);
+define('CATALOG_SEO_IMG_HEIGHT',120);
+
+define('CATALOG_BG_IMG_WIDTH',587);
+define('CATALOG_BG_IMG_HEIGHT',519);
+
+define('CATALOG_SMALL_IMG_WIDTH',120);
+define('CATALOG_SMALL_IMG_HEIGHT',150);
+
+
+
+define('COOKIE_DOMAIN','mydev.com');
+
+define('CACHE_DRIVER', 'memcached');
+define('MEMCACHE_HOSTNAME', '127.0.0.1');
+define('MEMCACHE_PORT', '11211');
+define('MEMCACHE_NAMESPACE', 'moresku');
+
+
+$ELASTICSEARCH_HOST = array(
+    '172.168.90.236:9200'
+);
+define("ELASTICSEARCH_CATRGORY_ENABLE",1);
+
+define('DHL_URL', 'http://www.dhl.com/en.html');
+define('GLOBALMAIL_URL', 'https://www.globalmail.dhl.com/web/portal-asia/traceit');
+define('EMS_URL', 'http://www.ems.com.cn/mailtracking/e_you_jian_cha_xun.html');
+
+require_once(DIR_BASE."Application/config/define.php");
+?>

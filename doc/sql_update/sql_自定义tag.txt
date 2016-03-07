@@ -1,0 +1,8 @@
+CREATE TABLE `oc_custom_tag` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `tag` varchar(255) NOT NULL,
+ `link` varchar(255) NOT NULL,
+ `add_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+ PRIMARY KEY (`id`),
+ UNIQUE KEY `tag` (`tag`)
+) ENGINE=InnoDB AUTO_INCREMENT=425 DEFAULT CHARSET=utf8

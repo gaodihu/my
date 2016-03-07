@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="">
+<title>Feliz Ano Novo! </title>
+<meta name="description" content="Feliz Ano Novo" />
+<meta name="keywords" content="Feliz Ano Novo" />
+<!--script type="text/javascript" src="http://pt.myled.com/catalog/view/javascript/jquery/jquery.js"></script-->
+<style>
+    @charset "utf-8";
+    /* CSS Document */
+    body{ margin:0;padding:0; font: normal 12px/24px "Arial";color:#333;}
+    ul,li{ list-style:none;}
+    menu,nav,figure,figcaption,header,footer,section,article,img{ display:block}
+    dl,dt,dd,ul,li,h1,h2,h3,h4,h5,menu,nav,figure,figcaption,header,footer,section,article,aside,p,input,img{ margin:0; padding:0;border:0;}
+    a{text-decoration: none;color: #333;cursor: pointer;}
+    a:hover{text-decoration: none;color: #24aed5;cursor: pointer;}
+    del{color: #666; font-size: 12px;}
+    .clearfix:after{content:"\020"; display: block; height:0; clear:both; visibility:hidden}
+    .clearfix{zoom:1;}
+    .clear{ clear:both; height:0; content:" "; overflow:hidden; width:100%;}
+    .page{ width:980px; margin: 0 auto;}
+    .bgcolor{ }
+
+    /*   header    */
+    .header{ margin: 5px 0 10px 0; height: 90px;}
+    .header .logo{background: url("images/logo.png") no-repeat; width:181px; height:95px; }
+    .header ul{ float:right; margin-top: 60px; margin-right:30px;}
+    .header ul li{ float: left; margin: 0 10px; font-weight: bold}
+    .header ul li:last-child{ margin-right: 0px;}
+    .query-input{ width: 278px;height: 25px; border: 1px solid #ccc; float: right; padding: 5px 10px;margin-top: 41px; position:relative}
+    .query-input input{border: 0;width: 240px;height: 25px; margin-right: 10px; font-family:Arial, Helvetica, sans-serif; outline:none;
+}
+    .query-input .serch-btn{ cursor: pointer; border: 0; width: 26px;height: 18px; background: url("/special_templete/images/offimg/serbtn.jpg") center no-repeat!important; display: inline-block;  top: 10px; position: absolute; left:270px; float:right; outline:none;
+}
+
+    /* footer */
+    footer{ text-align: left;  padding-left:15px; padding-bottom: 50px; margin: 0 auto; background: url("/special_templete/images/offimg/support.jpg") top  no-repeat; border-top: 1px solid #e9e9e9; padding-top: 85px;  }
+    .footbanner{ padding: 10px 0;}
+
+    /* banner */
+	.banner{ background:#fff;}
+	.banner2{margin:0px auto; width:980px; height:320px;}
+
+    /* content */
+    .content{background: #fff; padding-top: 10px;}
+    .content .tit{ background: url("/special_templete/images/offimg/titlebg.png") center center; font-size: 20px; text-align: center; color: #fff; position: relative; width: 1000px; height: 42px; padding-top: 8px; left: -10px;}
+    .content .throw-row li{ border: 1px dashed #d0d0d0; width: 220px; line-height: 18px; padding-bottom:15px; float: left; margin-left: 18px; margin-bottom: 18px;}
+    .content .throw-row img{ width: 210px; margin: 5px auto; }
+    .content .throw-row span, .price{ font-size: 20px; color: #d10000; padding-right: 10px;}
+    .content .throw-row{ margin: 10px 15px 10px 0; text-align: center;}
+    .content .throw-row p{ margin: 5px; }
+    .content .throw-row .btn{ width: 170px; display: inline-block; height: 28px; color: #fff;  font-size: 14px;
+        line-height: 28px; border-radius: 5px; background: #3080ff;
+    }
+    .content .four-row li{ width: 220px; }
+	del{color: #666; font-size: 12px; margin-left:12px;}
+	.name{height:35px; text-align: center; padding:0 8px; text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+    /* footerup */
+    .footerup{width:980px; height:160px; margin-bottom: 20px; }
+    .about{width:150px; float:left; margin-left:12px; margin-top:10px;}
+    .about h2{line-height:30px; font-weight:bold; font-size:12px;}
+    .about p a{color:#666666; line-height:20px;}
+    .about a:hover{text-decoration:none;}
+    .share{width:180px; float:left; margin-left:12px; margin-top:10px;}
+    .share p{ font-size: 15px; font-weight: bold;}
+    .shareup{width:180px; margin-top:10px;}
+    .shareup a{text-decoration:none; margin-left:4px;}
+    .sharedown h3{color:#ffae01; height:22px; line-height:22px; font-size:12px; font-weight:normal; margin-top:5px;}
+    .sharedown p{color:#cccccc; line-height:16px;}
+    .sub #newslettedr{width:128px; height:29px; background-color:#000000; border:none; line-height:29px; font-size:12px; color:#666666; padding:0 5px;}
+    .sub a{margin-left:3px;}
+    .footerdown p{color:#666666; text-align:center; height:40px; line-height:40px; margin-bottom:20px; font-size:12px;}
+    #buttom{border:none; background:none; margin-left:-10px;}
+
+
+    /* share */
+    .share{width:180px; float:left; margin-left:12px; margin-top:10px;}
+    .shareup{width:180px; margin-top:10px;}
+    .shareup a{text-decoration:none; margin-left:4px;}
+    .shareup img{ display: inline-block;}
+    .sharedown h3{color:#ffae01; height:22px; line-height:22px; font-size:12px; font-weight:normal; margin-top:5px;}
+    .sharedown p{color:#cccccc; line-height:16px;}
+	.clear{clear:both;}
+
+.coupon{padding-top:15px; color:#ff0000; font-size:15px; line-height:32px; padding-left:18px;}
+.coupon .wz{float:left; padding-right:10px; font-size:18px; color:#000;}
+.coupon .hs{float:left; width:107px; height:31px; background:url('/special_templete/images/wzbj.jpg') no-repeat left top; line-height:29px; text-align:center; font-size:22px; font-weight:bold;}
+.coupon2{font-size:15px; line-height:24px; padding-top:5px; padding-left:18px;}
+.p-content{background:url("images/topbg.jpg") top  center  no-repeat;height:830px;width:100%; }
+.b-bg{background:url("images/bottombg.jpg") bottom center  no-repeat;width:100%; }
+.fg-info{width:650px;margin:0 auto;white-space:normal; word-break:break-all;overflow:hidden;padding-top:150px;height:230px;}
+.fg-info h4{color:#ff0009;font-size:30px; line-height:30px;margin:10px 0;}
+.fg-info div{font-size:13px;color:#000;line-height:20px;}
+.fg-info b{color:#65a000;}
+.codegroup{width:650px;margin:0 auto; font-size:15px;color:#000;}
+.codegroup  .code1{margin-top:155px;}
+.codegroup  .code2{text-align:right;margin-top:126px;}
+.codegroup  .time{position:relative;top:7px; color:#faf3ad;}
+.codegroup  .timershaft{position:absolute;margin-top:63px; color:#fff;}
+.codegroup  .timershaft  .two{margin-left:200px;}
+.codegroup  .timershaft  .first{margin-left:360px;}
+.fg-info  p{padding-bottom:6px;}
+</style>
+</head>
+
+<body>
+
+<div>
+        <!-- header -->
+		<div class="page">
+			<div  class="header">
+				<div class="query-input">
+					<input id="search" type="text" name="search" value=""   placeholder="Enter keyword or item number"/>
+					<button class="serch-btn" id="search_button"  type="button"/></button>
+				</div>
+				<ul>
+					<li><a href="http://pt.myled.com/new_arrivals.html">Novas Entradas</a></li>
+					<li>|</li>
+					<li><a href="http://pt.myled.com/top-sellers.html">Mais Vendidos</a></li>
+					<li>|</li>
+					<li><a href="http://pt.myled.com/deals.html">Transações</a></li>
+					<li>|</li>
+					<li><a href="http://pt.myled.com/clearance.html">Folga</a></li>
+				</ul>
+				<a href="http://pt.myled.com/" target="_blank"><div class="logo"></div></a>
+			</div>
+		</div>
+
+        <!-- content -->
+        <div class="bgcolor">
+			<div class="b-bg">	
+				<div class="p-content">
+					<div class="fg-info">
+						<h4>Queridos e estimados clientes,</h4>
+						<div>
+						<p>Gostaríamos de informar todos os nossos clientes de antemão equipe MyLED terá de férias durante o festival <br>da primavera.</p>
+
+<p>O atendimento ao cliente, e o departamento de Armazém MyLED vai ter temporariamente férias a partir de <br>15 Fev. de 2015(GMT+8) a 23 Fev. De 2015(GMT+8).Todas as equipes MyLED estarão de volta e todos os <br>serviços serão totalmente retomado no dia 24, fevereiro de 2015(GMT+8). As encomendas efectuadas durante as nossas férias serão tratadas o mais cedo possível. Feliz Ano Novo!</p>
+
+<p>Atenciosamente,<br>
+Equipe MyLED</p></div>
+						</div>
+						<div class="codegroup">
+							<div class="timershaft">
+								<div class="first"><span>19 Fev</span><span class="two">23 Fev</span></div>
+								<div><span>15 Fev</span><span class="two">18 Fev</span></div>				
+							</div>
+							<div class="code1"><span>Copão: <b>Sp214</b></span><span style="margin-left:100px;">Copão: <b>Sp218</b></span><br><span class="time">  VAL:  18 Fev. de 2015(GMT+8)</span></div>
+							<div class="code2"><span style="margin-right:100px;">Copão: <b>Sp219</b></span><span>Copão:<b>Sp223</b></span><br><span  class="time">VAL:  23 Fev. de 2015(GMT+8)</span></div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+    <div class="footerup page">
+        <div class="about"><h2>Informações da Companhia</h2><p><a href="http://pt.myled.com/about-us.html" target="_blank">Sobre Nós</a></p><p><a href="http://pt.myled.com/contact-us.html" target="_blank">Entre em Contato</a></p></div>
+    <div class="about"><h2>Atendimento ao Cliente</h2><p><a href="http://pt.myled.com/accepted-payment-methods.html" target="_blank">Formas de pagamento aceites</a></p><p><a href="http://pt.myled.com/return-policy.html" target="_blank">Politica de Devoluções</a></p><p><a href="http://pt.myled.com/secure-shopping.html" target="_blank">Compras Seguras</a></p><p><a href="http://pt.myled.com/shipping-methods.html">Formas de Envio</a></p></div>
+    <div class="about"><h2>Importante</h2><p><a href="http://pt.myled.com/privacy-policy.html" target="_blank">Politica de Privacidade</a></p><p><a href="http://pt.myled.com/terms-and-conditions.html" target="_blank">Termos e Condições</a></p><p><a href="http://pt.myled.com/tax-policy.html" target="_blank">Política Fiscal</a></p></div>    
+    <div class="about"><h2>Parcerias</h2><p><a href="http://pt.myled.com/affiliate-marketing.html" target="_blank">Marketing Afiliado</a></p><p><a href="http://pt.myled.com/affiliates-terms-of-use.html" target="_blank">Termos de utilização para Afiliados</a></p></div>
+        <div class="share">
+            <p>Join our community</p>
+            <div class="shareup">
+                <a href="http://www.facebook.com/myledcom" target="_blank">
+                    <img src="/special_templete/images/share/f.png" width="32" height="32" border="0" />
+                </a>
+                <a href="http://www.twitter.com/myledcom" target="_blank">
+                    <img src="/special_templete/images/share/t.png" width="32" height="32" border="0" />
+                </a>
+                <a href="http://vk.com/myledcom" target="_blank">
+                    <img src="/special_templete/images/share/v.png" width="32" height="32" border="0" />
+                </a>
+                <a href="http://www.pinterest.com/myledcom" target="_blank">
+                    <img src="/special_templete/images/share/p.png" width="32" height="32" border="0" />
+                </a>
+            </div>
+        </div>
+    </div>
+        <!-- footer -->
+        <footer>
+            <div class="page">Copyright © 2014 Hong Kong MyLED Group Stock Limited. All Rights Reserved.</div>
+        </footer>
+
+<script type="text/javascript">
+/* 点击回车跳转 */
+$(document).ready(function () {
+	var $inp = $('#search'); //所有的input元素
+	$inp.keypress(function (e) { //这里给function一个事件参数命名为e，叫event也行，随意的，e就是IE窗口发生的事件。
+		var key = e.which; //e.which是按键的值
+		if (key == 13) {
+			url =  'http://pt.myled.com/index.php?route=product/search';
+
+			var search = $('input[name=\'search\']').attr('value');
+
+			if (search) {
+				url += '&search=' + encodeURIComponent(search);
+			}
+
+			window.location.href = url;
+		}
+	});
+})	
+$('#search_button').click(function () {
+	url = 'http://pt.myled.com/index.php?route=product/search';
+
+	var search = $('input[name=\'search\']').attr('value');
+
+	if (search) {
+		url += '&search=' + encodeURIComponent(search);
+	}
+
+	window.location.href = url;
+  })
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42585019-1', 'myled.com');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 982948913;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<div style='height:0;overflow:hidden'>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+</div>
+<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/982948913/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+</body>
+</html>

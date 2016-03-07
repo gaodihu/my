@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title><?php echo $header_title;?></title>
+		<style>
+			.title-css{text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;
+    display: -webkit-box;-webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+		</style>
+    </head>
+<body><table width="750" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="750" height="92">
+                   <table width="740" cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                          <tr height="92" width="740">
+                                <td width="170" height="92"><a target="_blank" href="https://fr.myled.com/?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_content=logolink&utm_campaign=home"><img width="170" height="92" border="0" src="https://www.myled.com/edm/nav/logo.jpg" style="border-width: 0px; border-style: solid;" alt="MyLED.com"></a></td>
+                                <td width="570" valign="top" height="77" align="right" style="color: #666666; line-height: 18px; padding-top: 15px; font-family: arial, helvetica, sans-serif;">
+                                 <span style="font-size: 12px;">
+                                Soyez sûr de recevoir notre newsletter en ajoutant </span><a target="_blank" style="color: #7ab80f; font-size: 12px;" href="[ADD_TO_CONTACT]">support@myled.com</a><span style="font-size: 12px;"> à votre Carnet d'Adresse.</span><br />
+                                <span style="font-size: 12px;">Problème pour afficher cet email? </span><span style="font-size: 12px; color: #7ab80f;"><strong><a target="_blank" style="color: #7ab80f; font-weight: bold;" href="<?php echo $top_banner['link'];?>?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Special">Cliquez ici</a></strong></span><span style="font-size: 12px;">, pour la voir dans votre navigateur. </span><br>
+                                <span style="font-size: 12px;">
+                                Pour vous <strong>désabonner</strong> merci de </span><span style="font-size: 18px; color: #7ab80f;"><strong><a target="_blank" style="color: #7ab80f; font-weight: bold;" href="[UNSUBSCRIBE_URL]">Cliquez ici</a></strong>.</span> </td>
+                            </tr>
+                      </tbody>
+                  </table>          </td>
+            </tr>
+			<tr>
+                <td width="750" height="30">
+                  <table width="750" cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                          <tr height="30" width="750">
+                                <td width="170" height="30"><a href="https://fr.myled.com?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=home" target="_blank"><img width="170" height="30" border="0" style="border-width: 0px; border-style: solid;" src="http://promotion.myled.com/edm/nav/frmenu_03.jpg" alt="Catégories LED
+"></a></td>
+                                <td width="146" height="30"><a target="_blank" href="https://fr.myled.com/new_arrivals.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=New%20Arrivals"><img width="146" height="30" border="0" style="border-width: 0px; border-style: solid;" src="http://promotion.myled.com/edm/nav/frmenu_04.jpg" alt="Nouveautés"></a></td>
+                                <td width="181" height="30"><a target="_blank" href="https://fr.myled.com/top-sellers.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Top%20Sellers"><img width="181" height="30" border="0" style="border-width: 0px; border-style: solid;" src="http://promotion.myled.com/edm/nav/frmenu_05.jpg" alt="Meilleures Ventes"></a></td>
+                                <td width="107" height="30"><a target="_blank" href="https://fr.myled.com/deals.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Deals"><img width="107" height="30" border="0" style="border-width: 0px; border-style: solid;" src="http://promotion.myled.com/edm/nav/frmenu_06.jpg" alt="Offres"></a></td>
+                                <td width="146" height="30"><a target="_blank" href="https://fr.myled.com/clearance.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Clearance"><img width="146" height="30" border="0" style="border-width: 0px; border-style: solid;" src="http://promotion.myled.com/edm/nav/frmenu_07.jpg" alt="Liquidation"></a></td>
+                            </tr>
+                      </tbody>
+                  </table>                </td>
+            </tr>
+			<tr><td><a href="<?php echo $top_banner['link'];?>?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Special" target="_blank"><img src="<?php echo $top_banner['img'];?>" alt="<?php echo $top_banner['title'];?>" width="750" height="250" border="0" /></a></td></tr>
+				<?php foreach($products_info as $pro1){ ?>	
+				  				<tr><td style="padding-top:10px;"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr>
+						<?php foreach($pro1 as $key=>$value){ ?>
+									<td width="226" valign="top" style="border:4px solid #dbf5d8; padding:5px; padding-bottom:8px;">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                      <td><a href="https://fr.myled.com/<?php echo $value['url'];?>?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_content=image&utm_campaign=<?php echo $value['sku'];?>" target="_blank"><img src="<?php echo $value['img'];?>" width="226" height="151" border="0"></a></td>
+                    </tr>
+                    <tr>
+                      <td height="36" class="title-css" align="center" style="text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;
+    display: -webkit-box;-webkit-line-clamp: 3; -webkit-box-orient: vertical;font-size:12px; color:#333333; font-family:arial, helvetica, sans-serif; line-height:18px; padding:0px 8px; height:36px;"><?php echo $value['name'];?></td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size:18px; padding-top:5px; padding-bottom:5px; color:#9c0000; line-height:18px; font-weight:bold;"><?php echo $value['special_price'];?>€<span style="font-size:12px; text-decoration:line-through; color:#999999; padding-right:5px;"><?php echo $value['price'];?>€</span></td></tr>
+                    <tr><td align="center" height="24" bgcolor="#12ba02" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:24px;"><a style="text-decoration:none; color:#fff;" href="https://fr.myled.com/<?php echo $value['url'];?>?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_content=image&utm_campaign=<?php echo $value['sku'];?>" target="_blank">Commandez Ici</a></td></tr>
+                  </tbody></table>
+                </td>
+							<?php if($key!==2){ ?>
+								<td width="9"></td>
+								<?php }?>
+						<?php }?>
+					</tr></tbody></table></td></tr>
+				<?php } ?>
+							<tr>
+				    <td height="10"></td>
+		  </tr>
+		  <tr><td><a href="<?php echo $foot_banner['link'];?>?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=bottom" target="_blank"><img width="750" height="99" border="0" alt="<?php echo $foot_banner['title'];?>" src="<?php echo $foot_banner['img'];?>"></a></td></tr>         
+		  <tr>
+				    <td style="padding-top:10px;">
+      <table border=0 cellSpacing=0 cellPadding=0>
+        
+        </table></td>
+		  </tr>
+<tr>
+                <td width="750" height="135" style="padding-bottom: 12px;">
+                   <table width="750" height="135" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr height="30" width="750">
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="165" height="28"><a href="https://fr.myled.com/led-bulb/spot-bulb.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Spot_Bulbs" style="color: #333333; text-decoration: none;" target="_blank">Ampoules pour Spot</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="173" height="28"><a href="https://fr.myled.com/led-outdoor-light/wall-washer-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Wall_Washer_Lights" style="color: #333333; text-decoration: none;" target="_blank">Lampes LED Lèche-mur</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="176" height="28"><a href="https://fr.myled.com/led-flashlight.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Flashlights" style="color: #333333; text-decoration: none;" target="_blank">Lampes de poche LED</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="179" height="28"><a href="https://fr.myled.com/led-special-light/shower-head.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Shower_Heads" style="color: #333333; text-decoration: none;" target="_blank">Pomme de douche LED</a></td>
+    </tr>
+    <tr height="5" width="750">
+      <td width="177" height="5"></td>
+    </tr>
+    <tr height="30" width="750">
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="165" height="28"><a href="https://fr.myled.com/led-bulb/ball-bulb.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Ball_Bulbs" style="color: #333333; text-decoration: none;" target="_blank">Ampoules rondes</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="173" height="28"><a href="https://fr.myled.com/led-ceiling-light/down-lamp.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Down_Lamps" style="color: #333333; text-decoration: none;" target="_blank">Downlight</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="176" height="28"><a href="https://fr.myled.com/led-night-lamp.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Night_Lamps" style="color: #333333; text-decoration: none;" target="_blank">Veilleuses LED</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="179" height="28"><a href="https://fr.myled.com/led-special-light/faucet-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Faucet_Lights" style="color: #333333; text-decoration: none;" target="_blank">LED pour Robinet</a></td>
+    </tr>
+    <tr height="5" width="750">
+      <td width="177" height="5"></td>
+    </tr>
+    <tr height="30" width="750">
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="165" height="28"><a href="https://fr.myled.com/led-outdoor-light/flood-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Floodlights" style="color: #333333; text-decoration: none;" target="_blank">Projecteurs LED Extérieur</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="173" height="28"><a href="https://fr.myled.com/led-ceiling-light/panel-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Panel_Lights" style="color: #333333; text-decoration: none;" target="_blank">Panneau LED</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="176" height="28"><a href="https://fr.myled.com/led-car-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Auto_Lights" style="color: #333333; text-decoration: none;" target="_blank">Eclairage LED voiture</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="179" height="28"><a href="https://fr.myled.com/led-tube.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Tubes" style="color: #333333; text-decoration: none;" target="_blank">Tubes LED</a></td>
+    </tr>
+    <tr height="5" width="750">
+      <td width="177" height="5"></td>
+    </tr>
+    <tr height="30" width="750">
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="165" height="28"><a href="https://fr.myled.com/led-outdoor-light/lawn-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Lawn_Lights" style="color: #333333; text-decoration: none;" target="_blank">Lampes LED pour Pelouse</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="173" height="28"><a href="https://fr.myled.com/led-ceiling-light/spot-light.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Spotlights" style="color: #333333; text-decoration: none;" target="_blank">Lampes spot</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="176" height="28"><a href="https://fr.myled.com/led-accessories.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=LED_Accessories" style="color: #333333; text-decoration: none;" target="_blank">Accessoires LED</a></td>
+      <td width="3" height="30"></td>
+      <td style="border: 1px solid #7ab80f; color: #333333; padding-left: 10px; font-family: arial, helvetica, sans-serif; font-size: 12px; font-weight: bold; background-color: #bcdb87;" width="179" height="28"><a href="https://fr.myled.com/led-strip-light/flexible-strip.html?utm_source=EDM&utm_medium=<?php echo $edm_track_text;?>&utm_campaign=Flexible_Strip_Lights" style="color: #333333; text-decoration: none;" target="_blank">Bandeau flexible de LED</a></td>
+    </tr>
+  </tbody>
+</table>               </td>
+            </tr>
+              <tr height="100" width="750">
+                    <td width="730" height="100" align="center" style="padding: 0px 10px; color: #666666; line-height: 20px; font-family: arial, helvetica, 'sans- serif'; font-size: 12px; background-color: #1a1a1a;">MyLED.com respecte votre vie privée et ne vous demandera jamais d'informations personelles par email, ni ne revendra vos coordonnées. Pour toute question, veuillez contacter notre Service Client à cs@myled.com.<br>
+                    <span style="color: #ffffff;">Ce mail est envoyé par HongKong MyLED SARL. Tous Droits Réservés.<br>RM 19C LOCKHART CTR 301-307, LOCKHART RD WAN CHAI, HONG KONG</span></td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS `oc_remote_districts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `country_name` varchar(128) NOT NULL,
+  `country_code` char(2) NOT NULL,
+  `low` varchar(100) NOT NULL,
+  `high` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+CREATE TABLE IF NOT EXISTS `oc_remote_districts_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `country_code` char(2) NOT NULL,
+  `type` tinyint(4) NOT NULL DEFAULT '0' COMMENT '偏远地区识别模式(0，无模式；1.邮编纯数字区间；2.邮编带分隔符数字区间；3.邮编数字字母空格混合全部列出；4.城市名称)',
+  `weight` int(11) DEFAULT '6500' COMMENT '偏远地区识别最大重量(单位g)',
+  PRIMARY KEY (`id`),
+  KEY `country_code` (`country_code`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+ALTER TABLE `oc_order` ADD `is_remote` TINYINT NOT NULL DEFAULT '0' COMMENT '是否是偏远地区订单';
+

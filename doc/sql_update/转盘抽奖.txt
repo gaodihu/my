@@ -1,0 +1,7 @@
+1  тр╣╟
+2  в╙ел
+ALTER TABLE  `oc_prize_name` ADD  `type` INT NOT NULL DEFAULT  '1',ADD INDEX (  `type` ) ;
+ALTER TABLE  `oc_prize_get_detail` ADD  `email` varchar(50) NOT NULL DEFAULT  '';
+
+
+ 

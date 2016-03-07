@@ -1,0 +1,5 @@
+CREATE TABLE `oc_product_attr_filter_main_product` (
+ `group_id` varchar(50) NOT NULL,
+ `product_id` int(11) NOT NULL,
+ PRIMARY KEY (`group_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

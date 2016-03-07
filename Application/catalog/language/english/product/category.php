@@ -1,0 +1,36 @@
+<?php 
+$_['text_refine']="Refine Search";
+$_['text_product']="Products";
+$_['text_error']="Category not found!";
+$_['text_empty']="There are no products listed in this category.";
+$_['text_quantity']="Qty:";
+$_['text_manufacturer']="Brand:";
+$_['text_model']="Product Code:";
+$_['text_points']="Reward Points:";
+$_['text_price']="Price";
+$_['text_tax']="Ex Tax:";
+$_['text_reviews']="Based on %s reviews.";
+$_['text_compare']="Product Compare (%s)";
+$_['text_display']="Display:";
+$_['text_list']="List";
+$_['text_grid']="Grid";
+$_['text_sort']="Sort By:";
+$_['text_default']="Default";
+$_['text_name_asc']="Name (A - Z)";
+$_['text_name_desc']="Name (Z - A)";
+$_['text_rating']="Reviews";
+$_['text_new_arrivals']="New Arrivals";
+$_['text_discount']="Discount";
+$_['text_popularity']="Popularity";
+$_['text_limit']="Show:";
+$_['shop_by_category']="Shop by Category";
+$_['top_seller']="Top Seller";
+$_['text_as_low']="As low as:";
+$_['text_hot']="What’s Hot";
+$_['text_description']="Description:";
+$_['text_product_detail']="Product Detail»";
+$_['text_more']="More";
+$_['text_less']="Less";
+$_['text_view_all']="View All";
+$_['text_hide']="Hide";
+?>

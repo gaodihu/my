@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@media screen and (min-width:0) and (max-width:600px){
+    body{font-size: 11px;}
+    .icon-search{top: -2px;}
+    /* header */
+}
+@media screen and (min-width:0) and (max-width:550px){
+    body{font-size: 10px;}
+	.logo img{width:100px;}
+    .product-title .round-btn{margin-left: 0.5em!important;}
+    .product-title .round-btn{height: 1.8em; width:1.8em; line-height:1.8em;}
+    .tab-title .tit-tab{width: 24%;font-size: 0.8em;}
+    .query-input{padding: 0.2em;}
+    .product .product-img img{width: 165px;height: 128px;}
+}
+@media screen and (min-width:0) and (max-width:400px){
+    body{font-size: 8px;}
+	.logo img{width:80px;}
+	.query_input{ height: 2em;line-height: 2em;padding: 1em;}
+	footer .copyright{font-size:1em;}
+    .product-title .round-btn{height: 1.6em; width:1.6em; line-height:1.6em;}
+    .product .product-img img{width: 124px;height: 96px;}
+    .form-list textarea{height: 2em!important;}
+    .form-list input{height: 1.5em!important;line-height: 1.5em!important;}
+}

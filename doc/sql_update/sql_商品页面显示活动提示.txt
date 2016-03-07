@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `oc_sku_action_set` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `all_sku` text NOT NULL,
+  `start_time` datetime DEFAULT NULL COMMENT '活动开始时间',
+  `end_time` datetime DEFAULT NULL COMMENT '活动结束时间',
+  PRIMARY KEY (`id`),
+  KEY `start_time` (`start_time`,`end_time`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='商品页面活动消息设置' AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `oc_sku_action_set_descrition` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `set_id` int(11) NOT NULL COMMENT '商品设置ID，关联oc_sku_action_set的id',
+  `lang_id` tinyint(4) NOT NULL COMMENT '语言ID',
+  `text` varchar(255) DEFAULT NULL COMMENT '文本内容',
+  `link` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `set_id` (`set_id`,`lang_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='商品活动设置项的多语言描述' AUTO_INCREMENT=1 ;

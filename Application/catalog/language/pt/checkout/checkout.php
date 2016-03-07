@@ -1,0 +1,100 @@
+<?php 
+$_['heading_title']="Encomendar";
+$_['text_cart']="Carrinho de Compras ";
+$_['text_checkout_confirm_order']="Confirme Encomenda";
+$_['text_checkout_pay_order']="Pague Encomenda";
+$_['text_checkout_success']="Sucesso";
+$_['text_order_detalls']="Detalhes da Encomenda";
+$_['text_hi']="Olá,";
+$_['text_add_address']="Insira um novo endereço de entrega";
+$_['text_checkout_payment_method']="Metodo de Pagamento";
+$_['text_checkout_shipping_address']="Endereco de Envio";
+$_['text_checkout_shipping_method']="Metodo de Envio";
+$_['text_checkout_product_list']="Lista de Produtos";
+$_['text_select']="Por favor Selecione ...";
+$_['text_none']="Nenhum";
+$_['text_place_your_order']="Faça Sua Encomenda";
+$_['text_have_points']="Você tem <span class='red'>%s</span> pontos";
+$_['column_name']="Nome do Produto";
+$_['column_model']="Modelo";
+$_['column_quantity']="Quantidade";
+$_['column_price']="Preco da Unidade";
+$_['column_total']="Total ";
+$_['entry_email_address']="E-Mail:";
+$_['entry_email']="E-Mail:";
+$_['entry_password']="Senha:";
+$_['entry_confirm']="Confirmar senha:";
+$_['entry_firstname']="Primeiro nome:";
+$_['entry_lastname']="Sobrenome:";
+$_['entry_telephone']="Telefone Móvel:";
+$_['entry_company']="Empresa:";
+$_['entry_tax_id']="Identificação Fiscal:";
+$_['entry_street']="Rua:";
+$_['entry_phone']="telefone:";
+$_['entry_set_default']="Definir como Padrão";
+$_['entry_address_1']="Endereço da rua 1:";
+$_['entry_address_2']="Endereço da rua 2:";
+$_['entry_postcode']="Código Postal:";
+$_['entry_city']="Cidade:";
+$_['entry_country']="País:";
+$_['entry_zone']="Região/Estado:";
+$_['error_not_login']="Por favor, faça login primeiro!";
+$_['error_warning']="Houve um problema ao tentar processar o seu pedido! Se o problema persistir, por favor, selecione um método de pagamento diferente ou contacte-nos <a href='%s'>clicando aqui</a>.";
+$_['error_login']="Aviso: Endereço de e-mail e/ou senha  incorreta . Por favor, verifique e tente novamente!";
+$_['error_approved']="Aviso: Por favor, verifique sua conta para entrar.";
+$_['error_exists']="Atenção: Endereço E-mail  já está registrado!";
+$_['error_firstname']="Primeiro Nome deve ter entre 1 e 32 caracteres!";
+$_['error_lastname']="Apelido deve ter entre 1 e 32 caracteres!";
+$_['error_email']="E-mail parece não ser válido!";
+$_['error_telephone']="Telefone deve ter entre 3 e 32 caracteres!";
+$_['error_password']="A senha deve ter entre 3 e 20 caracteres!";
+$_['error_confirm']="Confirmação de Senha não coincide com a Senha!";
+$_['error_company_id']="Identificação da  Empresa é necessária!";
+$_['error_tax_id']="Identificação Fiscal é necessária!";
+$_['error_vat']="Número de VAT é inválido!";
+$_['error_address_1']="Morada 1 deve ter entre 3 e 128 caracteres!";
+$_['error_city']="Cidade deve ter entre 2 e 128 caracteres!";
+$_['error_postcode']="Código Postal deve ter entre 2 e 10 caracteres!";
+$_['error_country']="Por favor, selecione um país!";
+$_['error_zone']="Por favor, selecione uma região/estado!";
+$_['error_agree']="Atenção: Você deve concordar com %s!";
+$_['error_address']="Aviso: Você deve selecionar uma morada!";
+$_['error_shipping']="Aviso: Método de envio é necessário!";
+$_['error_no_shipping']="Aviso: Sem opções de envio disponíveis. Por favor <a href='%s'>contacte-nos</a> para assistencia!";
+$_['error_payment']="Aviso: Método de Pagamento é necessário!";
+$_['error_no_payment']="Aviso: Sem opções de pagamento disponíveis.Por favor <a href='%s'>contacte-nos</a> para assistencia!";
+$_['text_trial']="%s cada %s %s para %s pagamentos depois";
+$_['text_recurring']="%s cada %s %s";
+$_['text_length']=" para %s pagamentos";
+$_['error_points']="Você deve introduzir mais do que %s pontos";
+$_['error_than_points']="Seu total de pontos é %s";
+$_['error_select_address']="Você deve selecionar uma morada para envio";
+$_['error_select_shipping']="Você deve selecionar um método de envio";
+$_['error_select_payment']="Você deve selecionar um método de pagamento";
+$_['text_guest']="Cliente";
+$_['qiwi_username']="Nome de Utilizador";
+$_['giropay_username']="Número da Conta";
+$_['giropay_bankcode']="Código Bancário";
+$_['confirm_billing_address']="Confirme seu informações de faturamento ";
+$_['edit_billing_address']="Editar endereço de cobrança";
+$_['error_select_payment_credit_billing_adress'] = "Confirme seu informações de faturamento ";
+$_['text_user_points']="Utilizando pontos";
+$_['text_apply'] ="Aplicar";
+$_['text_cancel'] ="Cancelar";
+$_['text_address_waring'] ="(Tenha em aten??o o endere?o de envio Expedito só aceita formato Alfabeto Inglês)";
+
+$_['text_paypal_one_step'] = 'PayPal 1-Step Pay é um serviço gratuito fornecido pelo PayPal para efetuar o pagamento futuro em nosso site mais fácil, mantendo seus fundos seguros. Depois de ativado, você não precisará fornecer a credencial PayPal novamente no futuro. Nós não vamos recuperar ou armazenar sua credencial PayPal em qualquer forma.';
+
+$_['text_paypal_one_step_unbing'] = "Você ativou o PayPal 1-Step Payment em nosso site.<br/>
+Para rever ou cancelar a funcionalidade, <a href='/index.php?route=account/onestep'>clique aqui</a>.<br/>";
+
+$_['text_paypal_onestep_install_tips'] = "Clique na caixa para ativar PayPal 1-Step Payment em nosso site para as futuras encomendas.";
+$_['text_paypal_one_step_title'] = 'PayPal 1-Step Payment';
+
+$_['text_battery_split_order_tips'] = 'Ship the package in different shipments';
+$_['text_battery_merge_order_tips'] = 'Ship all packages in one shipment';
+
+$_['text_split_order_help'] = 'Please be noted that Due to the limitation on battery international transport, Orders will be delivered via different courier companies according to the products (with battery / non-battery).';
+
+$_['can_not_ship_to'] = 'Products can’t be shipped to the selected country.';
+?>

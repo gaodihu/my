@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} 
+.clearfix{display:inline-block;} 
+.clearfix{display:block;} 
+.jqzoom{float:left;border:none;position:relative;padding:0px;cursor:pointer;margin:0px;display:block;line-height: 0;}
+.zoomdiv{z-index:100;position:absolute;top:0px;left:0px;width:350px;height:350px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:20px;height:20px;border:1px solid #aaa;background:#ffffff ;opacity: 0.5;-moz-opacity: 0.5;-khtml-opacity: 0.5;filter: alpha(Opacity=50);}
+
+.spec-preview{width:352px;height:auto;}
+.spec-preview img{width: 100%;height: auto;}
+.spec-scroll{clear:both;margin-bottom:5px;width:352px;}
+.spec-scroll .prev{float:left;margin-right:4px;}
+.spec-scroll .next{float:right;}
+.spec-scroll .prev,.spec-scroll .next{display:block;text-align:center;width:10px;height:54px; line-height:54px;border:1px solid #CCC;cursor:pointer;text-decoration:none;}
+.spec-scroll .items{float:left;position:relative;width:322px;height:56px;overflow:hidden;}
+.spec-scroll .items ul{position:absolute;width:999999px;height:56px;border: 0}
+.spec-scroll .items ul li{float:left;width:64px;text-align:center;}
+.spec-scroll .items ul li img{border:1px solid #CCC;padding:2px;width:50px;height:50px;}
+.spec-scroll .items ul li img:hover{border:2px solid #FF6600;padding:1px;}
+.spec-close-box{height:24px;line-height:24px;background:#ccc!important;text-align:right;}
+.spec-close-box a{color:#333;padding-right:10px;cursor:pointer;}
+.spec-close-box i{display: inline-block;width: 12px;height: 11px; background: url("../images/public/delete.png") no-repeat;float: right;margin: 6px 7px 0 0}
+.spec-scroll .items ul li{margin: 0;padding: 0;}

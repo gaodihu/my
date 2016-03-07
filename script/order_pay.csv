@@ -1,0 +1,9 @@
+date,pp_standard,pp_standard,pp_standard,pp_standard,pp_standard,pp_express,pp_express,pp_express,pp_express,pp_express,globebill_credit,globebill_credit,globebill_credit,globebill_credit,globebill_credit,globebill_sofortbanking,globebill_sofortbanking,globebill_sofortbanking,globebill_sofortbanking,globebill_sofortbanking,globebill_giropay,globebill_giropay,globebill_giropay,globebill_giropay,globebill_giropay,globebill_safety,globebill_safety,globebill_safety,globebill_safety,globebill_safety,globebill_qiwi,globebill_qiwi,globebill_qiwi,globebill_qiwi,globebill_qiwi,globebill_webmoney,globebill_webmoney,globebill_webmoney,globebill_webmoney,globebill_webmoney,globebill_poli,globebill_poli,globebill_poli,globebill_poli,globebill_poli,globebill_boleto,globebill_boleto,globebill_boleto,globebill_boleto,globebill_boleto
+date,all,success,pending,cabceled,rate
+2014-10-25,51,34,15,2,0.66666666666667,54,50,4,0,0.92592592592593,0,0,0,0,,2,0,2,0,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,
+2014-10-26,94,58,34,2,0.61702127659574,46,42,3,1,0.91304347826087,0,0,0,0,,3,1,0,2,0.33333333333333,0,0,0,0,,3,0,2,1,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,
+2014-10-27,120,78,41,0,0.65,88,84,4,0,0.95454545454545,0,0,0,0,,0,0,0,0,,0,0,0,0,,1,0,1,0,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,
+2014-10-28,104,68,36,0,0.65384615384615,80,72,8,0,0.9,0,0,0,0,,2,1,0,1,0.5,1,0,0,1,0,2,0,2,0,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,1,0,0,1,0
+2014-10-29,55,39,14,2,0.70909090909091,55,50,4,0,0.90909090909091,23,11,7,5,0.47826086956522,2,1,0,1,0.5,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,
+2014-10-30,78,56,22,0,0.71794871794872,94,92,1,1,0.97872340425532,47,26,8,13,0.5531914893617,2,0,0,2,0,1,0,0,1,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,
+2014-10-31,56,38,18,0,0.67857142857143,89,87,2,0,0.97752808988764,35,22,5,8,0.62857142857143,0,0,0,0,,1,0,0,1,0,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,,0,0,0,0,

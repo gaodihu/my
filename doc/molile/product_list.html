@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My_LED</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/public.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/media-query.css" type="text/css"/>
+</head>
+<body>
+    <div class="bgcolor">
+
+         <div class="grey-bg on-cancel"></div>
+        <div class="all-categories-page">
+            <a class="icon-arrow-left"></a>
+            <div class="all-login">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="register.html">Join Free</a>
+            </div>
+            <div  id="language" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Language</h4>
+                <ul class="secondary-list">
+                    <li class="green-color">English</li>
+                    <li>Deutsch</li>
+                    <li>Français</li>
+                    <li>Español</li>
+                    <li>Italiano</li>
+                    <li>Português</li>
+                </ul>
+             </div>
+            <div  id="currency" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Currency</h4>
+            <ul class="secondary-list"  >
+                <li value="USD" class="green-color">USD</li>
+                <li value="AUD">AUD</li>
+                <li value="BRL">BRL</li>
+                <li value="CAD">CAD</li>
+                <li value="CHF">CHF</li>
+                <li value="CLP">CLP</li>
+                <li value="CNY">CNY</li>
+                <li value="DKK">DKK</li>
+                <li value="EUR">EUR</li>
+                <li value="GBP">GBP</li>
+                <li value="HKD">HKD</li>
+                <li value="ILS">ILS</li>
+                <li value="INR">INR</li>
+                <li value="JPY">JPY</li>
+                <li value="MXN">MXN</li>
+                <li value="NOK">NOK</li>
+                <li value="RUB">RUB</li>
+                <li value="SEK">SEK</li>
+                <li value="USD">USD</li>
+            </ul>
+            </div>
+            <ul class="all-list">
+                <li><a href="all_categories.html">All Categories</a></li>
+                <li>
+                   <a class="to-language"> Language <span>English</span></a>
+                </li>
+                <li>
+                    <a class="to-currency"> Currency<span>AUD</span> </a>
+                </li>
+                <li><a>About</a></li>
+            </ul>
+        </div>
+
+        <!-- header -->
+        <header>
+            <div class="menu">
+                <a class="icon-search" href="#" ></a>
+                <a class="icon-list" href="javascript:void(0)"></a>
+                <a class=" icon-user"   href="account.html"></a>
+                <a class="icon-shopping-cart"   href="shopping_cart.html" ></a>
+            </div>
+            <a href="index.html" class="logo"><img src="images/public/logo.png"  width="150"  /></a>
+        </header>
+        <div class="head-title">
+            <a class="icon-angle-left left-btn"></a>LED (800)
+            <a class="icon-align-left right-btn"></a>
+        </div>
+      <!-- query-input ------------------------------------------->
+        <section class="query-page" style="display: none">
+            <div class="input-bg clearfix">
+                <div class="query-input" >
+                    <span class="icon-search"></span>
+                    <form action="product_list.html" id="queryform" onsubmit="return common.search_input();">
+                         <input type="search"  name="search" id="search"  class="query search-input" placeholder="Search MyLed" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" />
+                    </form>
+                </div>
+                <div>
+                    <a class="cancel">Cancel</a>
+                </div>
+            </div>
+            <ul class="query-list query-data" style="display: none">
+                <li><a href="product_list.html">led</a></li>
+            </ul>
+            <div class="local-data">
+                <h4>Recent searches</h4>
+                <ul class="query-list">
+
+                </ul>
+                <div style="text-align: center"><a class="min-btn grey-bg-btn clearbtn" style="padding:0.5em 5em;margin-top: 1em;">clear</a></div>
+            </div>
+        </section>
+        <!-- query-input end------------------------------------------->
+        <!-- pop-filter -->
+        <div class="pop-filter close" id="filter" >
+
+            <div class="cont">
+                <div class="pop-tit" ><a class="close a-btn"><i class="icon-remove"></i></a>Filter</div>
+
+                <div class="filter-box">
+                    <ul class="categories-list filter-list first-list" style="border-top:0 ">
+                        <li >
+                            <a class="list-change"><i class="icon-caret-right"></i>Power Source</a>
+                            <ul class="second-list">
+                                <li><a><label>AC</label></a></li>
+                                <li><a><label>DC</label></a></li>
+                                <li><a><label>Solar</label></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a  class="list-change"><i class="icon-caret-right"></i>Light Color</a>
+                            <ul class=" second-list">
+                                <li><a><label>Natural White</label></a></li>
+                                <li><a><label>Warm White</label></a></li>
+                                <li><a><label>Cool White</label></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a  class="list-change"><i class="icon-caret-right"></i>Rated Wattage</a>
+                            <ul class=" second-list">
+                                <li><a><label>0-3W</label></a></li>
+                                <li><a><label>3-5W</label></a></li>
+                                <li><a><label>5-10W</label></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a  class="list-change"><i class="icon-caret-right"></i>Input Voltage</a>
+                            <ul class="second-list">
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>1v</label></a></li>
+                                <li><a><label>last</label></a></li>
+
+                            </ul>
+                        </li>
+                        <!--li><a><i class="icon-caret-right"></i>Light Source</a></li>
+                        <li><a><i class="icon-caret-right"></i>Degrees Of Protection</a></li>
+                        <li><a><i class="icon-caret-right"></i>Certificate</a></li>
+                        <li><a><i class="icon-caret-right"></i>Price</a></li-->
+
+                    </ul>
+
+                </div>
+                <div style="padding: 1em;text-align: center" class="checkout-btn">
+                    <a class="button orange-bg">APPLY</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- product -->
+        <section class="product">
+
+            <span class="product-change ">
+                <a class="sortby">Sort By <span class="by-info">( <span id="by-info">Lowest Price First</span> )</span></a>
+                <ul class="sortby-list" style="display: none">
+                    <li class="active"><a>Best Match</a> </li>
+                    <li><a>Lowest Price First</a></li>
+                    <li><a>Highest Pricce First</a></li>
+                    <li><a>Seller Rating</a> </li>
+                </ul>
+                <span class="filter"><i class="icon-filter"></i></span>
+            </span>
+
+                    <ul class="con-box clearfix ">
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">
+                                <div class="product-img">
+                                    <img src="images/product/3001126460_led_power_supply0-207x160.jpg" />
+                                </div>
+                                <div class="product-title">
+                                    LED Power Supply 36W 3.2A-Silver(AC110-260V to DC12V)
+                                </div>
+                                <div class="product-cost">
+                                    <b>¥52.99</b>
+                                    <del>¥60.25</del>
+                                </div>
+                                <div class="stars">
+                                    <span class="star star-s5"></span>
+                                </div>
+                                <div class="addcart">
+                                    <span class="min-btn orange-bg">Add To Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+
+            <div id="lodding"  class="lodding" style="display: none"><span><i class="icon-spinner"></i></span></div>
+        </section>
+     </div>
+
+
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/pagescroll.js"></script>
+    <script type="text/javascript" >
+
+        $.pagescroll.ajax_fn=function(){
+
+            $.ajax({
+                type: "get",
+                url: "js/json.js",
+                dataType: "json",
+                success: function (data) {
+                    var tempArr = [],HTML;
+                    $.pagescroll.index = $.pagescroll.index -1;
+                    if($.pagescroll.index == 0){
+                        $.pagescroll.setHtml("");
+                        return false;
+                    }
+                    $.each( data, function(index, content)
+                    {
+                        var inHtml =  "<li>"+
+                                "<a href='product_details.html'>"+
+                                "<div class='product-img'>"+
+                                "<img src='"+content.imgSrc+"' />"+
+                                "</div>"+
+                                "<div class='product-title'>"+
+                                content.producTtitle+
+                                "</div>"+
+                                "<div class='product-cost'>"+
+                                "<b>"+content.productCost.cost+"</b>"+
+                                "<del>"+content.productCost.delcost+"</del>"+
+                                "</div>"+
+                                "<div class='stars'>"+
+                                "<span class='star star-s"+content.star+"'></span>"+
+                                "</div>"+
+                                "<div class='addcart'>"+
+                                "<span class='min-btn orange-bg'>Add To Cart</span>"+
+                                "</div>"+
+                                "</a>"+
+                                "</li>";
+                        tempArr.push(inHtml);
+
+                    });
+                    HTML = tempArr.join('');
+                    $.pagescroll.setHtml(HTML);
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                }
+            });
+
+       }
+
+        /*  page lodding  */
+       $.pagescroll.init(".product .con-box");
+        $.scrollbtn.init();
+    </script>
+
+</body>
+</html>

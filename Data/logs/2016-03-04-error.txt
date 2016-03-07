@@ -1,0 +1,19 @@
+2016-03-04 3:31:54 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-03-04 3:31:54 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-03-04 3:31:54 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-03-04 3:31:56 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-03-04 3:31:56 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-03-04 3:31:56 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-03-04 4:36:45 - PHP Notice:  Undefined index: base_url in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\localisation\language.php on line 384
+2016-03-04 4:36:50 - PHP Notice:  Undefined index: base_url in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\localisation\language.php on line 384
+2016-03-04 4:53:04 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-04 4:53:11 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-04 4:53:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-04 10:12:31 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-03-04 10:12:31 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-03-04 10:12:31 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-03-04 10:12:32 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-03-04 10:12:32 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-03-04 10:12:32 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-03-04 11:02:05 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-04 11:05:21 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52

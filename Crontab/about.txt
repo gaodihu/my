@@ -1,0 +1,13 @@
+00 11 * * * /usr/local/php/bin/php   /home/www/www.myled.com/script/update_trie_price.php
+12 12  * * *  /usr/local/php/bin/php /home/www/new_myled.com/script/get_shopping_feed.php
+01 14 * * *  /usr/local/php/bin/php /home/www/new_myled.com/script/get_google_feed.php
+*/20 * * * * /usr/local/php/bin/php  /home/www/new_myled.com/shell/alarm.php
+0 0,11 * * 1-6  /usr/local/php/bin/php /home/www/new_myled.com/shell/get_order_info.php
+*/2 * * * * /usr/local/php/bin/php /home/www/new_myled.com/shell/sendmail.php
+20 11 * * * /usr/local/php/bin/php /home/www/new_myled.com/shell/product_sales_num.php
+0 11 * * *  /usr/local/php/bin/php  /home/www/new_myled.com/shell/product_reviews.php
+0  12 * * *  /usr/local/php/bin/php  /home/www/new_myled.com/shell/search_import.php
+*/10 * * * * /usr/local/php/bin/php /home/www/new_myled.com/shell/order_products_tock_unlock.php
+
+
+

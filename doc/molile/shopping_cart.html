@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My_LED</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/public.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/media-query.css" type="text/css"/>
+</head>
+<body>
+<div class='grey-bg' ></div>
+    <div class="bgcolor">
+        <!-- header -->
+        <div class="grey-bg on-cancel"></div>
+        <div class="all-categories-page">
+            <a class="icon-arrow-left"></a>
+            <div class="all-login">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="register.html">Join Free</a>
+            </div>
+            <div  id="language" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Language</h4>
+                <ul class="secondary-list">
+                    <li class="green-color">English</li>
+                    <li>Deutsch</li>
+                    <li>Français</li>
+                    <li>Español</li>
+                    <li>Italiano</li>
+                    <li>Português</li>
+                </ul>
+            </div>
+            <div  id="currency" class="order-page" style="display: none">
+                <h4><i class="icon-remove"></i>Currency</h4>
+                <ul class="secondary-list"  >
+                    <li value="USD" class="green-color">USD</li>
+                    <li value="AUD">AUD</li>
+                    <li value="BRL">BRL</li>
+                    <li value="CAD">CAD</li>
+                    <li value="CHF">CHF</li>
+                    <li value="CLP">CLP</li>
+                    <li value="CNY">CNY</li>
+                    <li value="DKK">DKK</li>
+                    <li value="EUR">EUR</li>
+                    <li value="GBP">GBP</li>
+                    <li value="HKD">HKD</li>
+                    <li value="ILS">ILS</li>
+                    <li value="INR">INR</li>
+                    <li value="JPY">JPY</li>
+                    <li value="MXN">MXN</li>
+                    <li value="NOK">NOK</li>
+                    <li value="RUB">RUB</li>
+                    <li value="SEK">SEK</li>
+                    <li value="USD">USD</li>
+                </ul>
+            </div>
+            <ul class="all-list">
+                <li><a href="all_categories.html">All Categories</a></li>
+                <li>
+                    <a class="to-language"> Language <span>English</span></a>
+                </li>
+                <li>
+                    <a class="to-currency"> Currency<span>AUD</span> </a>
+                </li>
+                <li><a>About</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="menu">
+				<a class="icon-search" href="#" ></a>
+                <a class="icon-list" href="javascript:void(0)"></a>
+                <a class=" icon-user"   href="account.html"></a>
+                <a class="icon-shopping-cart active"   href="shopping_cart.html" ></a>
+            </div>
+            <a href="index.html" class="logo"><img src="images/public/logo.png"  width="150"  /></a>
+        </header>
+		<div class="head-title"><a class="icon-angle-left left-btn"></a>Shopping Cart (2)</div>
+          <!-- query-input ------------------------------------------->
+        <section class="query-page" style="display: none">
+            <div class="input-bg clearfix">
+                <div class="query-input" >
+                    <span class="icon-search"></span>
+                    <form action="product_list.html" id="queryform" onsubmit="return common.search_input();">
+                         <input type="search"  name="search" id="search"  class="query search-input" placeholder="Search MyLed" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" />
+                    </form>
+                </div>
+                <div>
+                    <a class="cancel">Cancel</a>
+                </div>
+            </div>
+            <ul class="query-list query-data" style="display: none">
+                <li><a href="product_list.html">led</a></li>
+            </ul>
+            <div class="local-data">
+                <h4>Recent searches</h4>
+                <ul class="query-list">
+
+                </ul>
+                <div style="text-align: center"><a class="min-btn grey-bg-btn clearbtn" style="padding:0.5em 5em;margin-top: 1em;">clear</a></div>
+            </div>
+        </section>
+        <!-- query-input end------------------------------------------->
+
+		<section class="clearfix">
+                <div class="cart-info cart-empty" style="display: none">
+                    <i class="icon-shopping-cart cartimg"></i>
+                    <div>Your shopping cart is empty.</div>
+                </div>
+            
+				<ul class="cart-list">
+                    <li class="clearfix">
+                        <div class="img"><a href="product_details.html"><img src="images/product/3001126460_led_power_supply0-207x160.jpg" width="207"></a></div>
+                        <div class="p-info">
+                            <p class="p-tit"><a href="product_details.html">LED Ceiling Spotlight 4W 50-240LM COB Warm White Dimmable White Shell(AC220-240V)</a></p>
+                            <p><b  >$<span class="price" rel="1.29" >1.29</span></b><p>
+                            <p class="clearfix">
+                                <span class="quantity">
+                                <a class="minus"><i class="icon-minus"></i></a>
+                                <input type="text" value="1" class="num">
+                                <a class="plus"><i class=" icon-plus"></i></a>
+                                </span>
+                                <a class="p-heart"><i class="icon-heart"></i></a>
+                                <a class="del" onclick="delCart(1)" id="del1"><i class="icon-remove-circle"></i></a>
+                            <p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="img"><a href="product_details.html"><img src="images/product/3001126460_led_power_supply0-207x160.jpg" width="207"></a></div>
+                        <div class="p-info">
+                            <p class="p-tit"><a href="product_details.html">LED Ceiling Spotlight 4W 50-240LM COB Warm White Dimmable White Shell(AC220-240V)</a></p>
+                            <p><b >$<span class="price"  rel="2.29">2.29</span></b><p>
+                            <p class="clearfix">
+                                <span class="quantity">
+                                <a class="minus"><i class="icon-minus"></i></a>
+                                <input type="text"  value="1" class="num">
+                                <a class="plus"><i class=" icon-plus"></i></a>
+                                </span>
+                                <a class="p-heart"><i class="icon-heart"></i></a>
+                                <a class="del" onclick="delCart(2)" id="del2"><i class="icon-remove-circle"></i></a>
+                            <p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="img"><a href="product_details.html"><img src="images/product/3001126460_led_power_supply0-207x160.jpg" width="207"></a></div>
+                        <div class="p-info">
+                            <p class="p-tit"><a href="product_details.html">LED Ceiling Spotlight 4W 50-240LM COB Warm White Dimmable White Shell(AC220-240V)</a></p>
+                            <p><b >$<span class="price"  rel="2.29">2.29</span></b><p>
+                            <p class="clearfix">
+                                <span class="quantity">
+                                <a class="minus"><i class="icon-minus"></i></a>
+                                <input type="text"  value="1" class="num">
+                                <a class="plus"><i class=" icon-plus"></i></a>
+                                </span>
+                                <a class="p-heart"><i class="icon-heart"></i></a>
+                                <a class="del"  onclick="delCart(3)" id="del3"><i class="icon-remove-circle"></i></a>
+                            <p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="img"><a href="product_details.html"><img src="images/product/3001126460_led_power_supply0-207x160.jpg" width="207"></a></div>
+                        <div class="p-info">
+                            <p class="p-tit"><a href="product_details.html">LED Ceiling Spotlight 4W 50-240LM COB Warm White Dimmable White Shell(AC220-240V)</a></p>
+                            <p><b >$<span class="price"  rel="2.29">2.29</span></b><p>
+                            <p class="clearfix">
+                                <span class="quantity">
+                                <a class="minus"><i class="icon-minus"></i></a>
+                                <input type="text"  value="1" class="num">
+                                <a class="plus"><i class=" icon-plus"></i></a>
+                                </span>
+                                <a class="p-heart"><i class="icon-heart"></i></a>
+                                <a class="del" onclick="delCart(4)" id="del4"><i class="icon-remove-circle"></i></a>
+                            <p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="total">Grand Total:<b >$ <span class="total-text"></span></b></div>
+                <div class="spacing"></div>
+                <div style="padding: 1em;text-align: center" class="checkout-btn">
+                    <a class="button orange-bg" href="checkout.html">CHECKOUT</a>
+                </div>
+		</section>
+
+    </div>
+
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/pagescroll.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			// 购物车减
+			$(".cart-list li .minus").click(function(){
+				var num = parseFloat($(this).parents(".p-info").find(".num").val())-1,
+                    price = $(this).parents(".p-info").find(".price"),
+                    p_rel = parseFloat(price.attr("rel"));
+                if(num <= 0){
+                    return;
+                }
+                $(this).parents(".quantity").find(".num").val(num);
+                price.text((p_rel*num).toFixed(2));
+                countTotal();
+			});
+            // 购物车加
+			$(".cart-list li .plus").click(function(){
+                var num = parseFloat($(this).parents(".p-info").find(".num").val())+1,
+                    price = $(this).parents(".p-info").find(".price"),
+                    p_rel = parseFloat(price.attr("rel"));
+                $(this).parents(".quantity").find(".num").val(num);
+                price.text((p_rel*num).toFixed(2));
+                countTotal();
+			});
+            // 购物车修改
+            $(".cart-list li .num").change(function(){
+                var num = parseFloat($(this).parents(".p-info").find(".num").val()),
+                    price = $(this).parents(".p-info").find(".price"),
+                    p_rel = parseFloat(price.attr("rel"));
+                    price.text((p_rel*num).toFixed(2));
+                countTotal();
+            })
+
+            // 初始化计算总数
+            countTotal();
+		})
+		// 删除提示框
+        function delCart(id){
+            $.popConfirm.show("Remove from your cart?");
+            $.popConfirm.yesfn=function(){
+                //隐藏提示
+                $.popConfirm.hide()
+                // 购物车删除
+
+                    var total=  $(".total-text"),that =$(".cart-list li #del"+id) ,
+                            price = that.parents(".p-info").find(".price") ;
+                     that.parents("li").remove();
+                    //total.text((total.text()-price.text()).toFixed(2));
+                    //没有列表，隐藏其它没有块
+                    if(total.text() == 0){
+                        $(".cart-empty").show();
+                        $(".checkout-btn").hide();
+                        $(".total").hide();
+                        $(".spacing").hide();
+                    }
+                countTotal();
+            }
+
+        }
+        // 购物车总数计算
+        function countTotal(){
+            var total = 0;
+            $(".cart-list .price").each(function(){
+                total = parseFloat(total) + parseFloat($(this).text());
+            })
+            $(".total-text").text(total.toFixed(2));
+            // 购物车数量显示
+            cartNo();
+        }
+        // 购物车数量显示
+        function cartNo(){
+            var car_no = 0;
+            $(".cart-list .num").each(function(){
+                car_no += parseFloat($(this).val());
+            })
+            console.log(car_no);
+            $(".menu").find(".icon-shopping-cart").html("<span>"+car_no+"</span>");
+        }
+	</script>
+</body>
+</html>

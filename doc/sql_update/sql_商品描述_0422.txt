@@ -1,0 +1,9 @@
+
+ALTER TABLE `oc_product_description` ADD `packaging_list` TEXT NULL AFTER `meta_keyword` ,
+ADD `read_more` TEXT NULL AFTER `packaging_list`, 
+ADD `application_image` TEXT NULL AFTER `read_more`, 
+ADD `size_image` TEXT NULL AFTER `application_image`, 
+ADD `features` TEXT NULL AFTER `size_image`, 
+ADD `installation_method` TEXT NULL AFTER `features`, 
+ADD `video` TEXT NULL AFTER `installation_method`, 
+ADD `notes` TEXT NULL AFTER `video`;

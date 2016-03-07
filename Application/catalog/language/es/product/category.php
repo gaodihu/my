@@ -1,0 +1,36 @@
+<?php 
+$_['text_refine']="Refinar búsqueda";
+$_['text_product']="Productos";
+$_['text_error']="Categoría no encontrada!";
+$_['text_empty']="No hay productos enumerados en esta categoría.";
+$_['text_quantity']="Cantidad:";
+$_['text_manufacturer']="Marca:";
+$_['text_model']="Código de productos:";
+$_['text_points']="Puntos de recompensa:";
+$_['text_price']="Precio";
+$_['text_tax']="Ex Tax:";
+$_['text_reviews']="Basado en %s comentarios.";
+$_['text_compare']="producto Comparar (%s)";
+$_['text_display']="Muestrario:";
+$_['text_list']="Lista";
+$_['text_grid']="Rejilla";
+$_['text_sort']="Ordenado por:";
+$_['text_default']="Por defecto";
+$_['text_name_asc']="Nombre (A - Z)";
+$_['text_name_desc']="Nombre (Z - A)";
+$_['text_rating']="Comentarios";
+$_['text_new_arrivals']="Nuevas llegadas";
+$_['text_discount']="Descuento";
+$_['text_popularity']="Popularidad";
+$_['text_limit']="Mostrar:";
+$_['shop_by_category']="Comprar por Categoría";
+$_['top_seller']="Los más vendidos";
+$_['text_as_low']="Tan bajo como:";
+$_['text_hot']="Qué es  Hot";
+$_['text_description']="Descripción:";
+$_['text_product_detail']="Detalles del producto»";
+$_['text_more']="Más";
+$_['text_less']="Menos";
+$_['text_view_all']="Ver Todos";
+$_['text_hide']="Ocultar";
+?>

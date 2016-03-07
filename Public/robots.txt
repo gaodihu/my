@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /?*
+Disallow: /guideline/home/getLasterBlogs/*
+Disallow: *?attr_id=*

@@ -1,0 +1,52 @@
+2016-02-29 3:13:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-29 3:35:50 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:35:50 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:35:50 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:35:50 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:36:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:36:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:36:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:36:55 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:36:57 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:36:57 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:36:57 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:36:57 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:37:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:37:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:37:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-02-29 3:37:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-02-29 3:46:16 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-29 3:57:50 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-02-29 3:57:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-02-29 3:57:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-02-29 3:57:51 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-02-29 3:57:51 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-02-29 3:57:51 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-02-29 3:58:11 - PHP Notice:  Undefined index: keyword in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\catalog\product.php on line 617
+2016-02-29 3:58:12 - PHP Notice:  Undefined variable: error_url_path in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\catalog\product_form.tpl on line 111
+2016-02-29 4:27:54 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-02-29 4:44:27 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-02-29 4:44:27 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-02-29 4:44:27 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-02-29 4:44:28 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-02-29 4:44:28 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-02-29 4:44:28 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-02-29 9:31:57 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-02-29 9:31:57 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-02-29 9:31:57 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-02-29 9:31:58 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-02-29 9:31:58 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-02-29 9:31:58 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-02-29 10:04:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\sale\order.php on line 2272
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: store_array in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\sale\order.php on line 2704
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: send_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\sale\order.php on line 2705
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: store_array in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\sale\order.php on line 2704
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: send_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\sale\order.php on line 2705
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: parent_order in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\sale\order_info.tpl on line 51
+2016-02-29 10:04:49 - PHP Notice:  Undefined variable: parent_order in E:\www\code\branches\charles_0127\myadmin034j8so9t\view\template\sale\order_info.tpl on line 866
+2016-02-29 10:04:58 - PHP Warning:  fopen(E:/www/code/branches/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-02-29 10:04:58 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-02-29 10:04:58 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\code\branches\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-02-29 10:04:59 - PHP Notice:  Undefined index: filter_store_id in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-02-29 10:04:59 - PHP Notice:  Undefined index: filter_status in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-02-29 10:04:59 - PHP Notice:  Undefined index: filter_is_publish in E:\www\code\branches\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
