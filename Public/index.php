@@ -235,8 +235,6 @@ $registry->set('encryption', new Encryption($config->get('config_encryption')));
 // Front Controller 
 $controller = new Front($registry);
 
-echo $request->get['route'] ;
-echo "<br/>";
 
 // SEO URL's
 $controller->addPreAction(new Action('common/seo_url'));
