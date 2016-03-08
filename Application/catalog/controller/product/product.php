@@ -26,7 +26,9 @@ class ControllerProductProduct extends Controller {
         $request_uri = $_SERVER['REQUEST_URI'];
         $request_uri = explode('?',$request_uri);
         $static_request_uri = $request_uri[0];
-        $static_request_uri = substr($static_request_uri,1);
+		if(substr($static_request_uri,0,1) == '/'){
+			$static_request_uri = substr($static_request_uri,1);
+		}
         $url_param = '';
         if(isset($_GET) && count($_GET)>0){
             foreach($_GET as $key => $val){
@@ -35,13 +37,15 @@ class ControllerProductProduct extends Controller {
                 }
             }
         }
+
+
         $url_param = substr($url_param,0,-1);
         if($url_product_tmp){
             if($static_request_uri != $url_product_tmp){
                 if($url_param){
                     $url_product_tmp = $url_product_tmp . '?' . $url_param;
                 }
-                $url_product_tmp = '/' .$url_product_tmp;
+                $url_product_tmp =  $this->config->getDomain() . $url_product_tmp;
                 $this->redirect($url_product_tmp);
             }
         }

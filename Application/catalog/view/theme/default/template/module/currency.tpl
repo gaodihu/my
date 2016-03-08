@@ -1,5 +1,5 @@
 <ul class="currency">
-	<form enctype="multipart/form-data" method="post" action="/index.php?route=module/currency" id='currency_change_form'>
+	<form enctype="multipart/form-data" method="post" action="index.php?route=module/currency" id='currency_change_form'>
                 <li><a href="javascript:void(0);"><strong><?php echo $currency_code;?></strong><span class="<?php echo strtolower($currency_code);?>"></span><i></i></a>
 				  <div class="money" style="display: none;">
 					<dl>

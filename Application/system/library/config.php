@@ -73,15 +73,15 @@ class Config {
 
 			if (isset($_SERVER['HTTPS']) && (($_SERVER['HTTPS'] == 'on') || ($_SERVER['HTTPS'] == '1'))) {
 				$temp = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-				$_SERVER['HTTP_HOST']   = $this->getDomain();
+
 				$_SERVER['REQUEST_URI'] = str_replace($this->getDomain(),"",$temp);
+				$_SERVER['HTTP_HOST']   = str_replace("https://","",$this->getDomain());
 			} else {
 				$temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-				$_SERVER['HTTP_HOST']   = $this->getDomain();
+
 				$_SERVER['REQUEST_URI'] = str_replace($this->getDomain(),"",$temp);
+				$_SERVER['HTTP_HOST']   = str_replace("http://","",$this->getDomain());
 			}
-
-
 
 		}
 

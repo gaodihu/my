@@ -66,7 +66,7 @@
         <div class="left-pro">
             <div class="t1">
                 <?php if(count($images)>5) { ?>
-                <img src="css/images/product/gotop.gif" id="gotop" />
+                <img src="<?php echo STATIC_SERVER; ?>css/images/product/gotop.gif" id="gotop" />
                 <?php } ?>
                 <div id="showArea">
                     <?php $i =0; ?>
@@ -95,7 +95,7 @@
 
                 </div>
                 <?php if(count($images)>5) { ?>
-                <img src="css/images/product/gobottom.gif" id="gobottom"   />
+                <img src="<?php echo STATIC_SERVER; ?>css/images/product/gobottom.gif" id="gobottom"   />
                 <?php } ?>
             </div>
             <div class="t2">

@@ -7,13 +7,24 @@ class ControllerCommonSeoUrl extends Controller {
         if ($this->config->get('config_seo_url')) {
             $this->url->addRewrite($this);
         }
-       
+        if($this->request->get['_route_']) {
+            $domain = $this->config->getDomain();
+            if (isset($_SERVER['HTTPS']) && (($_SERVER['HTTPS'] == 'on') || ($_SERVER['HTTPS'] == '1'))) {
+                $temp = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                $this->request->get['_route_'] = str_replace($domain, "", $temp);
+            } else {
+                $temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+            }
+            $this->request->get['_route_'] = str_replace($domain, "", $temp);
+        }
+
         // Decode URL
         if (isset($this->request->get['_route_'])) {
             
             //产品页url不全
             //产品页URL以/P****形式的url均能301到正确地址，P id作为唯一识别产品地址的参数
             if(preg_match('/p(\d+)(.*)/',$this->request->get['_route_'],$data)){
+
                 $url_pid = $data[1];
                 $url_pid = intval($url_pid);
                 $this->load->model('catalog/product');
@@ -35,6 +46,8 @@ class ControllerCommonSeoUrl extends Controller {
                         $this->redirect($url_product,301);
                     }
                 }
+                $this->request->get['route'] = 'product/product';
+                $this->request->get['product_id'] = $url_pid;
             }
             
             
@@ -104,7 +117,7 @@ class ControllerCommonSeoUrl extends Controller {
                                 $this->request->get['information_id'] = $url[1];
                             }
                         } else {
-                            $this->request->get['route'] = 'error/not_found';
+                            //$this->request->get['route'] = 'error/not_found';
                         }
                     }
                 }

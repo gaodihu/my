@@ -85,6 +85,7 @@ class ControllerCommonHead extends Controller {
 				'url'  => $host.$self_url_request,
 			);
 		}
+		$this->data['domain'] = $this->config->getDomain();
 
         $this->data['alternate'] = $alternate;
 

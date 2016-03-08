@@ -157,7 +157,8 @@ class ControllerCommonHeader extends Controller
         $cur_uri = $_SERVER['REQUEST_URI'];
         $cur_uri_arr = explode('?', $cur_uri);
         $cur_uri = $cur_uri_arr[0];
-        if ($cur_uri == '/' || ($cur_uri == '/index.php' && empty($_GET['route'])) || (isset($_GET['route']) && $_GET['route'] == 'common/home')) {
+
+        if ($cur_uri == ''  || $cur_uri == '/' || ($cur_uri == '/index.php' && empty($_GET['route'])) || (isset($_GET['route']) && $_GET['route'] == 'common/home')) {
             $this->data['show_cat'] = 1;
         } else {
             $this->data['show_cat'] = 0;

@@ -11,7 +11,7 @@
     </div>
 
     </div>
-    <script src="/js/jquery/jquery.cookie.js"></script>
+    <script src="<?php echo STATIC_SERVER; ?>/js/jquery/jquery.cookie.js"></script>
     <script>
         function close101() {
             $('#china_10_1').hide();
@@ -26,7 +26,7 @@
     <?php if(isset($show_esater_banner)){ ?>
     <div style='margin:0 auto;width:1200px;'>
         <a href="<?php echo $esater_url;?>"><img
-                    src="css/images/public/easter_banner_<?php echo $lang_code;?>.gif "
+                    src="<?php echo STATIC_SERVER; ?>css/images/public/easter_banner_<?php echo $lang_code;?>.gif "
                     width='1200' height='100'></a>
     </div>
     <?php } ?>
@@ -50,10 +50,10 @@
 			?>
                     <div class="Account top-change-tab">
                         <a class="Account-anchor top-change-name"
-                           href="index.php?route=account/account"><?php echo $text_account;?>
+                           href="<?php echo $domain; ?>index.php?route=account/account"><?php echo $text_account;?>
                             <i></i></a>
                         <ul class="Account-panel top-change-list" style="display: none;min-width: 109px!important;">
-                            <li><a target="_blank" href="/index.php?route=account/order"
+                            <li><a target="_blank" href="<?php echo $domain; ?>index.php?route=account/order"
                                    rel="nofollow"><?php echo $text_my_order;?></a></li>
 
                             <li><a target="_blank" href="<?php echo $order_search;?>"
@@ -61,7 +61,7 @@
 
                         </ul>
                     </div>
-                    <a href="/contact-us.html"><i></i><?php  echo $text_contact_us;?></a>
+                    <a href="<?php echo $domain; ?>contact-us.html"><i></i><?php  echo $text_contact_us;?></a>
 
 
                 </div>
@@ -71,7 +71,7 @@
 
             <div class="head_content ">
                 <div class="wrap clearfix">
-                    <div class="logo"><a href="/" ><img src="css/images/logo.png"/></a></div>
+                    <div class="logo"><a href="<?php echo $domain; ?>" ><img src="<?php echo STATIC_SERVER; ?>css/images/logo.png"/></a></div>
 
                     <div class="headright clearfix">
 

@@ -75,7 +75,7 @@
     </div>
 <div id="fb-root" style="display: none"></div>
 </section>
-<script type="text/javascript" src="js/jquery/validform.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_SERVER; ?>js/jquery/validform.js"></script>
 
 <script type="text/javascript">
 $('#register_form ul li input').blur(function(){
@@ -180,6 +180,6 @@ $(function(){
 </script>
 
 <script src="https://www.paypalobjects.com/js/external/api.js"></script>
-<script type="text/javascript" src="js/paypal.js"></script>
-<script type="text/javascript" src="js/fb_login.js"></script>
-<script type="text/javascript" src="js/google.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_SERVER; ?>js/paypal.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_SERVER; ?>js/fb_login.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_SERVER; ?>js/google.js"></script>

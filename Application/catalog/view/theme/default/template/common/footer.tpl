@@ -27,7 +27,7 @@
                     <div class="font15 yellow bold"><?php echo $text_subscribe_to;?></div>
                     <p><?php echo $text_get_updates;?></p>
                     <div class="emailadd clearfix m_b10">
-                    <form action="/index.php?route=newsletter/newsletter" method="post" enctype="multipart/form-data" onsubmit="return checkNewletter('newsletter_foot')">
+                    <form action="index.php?route=newsletter/newsletter" method="post" enctype="multipart/form-data" onsubmit="return checkNewletter('newsletter_foot')">
                         <div class="emailadd_search">
                             <div class="emailaddInput input_text left"><input name="newsletter_email" type="text" placeholder="<?php echo $text_enter_emial_address;?>" id="newsletter_foot"/></div>
                             <div class="new_letter_msg"></div>
@@ -42,7 +42,7 @@
 	</div>
 </footer>
 <section class="suport">
-    <img src="css/images/foot/footer_shipping_payment.jpg" alt="">
+    <img src="<?php echo STATIC_SERVER; ?>css/images/foot/footer_shipping_payment.jpg" alt="">
 
     <div class="clear"></div>
 	<div><?php echo $text_copyright;?></div>
