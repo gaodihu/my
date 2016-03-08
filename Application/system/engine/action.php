@@ -43,6 +43,8 @@ final class Action {
 		} else {
 			$this->method = 'index';
 		}
+
+		
 	}
 	
 	public function getFile() {

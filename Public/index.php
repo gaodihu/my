@@ -84,6 +84,10 @@ if (isset($session->data['language']) && array_key_exists($session->data['langua
 	$code = $config->get('config_language');
 }
 $code = $config->get('config_language');
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3ba9a725ab781452358bab55108ac9d067dc64d
 $lang_domain = $config->getDomainByLanguage($code);
 $domain = $config->getDomain();
 
@@ -240,7 +244,6 @@ $registry->set('encryption', new Encryption($config->get('config_encryption')));
 $controller = new Front($registry);
 
 
-
 // SEO URL's
 $controller->addPreAction(new Action('common/seo_url'));
 // Router
@@ -252,6 +255,7 @@ if (isset($request->get['route'])) {
 
 // Dispatch
 $controller->dispatch($action, new Action('error/not_found'));
+
 
 // Output
 $response->output();

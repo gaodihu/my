@@ -27,6 +27,8 @@ class ControllerAccountLogin extends Controller {
 	}
 
 	public function login(){
+
+	
 		if ($this->customer->isLogged()) {  
 			$this->redirect($this->url->link('account/account', '', 'SSL'));
 		}

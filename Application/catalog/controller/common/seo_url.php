@@ -117,7 +117,11 @@ class ControllerCommonSeoUrl extends Controller {
                                 $this->request->get['information_id'] = $url[1];
                             }
                         } else {
+<<<<<<< HEAD
                             //$this->request->get['route'] = 'error/not_found';
+=======
+                           // $this->request->get['route'] = 'error/not_found';
+>>>>>>> d3ba9a725ab781452358bab55108ac9d067dc64d
                         }
                     }
                 }
