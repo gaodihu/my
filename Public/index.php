@@ -84,10 +84,7 @@ if (isset($session->data['language']) && array_key_exists($session->data['langua
 	$code = $config->get('config_language');
 }
 $code = $config->get('config_language');
-<<<<<<< HEAD
-=======
 
->>>>>>> d3ba9a725ab781452358bab55108ac9d067dc64d
 $lang_domain = $config->getDomainByLanguage($code);
 $domain = $config->getDomain();
 
