@@ -90,6 +90,7 @@ class Config {
 		foreach ($query->rows as $result) {
 			$languages[$result['code']] = $result;
 		}
+
 		$this->languages = $languages;
 
 	}

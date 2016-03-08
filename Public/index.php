@@ -83,7 +83,7 @@ if (isset($session->data['language']) && array_key_exists($session->data['langua
 }else{
 	$code = $config->get('config_language');
 }
-
+$code = $config->get('config_language');
 $lang_domain = $config->getDomainByLanguage($code);
 $domain = $config->getDomain();
 
@@ -152,6 +152,7 @@ $registry->set('cache', $cache);
 $session = new Session();
 $registry->set('session', $session);
 
+
 $session->data['language']= $config->get("config_language");
 
 /*
@@ -192,8 +193,12 @@ if (!isset($request->cookie['language']) || $request->cookie['language'] != $cod
 	setcookie('language', $code, time() + 60 * 60 * 24 * 30, '/', COOKIE_DOMAIN);
 }			
 
+
+
 $config->set('config_language_id', $languages[$code]['language_id']);
 $config->set('config_language', $languages[$code]['code']);
+
+
 
 // Language	
 $language = new Language($languages[$code]['directory']);
