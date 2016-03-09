@@ -37,6 +37,13 @@
                 <?php } else { ?>
                 <a href="<?php echo $sort_value; ?>"><?php echo $column_value; ?></a>
                 <?php } ?></td>
+
+              <td class="right"><?php if ($sort == 'sort_order') { ?>
+                <a href="<?php echo $sort_value; ?>" class="<?php echo strtolower($order); ?>">sort_order</a>
+                <?php } else { ?>
+                <a href="<?php echo $sort_value; ?>">sort_order</a>
+                <?php } ?></td>
+
               <td class="left"><?php if ($sort == 'date_modified') { ?>
                 <a href="<?php echo $sort_date_modified; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_date_modified; ?></a>
                 <?php } else { ?>
@@ -57,6 +64,7 @@
               <td class="left"><?php echo $currency['title']; ?></td>
               <td class="left"><?php echo $currency['code']; ?></td>
               <td class="right"><?php echo $currency['value']; ?></td>
+              <td class="right"><?php echo $currency['sort_order']; ?></td>
               <td class="left"><?php echo $currency['date_modified']; ?></td>
               <td class="right"><?php foreach ($currency['action'] as $action) { ?>
                 [ <a href="<?php echo $action['href']; ?>"><?php echo $action['text']; ?></a> ]

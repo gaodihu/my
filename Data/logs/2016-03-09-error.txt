@@ -80,3 +80,46 @@
 2016-03-09 8:36:14 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
 2016-03-09 8:51:32 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
 2016-03-09 8:51:47 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:05:12 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:05:19 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:05:24 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:05:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:09:44 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:20 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:29 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:35 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:41 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:46 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:50 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:50:57 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:01 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:12 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:18 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:22 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:27 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:31 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:39 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:44 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:48 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:54 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:51:57 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:55:57 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 10:57:26 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67
+2016-03-09 11:07:05 - PHP Notice:  Undefined index: sort_order in E:\www\opencart\charles_0127\myadmin034j8so9t\view\template\localisation\currency_list.tpl on line 67

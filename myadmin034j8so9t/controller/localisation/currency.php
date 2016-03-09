@@ -114,7 +114,7 @@ class ControllerLocalisationCurrency extends Controller {
 		if (isset($this->request->get['sort'])) {
 			$sort = $this->request->get['sort'];
 		} else {
-			$sort = 'title';
+			$sort = 'sort_order';
 		}
 
 		if (isset($this->request->get['order'])) {
@@ -186,9 +186,10 @@ class ControllerLocalisationCurrency extends Controller {
 				'title'         => $result['title'] . (($result['code'] == $this->config->get('config_currency')) ? $this->language->get('text_default') : null),
 				'code'          => $result['code'],
 				'value'         => $result['value'],
+				'sort_order'    => $result['sort_order'],
 				'date_modified' => date($this->language->get('date_format_short'), strtotime($result['date_modified'])),
 				'selected'      => isset($this->request->post['selected']) && in_array($result['currency_id'], $this->request->post['selected']),
-				'action'        => $action
+				'action'        => $action,
 			);
 		}	
 
@@ -391,6 +392,16 @@ class ControllerLocalisationCurrency extends Controller {
 		} else {
 			$this->data['value'] = '';
 		}
+
+
+		if (isset($this->request->post['sort_order'])) {
+			$this->data['sort_order'] = $this->request->post['sort_order'];
+		} elseif (!empty($currency_info)) {
+			$this->data['sort_order'] = $currency_info['sort_order'];
+		} else {
+			$this->data['sort_order'] = '';
+		}
+
 
 		if (isset($this->request->post['status'])) {
 			$this->data['status'] = $this->request->post['status'];

@@ -22,14 +22,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl">
+      <file leaf-file-name="currency.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/localisation/currency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47720364">
-              <caret line="124" column="102" selection-start-line="124" selection-start-column="102" selection-end-line="124" selection-end-column="102" />
+            <state vertical-scroll-proportion="0.7712121">
+              <caret line="401" column="43" selection-start-line="401" selection-start-column="43" selection-end-line="401" selection-end-column="43" />
               <folding>
-                <marker date="1457514066800" expanded="true" signature="31928:31977" placeholder="..." />
+                <element signature="n#delete#0;n#ControllerLocalisationCurrency#0;n#!!top" expanded="false" />
+                <element signature="n#getList#0;n#ControllerLocalisationCurrency#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/model/localisation/currency.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="135" column="228" selection-start-line="135" selection-start-column="228" selection-end-line="135" selection-end-column="228" />
+              <folding>
+                <marker date="1457518305153" expanded="true" signature="112:574" placeholder="INSERT INTO ..." />
+                <marker date="1457518305153" expanded="true" signature="112:586" placeholder="INSERT INTO ..." />
+                <marker date="1457518305153" expanded="true" signature="112:587" placeholder="INSERT INTO ..." />
+                <marker date="1457518305153" expanded="true" signature="112:616" placeholder="INSERT INTO ..." />
+                <marker date="1457518305153" expanded="true" signature="112:618" placeholder="INSERT INTO ..." />
+                <marker date="1457518305153" expanded="true" signature="1485:1570" placeholder="DELETE FROM ..." />
+                <marker date="1457518305153" expanded="true" signature="1689:1785" placeholder="SELECT DISTI..." />
+                <marker date="1457518305153" expanded="true" signature="1893:1993" placeholder="SELECT DISTI..." />
+                <marker date="1457518305153" expanded="true" signature="2100:2139" placeholder="SELECT * FRO..." />
+                <marker date="1457518305153" expanded="true" signature="3013:3071" placeholder="SELECT * FRO..." />
+                <marker date="1457518305153" expanded="true" signature="3896:4016" placeholder="SELECT * FRO..." />
+                <marker date="1457518305153" expanded="true" signature="4063:4274" placeholder="SELECT * FRO..." />
+                <marker date="1457518305153" expanded="true" signature="5419:5474" placeholder="SELECT COUNT..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency_form.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_form.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency_list.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_list.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.410714">
+              <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,11 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/search.tpl" />
-        <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/account/newsletter.tpl" />
-        <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/account/program.tpl" />
-        <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/checkout/fail.tpl" />
-        <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/module/hotcatalog.tpl" />
         <option value="$PROJECT_DIR$/Crontab/search_import.php" />
         <option value="$PROJECT_DIR$/Public/css/stylesheet/base.css" />
         <option value="$PROJECT_DIR$/Application/system/library/search.php" />
@@ -90,6 +130,11 @@
         <option value="$PROJECT_DIR$/Application/catalog/controller/common/seo_url.php" />
         <option value="$PROJECT_DIR$/Application/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/Application/model/localisation/currency.php" />
+        <option value="$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_list.tpl" />
+        <option value="$PROJECT_DIR$/myadmin034j8so9t/model/localisation/currency.php" />
+        <option value="$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_form.tpl" />
+        <option value="$PROJECT_DIR$/myadmin034j8so9t/controller/localisation/currency.php" />
       </list>
     </option>
   </component>
@@ -161,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="myadmin034j8so9t" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,27 +220,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
+              <option name="myItemId" value="myadmin034j8so9t" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
+              <option name="myItemId" value="charles_0127" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charles_0127" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="myadmin034j8so9t" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,11 +256,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="myadmin034j8so9t" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,41 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/batch/product_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.46551725">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/batch/product_update_translate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.46551725">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/batch/shipping_matrixrates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.551724">
-          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/batch/banner_import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7950581">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/module/language.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
-          <caret line="12" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/module/store.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6785714">
@@ -662,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/jquery/jquery.lazyload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50418997">
-          <caret line="1" column="200" selection-start-line="1" selection-start-column="200" selection-end-line="1" selection-end-column="200" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/common/home.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12645349">
@@ -761,12 +769,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/jquery/jquery.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47765362">
+          <caret line="1" column="214" selection-start-line="1" selection-start-column="214" selection-end-line="1" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47720364">
           <caret line="124" column="102" selection-start-line="124" selection-start-column="102" selection-end-line="124" selection-end-column="102" />
           <folding>
-            <marker date="1457514066800" expanded="true" signature="31928:31977" placeholder="..." />
+            <marker date="1457514066800" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/model/localisation/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22674419">
+          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+          <folding>
+            <marker date="1457517604774" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1457517604774" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/country_form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.410714">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/model/localisation/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="135" column="228" selection-start-line="135" selection-start-column="228" selection-end-line="135" selection-end-column="228" />
+          <folding>
+            <marker date="1457518305153" expanded="true" signature="112:574" placeholder="INSERT INTO ..." />
+            <marker date="1457518305153" expanded="true" signature="112:586" placeholder="INSERT INTO ..." />
+            <marker date="1457518305153" expanded="true" signature="112:587" placeholder="INSERT INTO ..." />
+            <marker date="1457518305153" expanded="true" signature="112:616" placeholder="INSERT INTO ..." />
+            <marker date="1457518305153" expanded="true" signature="112:618" placeholder="INSERT INTO ..." />
+            <marker date="1457518305153" expanded="true" signature="1485:1570" placeholder="DELETE FROM ..." />
+            <marker date="1457518305153" expanded="true" signature="1689:1785" placeholder="SELECT DISTI..." />
+            <marker date="1457518305153" expanded="true" signature="1893:1993" placeholder="SELECT DISTI..." />
+            <marker date="1457518305153" expanded="true" signature="2100:2139" placeholder="SELECT * FRO..." />
+            <marker date="1457518305153" expanded="true" signature="3013:3071" placeholder="SELECT * FRO..." />
+            <marker date="1457518305153" expanded="true" signature="3896:4016" placeholder="SELECT * FRO..." />
+            <marker date="1457518305153" expanded="true" signature="4063:4274" placeholder="SELECT * FRO..." />
+            <marker date="1457518305153" expanded="true" signature="5419:5474" placeholder="SELECT COUNT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/view/template/localisation/currency_form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myadmin034j8so9t/controller/localisation/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7712121">
+          <caret line="401" column="43" selection-start-line="401" selection-start-column="43" selection-end-line="401" selection-end-column="43" />
+          <folding>
+            <element signature="n#delete#0;n#ControllerLocalisationCurrency#0;n#!!top" expanded="false" />
+            <element signature="n#getList#0;n#ControllerLocalisationCurrency#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

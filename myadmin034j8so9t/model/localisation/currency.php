@@ -1,7 +1,7 @@
 <?php
 class ModelLocalisationCurrency extends Model {
 	public function addCurrency($data) {
-		$this->db->query("INSERT INTO " . DB_PREFIX . "currency SET title = '" . $this->db->escape($data['title']) . "', code = '" . $this->db->escape($data['code']) . "', symbol_left = '" . $this->db->escape($data['symbol_left']) . "', symbol_right = '" . $this->db->escape($data['symbol_right']) . "', decimal_place = '" . $this->db->escape($data['decimal_place']) . "', value = '" . $this->db->escape($data['value']) . "', status = '" . (int)$data['status'] . "', date_modified = NOW()");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "currency SET title = '" . $this->db->escape($data['title']) . "', code = '" . $this->db->escape($data['code']) . "', symbol_left = '" . $this->db->escape($data['symbol_left']) . "', symbol_right = '" . $this->db->escape($data['symbol_right']) . "', decimal_place = '" . $this->db->escape($data['decimal_place']) . "', value = '" . $this->db->escape($data['value']) . "', status = '" . (int)$data['status'] . "', date_modified = NOW(),sort_order='".(int)$data['sort_order']."'");
 
 		if ($this->config->get('config_currency_auto')) {
 			$this->updateCurrencies(true);
@@ -11,7 +11,7 @@ class ModelLocalisationCurrency extends Model {
 	}
 
 	public function editCurrency($currency_id, $data) {
-		$this->db->query("UPDATE " . DB_PREFIX . "currency SET title = '" . $this->db->escape($data['title']) . "', code = '" . $this->db->escape($data['code']) . "', symbol_left = '" . $this->db->escape($data['symbol_left']) . "', symbol_right = '" . $this->db->escape($data['symbol_right']) . "', decimal_place = '" . $this->db->escape($data['decimal_place']) . "', value = '" . $this->db->escape($data['value']) . "', status = '" . (int)$data['status'] . "', date_modified = NOW() WHERE currency_id = '" . (int)$currency_id . "'");
+		$this->db->query("UPDATE " . DB_PREFIX . "currency SET title = '" . $this->db->escape($data['title']) . "', code = '" . $this->db->escape($data['code']) . "', symbol_left = '" . $this->db->escape($data['symbol_left']) . "', symbol_right = '" . $this->db->escape($data['symbol_right']) . "', decimal_place = '" . $this->db->escape($data['decimal_place']) . "', value = '" . $this->db->escape($data['value']) . "', status = '" . (int)$data['status'] . "', date_modified = NOW(),sort_order='".(int)$data['sort_order']."' WHERE currency_id = '" . (int)$currency_id . "'");
 
 		$this->cache->delete('currency');
 	}
@@ -42,7 +42,8 @@ class ModelLocalisationCurrency extends Model {
 				'title',
 				'code',
 				'value',
-				'date_modified'
+				'date_modified',
+				'sort_order',
 			);	
 
 			if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
@@ -89,6 +90,7 @@ class ModelLocalisationCurrency extends Model {
 						'symbol_right'  => $result['symbol_right'],
 						'decimal_place' => $result['decimal_place'],
 						'value'         => $result['value'],
+						'sort_order'    => $result['sort_order'],
 						'status'        => $result['status'],
 						'date_modified' => $result['date_modified']
 					);

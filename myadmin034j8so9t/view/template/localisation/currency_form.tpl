@@ -46,6 +46,12 @@
             <td><?php echo $entry_value; ?></td>
             <td><input type="text" name="value" value="<?php echo $value; ?>" /></td>
           </tr>
+
+          <tr>
+            <td>sort order</td>
+            <td><input type="text" name="sort_order" value="<?php echo $sort_order; ?>" /></td>
+          </tr>
+
           <tr>
             <td><?php echo $entry_status; ?></td>
             <td><select name="status">
