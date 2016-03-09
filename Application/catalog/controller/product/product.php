@@ -46,7 +46,7 @@ class ControllerProductProduct extends Controller {
                     $url_product_tmp = $url_product_tmp . '?' . $url_param;
                 }
                 $url_product_tmp =  $this->config->getDomain() . $url_product_tmp;
-                //$this->redirect($url_product_tmp);
+                $this->redirect($url_product_tmp);
             }
         }
         

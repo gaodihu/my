@@ -19,7 +19,7 @@ class ControllerCommonSeoUrl extends Controller {
         } else {
             $temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-            $_SERVER['REQUEST_URI'] = str_replace($this->config->getDomain(),"",$temp);
+            $_SERVER['REQUEST_URI'] = str_replace($this->config->getDomain(),"/",$temp);
             $_SERVER['HTTP_HOST']   = str_replace("http://","",$this->config->getDomain());
         }
 

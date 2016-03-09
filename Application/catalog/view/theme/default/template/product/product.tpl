@@ -118,8 +118,11 @@
 
                         <a class="addthis_counter addthis_bubble_style" href="javascript:void(0)" style="display: inline-block;"></a>
                         <div class="atclear"></div></div>
-                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
-                    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56dfe575c8f7c161"></script>
+
+
+                    <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
                 </div>
 
            </div>
@@ -645,7 +648,7 @@
         ?>
         $(document).ready(function() {
             $('#counter').countdown({
-                image: 'css/images/digits.png',
+                image: '/css/images/digits.png',
                 startTime: '<?php echo $left_time_js;?>'
             });
         });
@@ -730,7 +733,7 @@ $('.review_page a').live('click',function(){
 			data: 'product_id=<?php echo $product_id;?>&page='+page,
 			dataType: 'text',
 			success: function(str) {
-				var load ="<div style='text-align:center;height:200px;line-height:200px;'><img src='css/images/loader_32x32.gif'></div>";
+				var load ="<div style='text-align:center;height:200px;line-height:200px;'><img src='/css/images/loader_32x32.gif'></div>";
 				$('.an_content_review').html(load);
 				$('.an_content_review').html(str);
 				location.hash = 'comment_list';
