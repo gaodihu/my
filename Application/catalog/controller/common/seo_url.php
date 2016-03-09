@@ -4,87 +4,117 @@ class ControllerCommonSeoUrl extends Controller {
 
     public function index() {
         // Add rewrite to url class
+
         if ($this->config->get('config_seo_url')) {
             $this->url->addRewrite($this);
         }
+
+        //重置host，request_uri
+        $old_host = $_SERVER['HTTP_HOST'];
+        if (isset($_SERVER['HTTPS']) && (($_SERVER['HTTPS'] == 'on') || ($_SERVER['HTTPS'] == '1'))) {
+            $temp = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+            $_SERVER['REQUEST_URI'] = str_replace($this->config->getDomain(),"",$temp);
+            $_SERVER['HTTP_HOST']   = str_replace("https://","",$this->config->getDomain());
+        } else {
+            $temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+            $_SERVER['REQUEST_URI'] = str_replace($this->config->getDomain(),"",$temp);
+            $_SERVER['HTTP_HOST']   = str_replace("http://","",$this->config->getDomain());
+        }
+
+
+
         if($this->request->get['_route_']) {
             $domain = $this->config->getDomain();
             if (isset($_SERVER['HTTPS']) && (($_SERVER['HTTPS'] == 'on') || ($_SERVER['HTTPS'] == '1'))) {
-                $temp = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                $temp = 'https://' . $old_host . "/" .$this->request->get['_route_'];
                 $this->request->get['_route_'] = str_replace($domain, "", $temp);
             } else {
-                $temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                $temp = 'http://' . $old_host . "/" . $this->request->get['_route_'];
             }
+
             $this->request->get['_route_'] = str_replace($domain, "", $temp);
+            if($this->request->get['_route_'] == ""){
+                $this->request->get['_route_'] = "/";
+            }
+            if($this->request->get['_route_'] == "index.php"){
+                $this->request->get['_route_'] = "";
+            }
         }
 
+
+
         // Decode URL
-        if (isset($this->request->get['_route_'])) {
-            
+        if (isset($this->request->get['_route_']) && $this->request->get['_route_'] ) {
+
             //产品页url不全
             //产品页URL以/P****形式的url均能301到正确地址，P id作为唯一识别产品地址的参数
-            if(preg_match('/p(\d+)(.*)/',$this->request->get['_route_'],$data)){
+            if (preg_match('/p(\d+)(.*)/', $this->request->get['_route_'], $data)) {
 
                 $url_pid = $data[1];
                 $url_pid = intval($url_pid);
                 $this->load->model('catalog/product');
-                $url_product = $this->model_catalog_product->getProductUrl($url_pid );
+                $url_product = $this->model_catalog_product->getProductUrl($url_pid);
                 $url_param = '';
-                if(isset($_GET) && count($_GET)>0){
-                    foreach($_GET as $key => $val){
-                        if($key != '_route_'){
-                            $url_param .= $key . '=' . $val."&";
+                if (isset($_GET) && count($_GET) > 0) {
+                    foreach ($_GET as $key => $val) {
+                        if ($key != '_route_') {
+                            $url_param .= $key . '=' . $val . "&";
                         }
                     }
                 }
-                $url_param = substr($url_param,0,-1);
-                if($url_product){
-                    if($url_product != $this->request->get['_route_']){
-                        if($url_param){
+                $url_param = substr($url_param, 0, -1);
+                if ($url_product) {
+                    if ($url_product != $this->request->get['_route_']) {
+                        if ($url_param) {
                             $url_product = $url_product . '?' . $url_param;
                         }
-                        $this->redirect($url_product,301);
+                        //$this->redirect($url_product,301);
                     }
                 }
                 $this->request->get['route'] = 'product/product';
                 $this->request->get['product_id'] = $url_pid;
-            }
-            
-            
-            $parts = explode('/', $this->request->get['_route_']);
-            $last = $parts[count($parts) - 1];
-            
-            //分类页面分页
-            $cat_page = 0;
 
-            if (preg_match('/^(\d+)\.html/', $last)) {
-                $url = $this->request->get['_route_'];
-                $len = strlen($last);
-                $url = substr($url, 0, strlen($url) - $len - 1);
-                $url = $url . '.html';
+            } else if ($this->request->get['_route_'] == "/") {
+                $this->request->get['route'] = 'common/home';
 
-                $cat_page = str_replace( '.html','',$last);
-                $cat_page = intval($cat_page);
             } else {
-                $url = $this->request->get['_route_'];
-            }
-            if (substr($url, 1, 1) == '/') {
-                $url = substr($url, 1);
-            }
+                $parts = explode('/', $this->request->get['_route_']);
+                $last = $parts[count($parts) - 1];
 
-            //搜索
-            
+                //分类页面分页
+                $cat_page = 0;
+
+                if (preg_match('/^(\d+)\.html/', $last)) {
+                    $url = $this->request->get['_route_'];
+                    $len = strlen($last);
+                    $url = substr($url, 0, strlen($url) - $len - 1);
+                    $url = $url . '.html';
+
+                    $cat_page = str_replace('.html', '', $last);
+                    $cat_page = intval($cat_page);
+                } else {
+                    $url = $this->request->get['_route_'];
+                }
+                if (substr($url, 1, 1) == '/') {
+                    $url = substr($url, 1);
+                }
+
+                //搜索
+
                 $this->load->model('catalog/category');
-                
+
                 $category = $this->model_catalog_category->getCategoryByUrl($url);
 
                 if ($category) {
                     $path = $category['path'];
-                    $path = substr($path,2);
+                    $path = substr($path, 2);
 
                     $path = str_replace('/', '_', $path);
                     //echo $path;
                     $this->request->get['path'] = $path;
+                    $this->request->get['route'] = 'product/category';
                     if ($cat_page) {
                         $this->request->get['page'] = $cat_page;
                     }
@@ -116,33 +146,41 @@ class ControllerCommonSeoUrl extends Controller {
                             if ($url[0] == 'information_id') {
                                 $this->request->get['information_id'] = $url[1];
                             }
+                            if ($url[0] == 'route') {
+                                $this->request->get['route'] = $url[1];
+                            }
                         } else {
 
-                            //$this->request->get['route'] = 'error/not_found';
+                            $this->request->get['route'] = 'error/not_found';
 
                         }
                     }
                 }
-            
-        
-            if (isset($this->request->get['product_id'])) {
-                $this->request->get['route'] = 'product/product';
-            } elseif (isset($this->request->get['path'])) {
-                $this->request->get['route'] = 'product/category';
-               
-            } elseif (isset($this->request->get['manufacturer_id'])) {
-                $this->request->get['route'] = 'product/manufacturer/info';
-            } elseif (isset($this->request->get['information_id'])) {
-                $this->request->get['route'] = 'information/information';
+
+
+
             }
-            
-            if (isset($this->request->get['route'])) {
-                return $this->forward($this->request->get['route']);
-            }
+        }
+
+
+        if (isset($this->request->get['product_id'])) {
+            $this->request->get['route'] = 'product/product';
+        } elseif (isset($this->request->get['path'])) {
+            $this->request->get['route'] = 'product/category';
+
+        } elseif (isset($this->request->get['manufacturer_id'])) {
+            $this->request->get['route'] = 'product/manufacturer/info';
+        } elseif (isset($this->request->get['information_id'])) {
+            $this->request->get['route'] = 'information/information';
+        }
+
+        if (isset($this->request->get['route'])) {
+            return $this->forward($this->request->get['route']);
         }
     }
 
-    public function rewrite($link) { 
+    public function rewrite($link) {
+
         $url_info = parse_url(str_replace('&amp;', '&', $link));
 
         $url = '';
@@ -155,6 +193,7 @@ class ControllerCommonSeoUrl extends Controller {
         }
 
         foreach ($data as $key => $value) {
+
             if (isset($data['route'])) {
                 //产品url重写规则
                 if ($data['route'] == 'product/product' && $key == 'product_id') {
@@ -183,6 +222,7 @@ class ControllerCommonSeoUrl extends Controller {
                         unset($data[$key]);
                         $is_rewrite = 1;
                     }
+
                     if ($is_rewrite) {
                         if (isset($data['page'])) {
                             if (substr($url, -1, 5) != '.html') {

@@ -15,7 +15,7 @@
       <div><b><?php echo $text_date_added; ?></b> <?php echo $return['date_added']; ?><br />
         <b><?php echo $text_order_id; ?></b> <?php echo $return['order_id']; ?></div>
       <div><b><?php echo $text_customer; ?></b> <?php echo $return['name']; ?></div>
-      <div class="return-info"><a href="<?php echo $return['href']; ?>"><img src="css/images/info.png" alt="<?php echo $button_view; ?>" title="<?php echo $button_view; ?>" /></a></div>
+      <div class="return-info"><a href="<?php echo $return['href']; ?>"><img src="<?php  echo STATIC_SERVER; ?>css/images/info.png" alt="<?php echo $button_view; ?>" title="<?php echo $button_view; ?>" /></a></div>
     </div>
   </div>
   <?php } ?>

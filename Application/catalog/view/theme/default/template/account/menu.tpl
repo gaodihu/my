@@ -6,7 +6,7 @@
 					<?php if($customer_info['avatar']){ ?>
             		<img src="<?php echo $customer_info['avatar'];?>" alt="<?php echo $customer_info['nickname'];?>"/>
 					<?php }else{ ?>
-					<img src="css/images/user_tx/user_default.png" alt="<?php echo $customer_info['nickname'];?>"/>
+					<img src="<?php  echo STATIC_SERVER; ?>css/images/user_tx/user_default.png" alt="<?php echo $customer_info['nickname'];?>"/>
 					<?php } ?>
                 	<ul>
                     	<li><?php echo $customer_info['nickname'];?></li>

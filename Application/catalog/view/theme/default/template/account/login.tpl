@@ -41,7 +41,7 @@
 
 
 		  <div   id="paypalAuth" ></div>
-          <div id="googleAuth" class="loginWithGg m_tb5 clear" ><b><img src="css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
+          <div id="googleAuth" class="loginWithGg m_tb5 clear" ><b><img src="<?php echo STATIC_SERVER; ?>css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
                 <div class="loginWithFb clear" ><a id="fbAuth" href="javascript:void(0);" class="fl"><b>f</b><?php echo $text_sign_facebook;?></a></div>
 
         </div>

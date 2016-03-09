@@ -13,7 +13,7 @@
 				<li>
 					<p class="offIcon"><span class="font20">50</span></p>
 					<div class="procon">
-						<div class="img"><img src="css/images/product1.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
+						<div class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/product1.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
 						<p class="tt">LED Ball Bulb E27 5W 0-380LM Warm White Dimmable(AC110V,Black)</p>
 						<p class="howmuch"><span class="xj">$3.34</span><span class="yj">$6.67</span></p>
 						<p class="green">As low as: $3.02</p>
@@ -23,7 +23,7 @@
 				<li>
 					<p class="offIcon newIcon"></p>
 					<div class="procon">
-						<div class="img"><img src="css/images/product2.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
+						<div class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/product2.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
 						<p class="tt">LED Ball Bulb E27 5W 0-380LM Warm White Dimmable(AC110V,Black)</p>
 						<p class="howmuch"><span class="xj">$3.34</span><span class="yj">$6.67</span></p>
 						<p class="green">As low as: $3.02</p>
@@ -33,7 +33,7 @@
 				<li>
 					<p class="offIcon"><span class="font20">50</span></p>
 					<div class="procon">
-						<div class="img"><img src="css/images/product3.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
+						<div class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/product3.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
 						<p class="tt">LED Ball Bulb E27 5W 0-380LM Warm White Dimmable(AC110V,Black)</p>
 						<p class="howmuch"><span class="xj">$3.34</span><span class="yj">$6.67</span></p>
 						<p class="green">As low as: $3.02</p>
@@ -43,7 +43,7 @@
 				<li>
 					<p class="offIcon"><span class="font20">50</span></p>
 					<div class="procon">
-						<div class="img"><img src="css/images/product4.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
+						<div class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/product4.jpg" width="207" height="160" alt=""/><div class="img_Text"><a href="#" class="f"></a><a href="#" class="tqq"></a><a href="#" class="n"></a><a href="#" class="add_btn">Add to Cart</a></div></div>
 						<p class="tt">LED Ball Bulb E27 5W 0-380LM Warm White Dimmable(AC110V,Black)</p>
 						<p class="howmuch"><span class="xj">$3.34</span><span class="yj">$6.67</span></p>
 						<p class="green">As low as: $3.02</p>

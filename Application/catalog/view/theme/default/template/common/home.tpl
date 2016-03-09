@@ -14,7 +14,8 @@
 
                        <?php foreach($home_flash_banner_info as $banner_info){
                             ?>
-                       <li><a href="<?php echo $banner_info['link'];?>" ><img src="css/images/grey.gif"  _src="<?php echo $banner_info['image'];?>" width="750" height="250" alt="<?php echo $banner_info['title'];?>" /></a></li>
+                       <li><a href="<?php echo $banner_info['link'];?>" ><img src="<?php echo STATIC_SERVER; ?>css/images/grey.gif"  _src="<?php echo $banner_info['image'];?>" width="750" height="250" alt="<?php echo $banner_info['title'];?>" /></a></li>
+
                        <?php
                           }
                           ?>

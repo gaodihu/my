@@ -5,7 +5,7 @@ define('HTTP_CATALOG', 'http://www.mydev.com/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://admin.mydev.com/');
-define('HTTPS_CATALOG', 'http://dev.myled.com/');
+define('HTTPS_CATALOG', 'http://www.mydev.com/');
 
 // DIR
 
@@ -32,10 +32,10 @@ define('DIR_DATA',        DIR_BASE . 'Data/');
 
 define('DB_DRIVER', 'mysqli');
 
-define('DB_HOSTNAME', '127.0.0.1');
-define('DB_USERNAME', 'root');
+define('DB_HOSTNAME', '172.168.90.236');
+define('DB_USERNAME', 'myled');
 define('DB_PASSWORD', '123456');
-define('DB_DATABASE', 'charles');
+define('DB_DATABASE', 'charles_20160202');
 
 define('COOKIE_DOMAIN','mydev.com');
 

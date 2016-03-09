@@ -182,7 +182,7 @@
 															<?php if($replay['avatar']){ ?>
 															<img src="<?php echo $replay['avatar'];?>"  class="img" width='60' height='60'/>
 															<?php }else{ ?>
-															<img src="css/images/user_tx/user_default.png"  class="img" width='60' height='60'/>
+															<img src="<?php  echo STATIC_SERVER; ?>css/images/user_tx/user_default.png"  class="img" width='60' height='60'/>
 															<?php } ?>
 															<div class="info-right">
 																<div  class="grey-span"><span><?php echo $text_posted_by;?></span> <?php echo $replay['firstname'];?> <span><?php echo $text_on;?></span> <?php echo $replay['date_added'];?></div>

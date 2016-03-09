@@ -35,7 +35,7 @@
                 <div class="loginWithFb" style="margin-right: 5px;"><a id="fbAuth" href="javascript:void(0);" class="fl"><b>f</b><?php echo $text_sign_facebook;?></a></div>
             <?php } ?>
             <?php if($cusotmer['third_from'] =='google'){ ?>
-                <div id="googleAuth" class="loginWithGg" ><b><img src="css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
+                <div id="googleAuth" class="loginWithGg" ><b><img src="<?php echo STATIC_SERVER; ?>css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
             <?php } ?>
 
         <?php } ?>

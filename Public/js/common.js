@@ -285,7 +285,7 @@ $(document).ready(function(){
         });
 
         $('#search_button').click(function () {
-            url = '/index.php?route=product/search';
+            url = 'index.php?route=product/search';
 
             var search = $('input[name=\'search\']').attr('value');
             search = search.replace(/[\`\~!\@#\$%\^&*()_+=|\\\{\}\[\];:"'<,>.?\/]/g,' ');
@@ -308,7 +308,7 @@ $(document).ready(function(){
                 search_keyword = search_keyword.replace(/\++/g,'+');
                 search_keyword = search_keyword.substr(0,search_keyword.length-1);
                 
-                url = '/s/' +  search_keyword + '.html' ;
+                url = 's/' +  search_keyword + '.html' ;
                 window.location.href = url;
             }
         })

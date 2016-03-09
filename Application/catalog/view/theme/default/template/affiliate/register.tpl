@@ -223,7 +223,7 @@ $('select[name=\'country_id\']').bind('change', function() {
 		url: 'index.php?route=affiliate/register/country&country_id=' + this.value,
 		dataType: 'json',
 		beforeSend: function() {
-			$('select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="css/images/loading.gif" alt="" /></span>');
+			$('select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="<?php  echo STATIC_SERVER; ?>css/images/loading.gif" alt="" /></span>');
 		},
 		complete: function() {
 			$('.wait').remove();

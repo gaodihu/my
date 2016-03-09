@@ -40,7 +40,7 @@
 			<li>
 				<div class="p-left">
 				<div class="tit"><?php echo $text_5;?></div>
-				<img src="css/images/points/img1.png" />
+				<img src="<?php  echo STATIC_SERVER; ?>css/images/points/img1.png" />
 				<div class="p-con-tit">** <?php echo $text_6;?></div>
 				<p><?php echo $text_7;?></p>
 				</div>
@@ -48,7 +48,7 @@
 			<li >
 				<div class="p-mid">
 				<div class="tit"><?php echo $text_8;?></div>
-				<img src="css/images/points/img2.png" />
+				<img src="<?php  echo STATIC_SERVER; ?>css/images/points/img2.png" />
 				<div class="p-con-tit"><?php echo $text_9;?></div>
 				<p><?php echo $text_10;?></p>
 				</div>
@@ -56,7 +56,7 @@
 			<li >
 				<div class="p-right">
 				<div class="tit"><?php echo $text_11;?></div>
-				<img src="css/images/points/img3.png" />
+				<img src="<?php  echo STATIC_SERVER; ?>css/images/points/img3.png" />
 				<div class="p-con-tit">** <?php echo $text_6;?></div>
 				<p><?php echo $text_12;?></p>
 				</div>
@@ -76,7 +76,7 @@
 
 			<h4 class="m-t50 m-b10"><?php echo $text_19;?></h4>
 			<p><?php echo $text_20;?></p>
-			<p class="points-img-right"><img src="css/images/points/points_<?php echo strtolower($this->session->data['language']);?>.jpg" /></p>
+			<p class="points-img-right"><img src="<?php  echo STATIC_SERVER; ?>css/images/points/points_<?php echo strtolower($this->session->data['language']);?>.jpg" /></p>
 		
 		
 			<p class="fontsize16 bold m-b10"><?php echo $text_21;?></p>

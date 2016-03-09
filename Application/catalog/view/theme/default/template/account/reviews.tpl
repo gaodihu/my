@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 <?php if ($success) { ?>
-<div class="success"><?php echo $success; ?><img src="css/images/close.png" alt="" class="close" /></div>
+<div class="success"><?php echo $success; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 <?php } ?>
 <nav class="sidernav">
 	<div class="wrap">

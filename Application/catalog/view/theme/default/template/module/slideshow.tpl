@@ -11,7 +11,7 @@
 	  </ul>
 	</section>
 	<section class="gg_right">
-		<figure class="gg_img gg_img2"><a href="#"><img src="css/images/gg1.jpg" alt=""/></a></figure>
-		<figure class="gg_img gg_img2"><a href="#"><img src="css/images/gg2.jpg" alt=""/></a></figure>
+		<figure class="gg_img gg_img2"><a href="#"><img src="<?php  echo STATIC_SERVER; ?>css/images/gg1.jpg" alt=""/></a></figure>
+		<figure class="gg_img gg_img2"><a href="#"><img src="<?php  echo STATIC_SERVER; ?>css/images/gg2.jpg" alt=""/></a></figure>
 	</section>
 	<div class="clear"></div>

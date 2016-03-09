@@ -1,15 +1,15 @@
 <?php echo $header; ?>
 
 <?php if ($attention) { ?>
-  <div class="attention"><?php echo $attention; ?><img src="css/images/close.png" alt="" class="close" /></div>
+  <div class="attention"><?php echo $attention; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 <?php } ?>
 
 <?php if ($success) { ?>
-  <div class="success"><?php echo $success; ?><img src="css/images/close.png" alt="" class="close" /></div>
+  <div class="success"><?php echo $success; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 <?php } ?>
 
 <?php if ($error_warning) { ?>
-  <div class="warning"><?php echo $error_warning; ?><img src="css/images/close.png" alt="" class="close" /></div>
+  <div class="warning"><?php echo $error_warning; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 <?php } ?>
 
 <?php echo $column_left; ?>
@@ -146,7 +146,7 @@
         <?php if ($product['recurring']): ?>
           <tr>
             <td colspan="5" style="border:none;">
-              <image src="css/images/reorder.png" alt="" title="" style="float:left;" /><span style="float:left;line-height:18px; margin-left:10px;">
+              <image src="<?php  echo STATIC_SERVER; ?>css/images/reorder.png" alt="" title="" style="float:left;" /><span style="float:left;line-height:18px; margin-left:10px;">
               <strong><?php echo $text_recurring_item ?></strong>
               <?php echo $product['profile_description'] ?>
             </td>

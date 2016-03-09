@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 <?php if ($success) { ?>
-<div class="success"><?php echo $success; ?><img src="css/images/close.png" alt="" class="close" /></div>
+<div class="success"><?php echo $success; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 <?php } ?>
 <?php echo $column_left; ?><?php echo $column_right; ?>
 <div id="content"><?php echo $content_top; ?>
@@ -66,7 +66,7 @@
       <tr>
         <td><?php echo $text_rating; ?></td>
         <?php foreach ($products as $product) { ?>
-        <td><img src="css/images/stars-<?php echo $products[$product['product_id']]['rating']; ?>.png" alt="<?php echo $products[$product['product_id']]['reviews']; ?>" /><br />
+        <td><img src="<?php  echo STATIC_SERVER; ?>css/images/stars-<?php echo $products[$product['product_id']]['rating']; ?>.png" alt="<?php echo $products[$product['product_id']]['reviews']; ?>" /><br />
           <?php echo $products[$product['product_id']]['reviews']; ?></td>
         <?php } ?>
       </tr>

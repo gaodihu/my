@@ -133,7 +133,7 @@
 </div>
 
 
-<script src="js/mzp-packed/lrtk.js"></script>
+<script src="<?php echo STATIC_SERVER; ?>js/mzp-packed/lrtk.js"></script>
 		<!-- Product image end-->
 		<!-- Product info start -->
 		<div class="product-info">
@@ -256,10 +256,10 @@
                     <div class="cart-pop add-cart"  style="display: none;">
                         <a class="del"></a>
                         <div class="text-c">
-                            <h4><img src="css/images/public/yes.gif" width="45" height="40"><span id='add_qty_number'></span> <?php echo $text_product_added;?></h4>
+                            <h4><img src="<?php echo STATIC_SERVER; ?>css/images/public/yes.gif" width="45" height="40"><span id='add_qty_number'></span> <?php echo $text_product_added;?></h4>
                            
                             <div class="mt_10 clearfix">
-                                <a   onclick="window.location.href='/index.php?route=checkout/cart'" class="btn-primary  mb_10" style="margin-right: 20px;"><?php echo $text_view_cart;?></a>
+                                <a   onclick="window.location.href='index.php?route=checkout/cart'" class="btn-primary  mb_10" style="margin-right: 20px;"><?php echo $text_view_cart;?></a>
                                 <a  id="continue_shopping" class="btn-default  mb_10 "><?php echo $text_continue_shopping;?></a>
                             </div>
                         </div>
@@ -506,9 +506,9 @@
 							<?php if($all_brochures){ ?>
 							<?php foreach($all_brochures as $brochures){ ?>
 								<li>
-                                <div><a href="<?php echo $brochures['href'];?>" target="_blank" class="title"><img src="css/images/public/guides.jpg"  style="vertical-align: top" /> <?php echo $text_spectrum;?></a></div>
+                                <div><a href="<?php echo $brochures['href'];?>" target="_blank" class="title"><img src="<?php echo STATIC_SERVER; ?>css/images/public/guides.jpg"  style="vertical-align: top" /> <?php echo $text_spectrum;?></a></div>
                                 <div>
-                                    <a href="<?php echo $brochures['href'];?>" target="_blank" ><img src="css/images/public/check.jpg"  style="margin-left: 25px;border:1px solid #ccc" /></a>
+                                    <a href="<?php echo $brochures['href'];?>" target="_blank" ><img src="<?php  echo STATIC_SERVER; ?>css/images/public/check.jpg"  style="margin-left: 25px;border:1px solid #ccc" /></a>
                                 </div>
 								</li>
 							<?php } ?>

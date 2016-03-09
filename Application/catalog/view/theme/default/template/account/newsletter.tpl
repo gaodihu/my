@@ -36,7 +36,7 @@
 		<?php echo $right_top;?>
 		<div class="protit"><p class="black18"><?php echo $heading_title;?></p></div>
 		<?php if ($success) { ?>
-			<div class="success"><?php echo $success; ?><img src="css/images/close.png" alt="" class="close" /></div>
+			<div class="success"><?php echo $success; ?><img src="<?php  echo STATIC_SERVER; ?>css/images/close.png" alt="" class="close" /></div>
 		<?php } ?>
 		<section class="mt_20">
          	<form action="<?php echo $action;?>" method="post" enctype="multipart/form-data" id='newsletter_form'>

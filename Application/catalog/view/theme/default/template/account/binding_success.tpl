@@ -11,7 +11,7 @@
     <div class="newsletter mt_20">
         <div class=""></div>
         <div class="">
-            <h1><img src="css/images/public/yes.gif" width="45" height="40" original="css/images/public/yes.gif" style="vertical-align: middle"/> successfullly  <?php echo $heading_title?></h1>
+            <h1><img src="<?php  echo STATIC_SERVER; ?>css/images/public/yes.gif" width="45" height="40" original="<?php  echo STATIC_SERVER; ?>css/images/public/yes.gif" style="vertical-align: middle"/> successfullly  <?php echo $heading_title?></h1>
             <div class="res_message mt_20">
                 <p><?php echo $success_text;?></p>
             </div>

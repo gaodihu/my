@@ -82,19 +82,19 @@ RewriteRule ^/?(.*)$ https://www.moresku.com/$1 [L,R=301]
 
 
 
-RewriteRule ^sitemap.xml$ index.php?route=feed/google_sitemap [L]
-RewriteRule ^googlebase.xml$ index.php?route=feed/google_base [L]
-RewriteRule ^download/(.*) /index.php?route=error/not_found [L]
-#RewriteRule ^p(\d*)-(.*)\.html /index.php?route=product/product&product_id=$1 [QSA,L]
-RewriteRule ^deals\.html /index.php?route=product/deals [L]
-RewriteRule ^s\/(.*)\/(\d*)\.html /index.php?route=product/search&search=$1&page=$2 [QSA,L]
-RewriteRule ^s\/(.*)\.html /index.php?route=product/search&search=$1 [QSA,L]
-RewriteRule ^hot.html /index.php?route=product/popular [QSA,L]
-RewriteRule ^hot\/(.*)\/(\d*)\.html /index.php?route=product/popular/tag&tag=$1&page=$2 [QSA,L]
-RewriteRule ^hot\/(.*)\.html /index.php?route=product/popular/tag&tag=$1 [QSA,L]
-RewriteRule ^reviews.html /index.php?route=product/reviews [QSA,L]
-RewriteRule ^reviews\/(.*)\/(\d*)\.html /index.php?route=product/reviews/info&sku=$1&review_id=$2 [QSA,L]
-RewriteRule ^reviews\/(.*)\.html /index.php?route=product/reviews/product&sku=$1 [QSA,L]
+RewriteRule sitemap.xml$ index.php?route=feed/google_sitemap [L]
+RewriteRule googlebase.xml$ index.php?route=feed/google_base [L]
+RewriteRule download/(.*) /index.php?route=error/not_found [L]
+#RewriteRule p(\d*)-(.*)\.html /index.php?route=product/product&product_id=$1 [QSA,L]
+RewriteRule deals\.html /index.php?route=product/deals [L]
+RewriteRule s\/(.*)\/(\d*)\.html /index.php?route=product/search&search=$1&page=$2 [QSA,L]
+RewriteRule s\/(.*)\.html /index.php?route=product/search&search=$1 [QSA,L]
+RewriteRule hot.html /index.php?route=product/popular [QSA,L]
+RewriteRule hot\/(.*)\/(\d*)\.html /index.php?route=product/popular/tag&tag=$1&page=$2 [QSA,L]
+RewriteRule hot\/(.*)\.html /index.php?route=product/popular/tag&tag=$1 [QSA,L]
+RewriteRule reviews.html /index.php?route=product/reviews [QSA,L]
+RewriteRule reviews\/(.*)\/(\d*)\.html /index.php?route=product/reviews/info&sku=$1&review_id=$2 [QSA,L]
+RewriteRule reviews\/(.*)\.html /index.php?route=product/reviews/product&sku=$1 [QSA,L]
 
 #blog
 RewriteCond %{REQUEST_URI} !^/ledblog/

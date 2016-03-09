@@ -26,7 +26,7 @@
             <td class="left"><?php echo $profile['created']; ?></td>
             <td class="left"><?php echo $status_types[$profile['status']]; ?></td>
             <td class="left"><?php echo $profile['name']; ?></td>
-            <td class="right"><a href="<?php echo $profile['href']; ?>"><img src="css/images/info.png" alt="<?php echo $button_view; ?>" title="<?php echo $button_view; ?>" /></a></td>
+            <td class="right"><a href="<?php echo $profile['href']; ?>"><img src="<?php  echo STATIC_SERVER; ?>css/images/info.png" alt="<?php echo $button_view; ?>" title="<?php echo $button_view; ?>" /></a></td>
         </tr>
         <?php } ?>
         <?php } else { ?>

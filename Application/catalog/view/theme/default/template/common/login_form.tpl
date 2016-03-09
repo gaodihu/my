@@ -64,7 +64,7 @@
         <div class="alert_login clearfix">
                 <div   id="paypalAuth" style="display:inline-block;float:left;margin-bottom: 10px;"></div>
                 <div class="loginWithFb" style="margin-bottom: 10px;"><a id="fbAuth" href="javascript:void(0);" class="fl"><b>f</b><?php echo $text_sign_facebook;?></a></div>
-                <div  id="googleAuth" class="loginWithGg g-signin" style="margin-bottom: 10px;  width: 164px; "><b><img src="css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
+                <div  id="googleAuth" class="loginWithGg g-signin" style="margin-bottom: 10px;  width: 164px; "><b><img src="<?php echo STATIC_SERVER; ?>css/images/public/google.png" width="32" height="32"></b>Log in with Google</button></div>
                 <?php if($_REQUEST['route'] == 'checkout/cart'){ ?>
                 <div><a href="<?php echo $guest_checkout_link; ?>"  class="bulebtn" style="float:left;width: 175px;"><!--span class="cc"></span--><?php echo $text_checkout_as_guest; ?></a></div>
                 <?php } ?>

@@ -69,21 +69,7 @@ class Config {
 				}
 			}
 		}
-		if($this->store_id){
 
-			if (isset($_SERVER['HTTPS']) && (($_SERVER['HTTPS'] == 'on') || ($_SERVER['HTTPS'] == '1'))) {
-				$temp = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
-				$_SERVER['REQUEST_URI'] = str_replace($this->getDomain(),"",$temp);
-				$_SERVER['HTTP_HOST']   = str_replace("https://","",$this->getDomain());
-			} else {
-				$temp = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
-				$_SERVER['REQUEST_URI'] = str_replace($this->getDomain(),"",$temp);
-				$_SERVER['HTTP_HOST']   = str_replace("http://","",$this->getDomain());
-			}
-
-		}
 
 		$languages = array();
 		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "language` WHERE status = '1'");
@@ -99,7 +85,13 @@ class Config {
 		if($store_id === ""){
 			$store_id = $this->store_id;
 		}
-		return (isset($this->data[$store_id][$key]) ? $this->data[$store_id][$key] : null);
+		if(isset($this->data[$store_id][$key])){
+			return $this->data[$store_id][$key];
+		}else if(isset($this->data[0][$key])){
+			return $this->data[0][$key];
+		}
+		return null;
+		//return (isset($this->data[$store_id][$key]) ? $this->data[$store_id][$key] : null);
 	}
 
 	public function set($key, $value,$store_id = "") {

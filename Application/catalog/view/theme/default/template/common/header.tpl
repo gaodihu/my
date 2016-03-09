@@ -139,7 +139,7 @@
                                  dom='<?php echo $c_k; ?>'>
                             <!--
                             <?php if($child['bg_image']) { ?>
-                                    <figure class="img"><img class="third-nav-img"  src="css/images/grey.gif"  _src="<?php echo $child['bg_image'];?>" alt=""/></figure>
+                                    <figure class="img"><img class="third-nav-img"  src="<?php  echo STATIC_SERVER; ?>css/images/grey.gif"  _src="<?php echo $child['bg_image'];?>" alt=""/></figure>
                             <?php } ?>
                             -->
 

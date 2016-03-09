@@ -44,7 +44,7 @@
     ?>
 </div>
 
-        <div  id='cart_mb'><span><img src="css/images/loader_32x32.gif" width="32" height="32" /></span></div>
+        <div  id='cart_mb'><span><img src="<?php  echo STATIC_SERVER; ?>css/images/loader_32x32.gif" width="32" height="32" /></span></div>
     <div class="mycart_table">
 
     	<?php include_once(DIR_TEMPLATE.'/default/template/checkout/include/cart_product.tpl');?>
@@ -114,7 +114,7 @@
 </div>
 
 <div style="height:100px; padding-top:50px;  font-size:18px; width: 450px; margin: 0 auto">
-    <div class="left"><img src="css/images/empty_cart_bg.png"/></div>
+    <div class="left"><img src="<?php echo  STATIC_SERVER; ?>css/images/empty_cart_bg.png"/></div>
     <div class="left" style="margin-left: 20px;"><?php echo $text_empty;?>
         <p><?php echo $text_to_buy;?></p>
     </div>

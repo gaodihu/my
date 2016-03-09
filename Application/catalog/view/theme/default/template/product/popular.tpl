@@ -72,7 +72,7 @@
 </script>
 
 <section class="suport">
-    <img src="css/images/foot/footer_shipping_payment.jpg" alt="">
+    <img src="<?php  echo STATIC_SERVER; ?>css/images/foot/footer_shipping_payment.jpg" alt="">
     
 
     <div class="clear"></div>

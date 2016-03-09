@@ -3,7 +3,7 @@
 <body>
     <header class="checkout_header">
         <div class="width990 clearfix">
-            <div class="logo"><a href='/' title='logo'><img src="css/images/logo.png" alt=""/></a></div>
+            <div class="logo"><a href='/' title='logo'><img src="<?php  echo STATIC_SERVER; ?>css/images/logo.png" alt=""/></a></div>
             <div class="checkout_menu">
 
                 <ul>

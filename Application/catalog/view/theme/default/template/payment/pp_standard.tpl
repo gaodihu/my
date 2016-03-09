@@ -59,7 +59,7 @@ You will be redirected to the PayPal website in a few seconds.<br/>
 <script>
     document.getElementById('paypal_button').click();
 </script>
-<div class="center"><img src="css/images/lodding.gif"  /></div>
+<div class="center"><img src="<?php  echo STATIC_SERVER; ?>css/images/lodding.gif"  /></div>
 </body>
 </html>
 

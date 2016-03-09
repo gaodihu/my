@@ -90,7 +90,7 @@
 				if($(".wait").length>0){
 					$(".wait").show();
 				}else{
-					 $('#add_billing_address_from select[name=\'country_id\']').after('<span class="wait"><img src="css/images/loader_16x16.gif" alt="" /></span>');
+					 $('#add_billing_address_from select[name=\'country_id\']').after('<span class="wait"><img src="<?php  echo STATIC_SERVER; ?>css/images/loader_16x16.gif" alt="" /></span>');
 				}
                
             },

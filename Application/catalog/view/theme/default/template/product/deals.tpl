@@ -41,7 +41,7 @@
                                         <div class="deals_dis">
 
                                             <div class="deals_jj"><img
-                                                        src="css/images/deals_01.png" width="40"
+                                                        src="<?php  echo STATIC_SERVER; ?>css/images/deals_01.png" width="40"
                                                         height="60"></div>
                                             <div class="deals_rig" style="position: relative">
 
@@ -59,7 +59,7 @@
                                                 <a class="del"></a>
 
                                                 <div>
-                                                    <h4><img src="css/images/public/yes.gif"
+                                                    <h4><img src="<?php  echo STATIC_SERVER; ?>css/images/public/yes.gif"
                                                              width="45" height="40"><span id='add_qty_number'></span>
                                                         <?php echo $text_product_added;?></h4>
 

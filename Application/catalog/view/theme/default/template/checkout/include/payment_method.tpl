@@ -5,14 +5,14 @@
             <?php if($pp_express && $payment_method['code'] == 'pp_express' ) { ?>
                 <li class="active"> 
                     <input name="payment_code" type="radio" value="<?php echo $payment_method['code'];?>" <?php if($payment_method['code']==$this->session->data['payment']['code']){?>checked="checked"<?php } ?>/>
-                           <span class="img"><img src="css/images/payment/<?php echo  strtolower($payment_method['code']);?>.png" alt=""/></span>
+                           <span class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/payment/<?php echo  strtolower($payment_method['code']);?>.png" alt=""/></span>
                            <span class="tit"><?php echo $payment_method['title'];?></span>
                 </li>
             <?php } else if($payment_method['code'] != 'pp_express' ) { ?>
                 
                 <li <?php if($payment_method['code']==$this->session->data['payment']['code'] ||(empty($this->session->data['payment']['code']) && $payment_method['code']='pp_standard') ){?>class="active"<?php } ?>>
                     <input name="payment_code" type="radio" value="<?php echo $payment_method['code'];?>" <?php if($payment_method['code']==$this->session->data['payment']['code']){?>checked="checked"<?php } ?>/>
-                    <span class="img"><img src="css/images/payment/<?php echo  strtolower($payment_method['code']);?>.png" alt=""/></span>
+                    <span class="img"><img src="<?php  echo STATIC_SERVER; ?>css/images/payment/<?php echo  strtolower($payment_method['code']);?>.png" alt=""/></span>
                     <span class="tit"><?php echo $payment_method['title'];?></span>
                 </li>
             <?php } ?>
