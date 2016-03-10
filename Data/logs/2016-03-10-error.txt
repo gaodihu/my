@@ -109,3 +109,10 @@
 2016-03-10 7:32:23 - PHP Warning:  filemtime(): stat failed for catalog/view/javascript/User.js in E:\www\opencart\charles_0127\Application\system\library\document.php on line 67
 2016-03-10 7:35:04 - PHP Warning:  filemtime(): stat failed for catalog/view/theme/default/stylesheet/account.css in E:\www\opencart\charles_0127\Application\system\library\document.php on line 47
 2016-03-10 7:35:04 - PHP Warning:  filemtime(): stat failed for catalog/view/javascript/User.js in E:\www\opencart\charles_0127\Application\system\library\document.php on line 67
+2016-03-10 7:48:32 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 7:48:40 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 7:48:47 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 7:48:59 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 7:49:20 - PHP Warning:  Missing argument 4 for ModelAccountCustomer::bingding(), called in E:\www\opencart\charles_0127\Application\catalog\controller\account\login.php on line 400 and defined in E:\www\opencart\charles_0127\Application\model\account\customer.php on line 286
+2016-03-10 7:52:23 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 7:52:23 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76

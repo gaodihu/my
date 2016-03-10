@@ -31,7 +31,7 @@ define('DIR_LOGS',    $dir . 'Data/logs/');
 require_once(DIR_SYSTEM . 'lib/Mobile-Detect/Mobile_Detect.php');
 $detect = new Mobile_Detect;
 //if($detect->isMobile() && !$detect->isTablet()){
-if(1){
+if(0){
     define('VISTOR_TYPE', 'MOBILE');
     define('DIR_APPLICATION', $dir . 'Application/mobile/');
     define('DIR_LANGUAGE',    $dir . 'Application/mobile/language/');
