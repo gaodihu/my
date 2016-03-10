@@ -1,7 +1,7 @@
 <?php
 //页面3要素
 $_['page_title']          = 'Glücklichen abgehobene Betrag Roulette';
-$_['page_description']    = 'Die 2. Jahrestages der MyLED.com';
+$_['page_description']    = 'Die 2. Jahrestages der moresku.com';
 $_['page_keyword']        = 'Glücklichen abgehobene Betrag Roulette';
 
 //页面内容
@@ -19,7 +19,7 @@ $_['text_08']    = "Wenn Sie es erneut versuchen möchten, geben Sie bitte Ihre 
 
 $_['text_conditions']     = 'Allgemeine Geschäftsbedingungen';
 
-$_['text_rule_01'] = "Freies Verlosung einmal für jedermann. Eine weitere Chance müssen die gültige Auftragsnummer an MyLED.com. Und jeder Bestellnummer hat nur eine Chance, um die Online-Roulette zu spielen.";
+$_['text_rule_01'] = "Freies Verlosung einmal für jedermann. Eine weitere Chance müssen die gültige Auftragsnummer an moresku.com. Und jeder Bestellnummer hat nur eine Chance, um die Online-Roulette zu spielen.";
 $_['text_rule_02'] = "Es gibt 8 lucky Preise, darunter vier Coupons, drei LED-Elemente und ein iPhone 6 Plus.";
 $_['text_rule_03'] = "Jeder Gewinner wird per E-Mail kontaktiert werden. Bitte achten Sie darauf, um es zu bestätigen.";
 $_['text_rule_04'] = "Zeit: Sep.1st - Sep.30th, 2015 ";
@@ -42,7 +42,7 @@ $_['error_twe_order_number']     = 'Entschuldigung! Jede Bestellung Nummer hat n
 $_['error_action_data']     = " 'Glücklichen abgehobene Betrag Roulette' has ended.<br> Thank you for your participation in our events!";
 $_['text_congrats']     = "Glückwunsch %s sieg %s";
 
-$_['text_subject'] = "Herzlichen Glückwunsch! Sie haben in der Lucky Draw Roulette-Spiel @ MyLED.com gewinnen!";
+$_['text_subject'] = "Herzlichen Glückwunsch! Sie haben in der Lucky Draw Roulette-Spiel @ moresku.com gewinnen!";
 
 
 $_['text_mail_send_tip'] = "Wir haben Ihnen einen E-Mail mit dem gewinnenden Daten geschickt, bitte schau es mal an.";

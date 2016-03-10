@@ -7,9 +7,9 @@ Bitte beachten Sie, dass die Link oben nur einmal innerhalb von 2 Stunden gülti
 <br/><br/>Wenn diese Anforderung nicht von Ihnen gemacht wurde, ignorieren Sie diese E-Mail und Ihr Passwort bleibt.
 
 <br/><br/>Bitte antworten Sie nicht auf diese E-Mail. Diese E-Mail-Nachricht wurde von einer E-Mail-Adresse, die E-Mail nicht annehmen kann, gesendet. 
-<br/><br/>Wenn Sie Fragen haben, kontaktieren Sie bitte den Kundendienst unter cs@myled.com.
+<br/><br/>Wenn Sie Fragen haben, kontaktieren Sie bitte den Kundendienst unter cs@moresku.com.
 <br/><br/>
 Mit freundlichen Grüßen,<br/>
-<span style=\"color:#62b400; font-weight:bold;\">MyLED-Team</span><br/>
-cs@myled.com';
+<span style=\"color:#62b400; font-weight:bold;\">-Team</span><br/>
+cs@moresku.com';
 ?>

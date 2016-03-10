@@ -21,7 +21,7 @@ $_['text_reward'] = 'Puntos de recompensa';
 $_['text_total'] = 'Sus puntos de recompensa total es:';
 $_['text_empty'] = 'Usted no tiene ningún punto de recompensa!';
 $_['text_no_records'] = '- No Récord -';
-$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Cómo obtener el punto bonus en MyLED?</p>
+$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Cómo obtener el punto bonus en ?</p>
         <p class=\'gray\'>punto de Compras:</p>
         <p>Punto se expide a cualquier compra, a razón de 1 dólar a 1 punto y sólo suma integral se contabiliza (descuento, devolución, reembolso, consume Puntos, fletes y seguros incluidos). Tome un orden de $ 19.99, por ejemplo, obtendrá 19 puntos. Como los puntos enviados a su cuenta se encuentra en estado \'pendiente\', por lo que los puntos se pueden usar sólo cuando los puntos pendientes se convierten en activo (Después de que el pedido se encuentra en estado de completa).</p>
         <p class=\'gray\'>Comentarios puntos</p>

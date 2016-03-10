@@ -4,60 +4,6 @@ class ControllerCommonHeader extends Controller {
         $lang =$this->language->load('common/header');
         $this->data = array_merge($this->data,$lang);
         //联盟cookie
-        
-        if(isset($this->request->get['source'])&&$this->request->get['source']=='webgains'){
-            setcookie('source', 'webgains', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'webgains';
-        }
-        elseif(isset($this->request->get['ssid'])&&$this->request->get['ssid']=='506edX'){
-            setcookie('source', 'shareasale', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'shareasale';
-        }
-        elseif(isset($this->request->get['network'])&&$this->request->get['network']=='adcellled'){
-            setcookie('source', 'adcellled', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'adcellled';
-        }
-        elseif(isset($this->request->get['source'])&&$this->request->get['source']=='tdr'){
-            setcookie('source', 'tdr', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'tdr';
-        }
-        elseif(isset($this->request->get['utm_source'])&&$this->request->get['utm_source']=='EDM'){
-            setcookie('source', 'EDM', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'EDM';
-        }
-        elseif(isset($this->request->get['source'])&&$this->request->get['source']=='CJled'){
-            setcookie('source', 'CJled', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'CJled';
-        }
-        elseif(isset($this->request->get['gclid'])){
-            setcookie('source', 'PPC', time() +60*24*3600, '/', COOKIE_DOMAIN);
-            $_COOKIE['source'] = 'PPC';
-        }
-        if(isset($_SERVER['HTTP_REFERER'])){
-            $url_ref = parse_url($_SERVER['HTTP_REFERER']);
-            if($url_ref && isset($url_ref['host']) &&  !preg_match('/myled\.com/',$url_ref['host'])){
-                
-                if(!isset($this->request->get['source']) && isset($_COOKIE['source']) && in_array($_COOKIE['source'],array('webgains','tdr','CJled'))){
-                   setcookie('source', '', time() - 5000, '/', COOKIE_DOMAIN);
-               }
-
-               if(!isset($this->request->get['ssid']) && isset($_COOKIE['source']) && in_array($_COOKIE['source'],array('shareasale'))){
-                   setcookie('source', '', time() - 5000, '/', COOKIE_DOMAIN);
-               }
-
-               if(!isset($this->request->get['network']) && isset($_COOKIE['source'])  && in_array($_COOKIE['source'],array('adcellled'))){
-                   setcookie('source', '', time() - 5000, '/', COOKIE_DOMAIN);
-               }
-
-               if(!isset($this->request->get['utm_source']) && isset($_COOKIE['source'])  && in_array($_COOKIE['source'],array('EDM')) ){
-                   setcookie('source', '', time() - 5000, '/', COOKIE_DOMAIN);
-               }
-               if(!isset($this->request->get['gclid']) && isset($_COOKIE['source'])  && in_array($_COOKIE['source'],array('PPC')) ){
-                   setcookie('source', '', time() - 5000, '/', COOKIE_DOMAIN);
-               }
-            }
-        }
-       
 
       
 		// Search		
@@ -68,39 +14,6 @@ class ControllerCommonHeader extends Controller {
 		}
 
 
-
-        //专属渠道的cookie
-        /*
-        *  判断是否是从专属渠道URL 过来的流量
-        *
-        */
-        $this->load->model('catalog/product');
-        $href_refre =isset($_SERVER['HTTP_REFERER'])?$_SERVER['HTTP_REFERER']:'';
-        $source_id =$this->model_catalog_product->if_have_exclusive($href_refre);
-        if(!$source_id){
-            //是否是edm渠道
-            if(isset($this->request->get['utm_source'])&&$this->request->get['utm_source']=='EDM'){
-                if(isset($this->request->get['utm_medium'])){
-                    $source_str =str_replace(array('-en','-de','-es','-fr','-it','-pt'),'',trim($this->request->get['utm_medium']));
-                    $source_str ="EDM/".$source_str;
-                    $source_id =$this->model_catalog_product->if_have_exclusive($source_str);
-                }
-            }
-        }
-        $exclusive_source_cookie= array();
-        if($source_id){
-            if(isset($_COOKIE['exclusive_source'])){
-                $exclusive_source_cookie =explode(',',$_COOKIE['exclusive_source']);
-                if(!in_array($source_id, $exclusive_source_cookie)){
-                    $exclusive_source_cookie[] =$source_id;
-                }
-            }
-            else{
-                $exclusive_source_cookie[] =$source_id;
-            }
-            $exclusive_source_cookie_str =implode(',',$exclusive_source_cookie);
-            setcookie('exclusive_source',$exclusive_source_cookie_str, time() +60*24*3600, '/', COOKIE_DOMAIN);
-        }
         $this->data['search_action'] =$this->url->link('product/search','','SSL');
         //$this->data['search_keyword'] =$this->data['search'];
 		$this->children = array(

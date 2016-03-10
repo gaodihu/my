@@ -22,7 +22,7 @@ $_['error_content_empty'] = 'Entrez le contenu de votre commentaire.';
 $_['error_content_html'] = 'Les balises HTML ne sont pas autorisés.';
 $_['error_nickname'] = 'Entrez 3 à 30 caractères de votre surnom.';
 $_['text_review_posting_guidelines'] = '<h4> Directives sur L\'affichage des Commentaires</h4>
-                MyLED lit tous les commentaires avant de les afficher et peut refuser certains commentaires si elles ne suivent pas les directives.
+                 lit tous les commentaires avant de les afficher et peut refuser certains commentaires si elles ne suivent pas les directives.
                 <h4>Astuces pour faire afficher vos commentaires:</h4>
                 1. Mettre l\'accent sur l\'évaluation du produit ou votre expérience avec
                 il; </br>

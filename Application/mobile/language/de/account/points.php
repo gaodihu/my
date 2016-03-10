@@ -21,7 +21,7 @@ $_['text_reward'] = 'Bonuspunkte';
 $_['text_total'] = 'Ihre Gesamtzahl der Bonuspunkte ist:';
 $_['text_empty'] = 'Sie haben noch keine Bonuspunkte!';
 $_['text_no_records'] = 'Keine Aufzeichnung';
-$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Wie die Bonuspunkte bei MyLED zu bekommen?</p>
+$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Wie die Bonuspunkte bei  zu bekommen?</p>
         <p class=\'gray\'>Kaufpunkt:</p>
         <p>Punkt wird jedem Kauf entstehen, 1 Dollar für 1 Punkt und nur ganzzahliger Betrag inbegriffen (Rabatt, Erstattung, verbraucht Punkte, Versandkosten und Versicherung ausschliesslich). Nehme einen Auftrag von 19,99 $ zum Beispiel, Sie werden 19 Punkte bekommen. Die Punkte werden  in \'Anstehend\' Stand auf Ihr Konto gesendet, daher können die Punkte verwendet werden, nur wenn die anstehend Punkte aktiv werden (Nachdem die Bestellung erledigt wird). </ P>
         <p class=\'gray\'>Bewertungspunkte</p>

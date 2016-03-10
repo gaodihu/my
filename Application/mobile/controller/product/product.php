@@ -534,7 +534,7 @@ class ControllerProductProduct extends Controller {
                 if($can_ship){
                     $_result['flag'] = 1;
                     $_result['msg'] = '';
-                    setcookie('battery_ship_to',$country_code,  time() + 365 * 24 *60 *60,'/','myled.com');
+                    setcookie('battery_ship_to',$country_code,  time() + 365 * 24 *60 *60,'/','moresku.com');
                 }else{
                     $_result['flag'] = 0;
                     $_result['msg'] = $this->language->get("can_not_ship_to");

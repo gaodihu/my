@@ -22,7 +22,7 @@ $_['error_content_empty'] = ' Introduzca su contenido de los comentarios.';
 $_['error_content_html'] = ' Las etiquetas HTML no están permitidas.';
 $_['error_nickname'] = 'Por favor, ingrese 3 y 30 caracteres para su apodo.';
 $_['text_review_posting_guidelines'] = '<h4> revisión de las Directrices de Publicación </h4>
-                 MyLED leer todos los comentarios antes de publicarlos y puede rechazar algunos comentarios si no siguen las directrices.
+                  leer todos los comentarios antes de publicarlos y puede rechazar algunos comentarios si no siguen las directrices.
                  <h4> Sugerencias para obtener sus opiniones publicadas: </h4>
                  1. Focus en la revisión del producto o su experiencia con
                  ella, </br>

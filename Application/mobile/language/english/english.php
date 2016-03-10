@@ -24,7 +24,7 @@ $_['text_menu_new_arrivals']        = 'New Arrivals';
 $_['text_menu_top_sellers']        = 'Top  Sellers';
 $_['text_menu_deals']        = 'Deals';
 $_['text_menu_clearance']        = 'Clearance';
-$_['text_edm_foot']        = 'Copyright  2013 Hong Kong MyLED Group Stock Limited. All Rights Reserved.';
+$_['text_edm_foot']        = 'Copyright  2013 Hong Kong  Group Stock Limited. All Rights Reserved.';
 // Buttons
 $_['button_add_address']    = 'Add Address';
 $_['button_back']           = 'Back';

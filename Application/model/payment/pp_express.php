@@ -35,7 +35,7 @@ class ModelPaymentPPExpress extends Model {
                    'PWD' => $this->config->get('pp_express_password_small'),
                    'SIGNATURE' => $this->config->get('pp_express_signature_small'),
                    'VERSION' => '65.2',
-                   'BUTTONSOURCE' => 'myled',
+                   'BUTTONSOURCE' => 'opencart',
                 );
             }else{
                  $settings = array(
@@ -43,7 +43,7 @@ class ModelPaymentPPExpress extends Model {
                      'PWD' => $this->config->get('pp_express_password'),
                      'SIGNATURE' => $this->config->get('pp_express_signature'),
                      'VERSION' => '65.2',
-                     'BUTTONSOURCE' => 'myled',
+                     'BUTTONSOURCE' => 'opencart',
                  );
             }
             $this->session->data['paypal_ec_setting'] = $settings;

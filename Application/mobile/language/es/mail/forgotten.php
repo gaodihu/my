@@ -7,10 +7,10 @@ Obsérvese por favor que el link anterior es válido sólo una vez en 2 horas.
 <br/><br/>Si usted no hizo esta petición, se puede ignorar este mensaje y su contraseña seguirá siendo la misma.
 
 <br/><br/>POR FAVOR NO RESPONDA A ESTE E-mail. Este mensaje fue enviado desde una dirección de E-mail notificación-exclusivamente  que no puede aceptar email.
-<br/><br/>Si tienes ninguna duda, por favor contacte con servicio al cliente al: cs@myled.com
+<br/><br/>Si tienes ninguna duda, por favor contacte con servicio al cliente al: cs@moresku.com
 
 <br/><br/>
 Atentamente,<br/>
-<span style=\"color:#62b400; font-weight:bold;\">MyLED Equipo</span><br/>
-cs@myled.com';
+<span style=\"color:#62b400; font-weight:bold;\"> Equipo</span><br/>
+cs@moresku.com';
 ?>

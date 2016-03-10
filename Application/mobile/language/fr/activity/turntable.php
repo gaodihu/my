@@ -1,7 +1,7 @@
 <?php
 //页面3要素
 $_['page_title']          = 'Roue de la Chance';
-$_['page_description']    = 'Le 2ème Anniversaire de MyLED.com';
+$_['page_description']    = 'Le 2ème Anniversaire de moresku.com';
 $_['page_keyword']        = 'Roue de la Chance';
 
 //页面内容
@@ -19,7 +19,7 @@ $_['text_08']    = "Si vouz voulez essayer encore une fois, entrez le numéro de
 
 $_['text_conditions']     = 'Termes & Condition';
 
-$_['text_rule_01'] = "Une tombola gratuite pour chaque personne. Une autre chance vous demande un numéro de commande valable sur MyLED.com. Chaque Numéro de Commande ne donne qu'Une Seule Chance de jouer à la roue de la chance en ligne. ";
+$_['text_rule_01'] = "Une tombola gratuite pour chaque personne. Une autre chance vous demande un numéro de commande valable sur moresku.com. Chaque Numéro de Commande ne donne qu'Une Seule Chance de jouer à la roue de la chance en ligne. ";
 $_['text_rule_02'] = "Il y a 8 prix, y compris quatre bons de réduction, trois articles LED et un iPhone 6 plus. ";
 $_['text_rule_03'] = "Chaque gagnant recevra un mail envoyé par nous. N'oubliez pas de le vérifier. ";
 $_['text_rule_04'] = "Durée : 01 Sept - 30 Sept, 2015";
@@ -42,7 +42,7 @@ $_['error_twe_order_number']     = "Désolés! Chaque numéro de commande donne 
 $_['error_action_data']     = " 'Roue de la Chance' has ended.<br> Thank you for your participation in our events!";
 $_['text_congrats']     = "Félicitations %s gagnez  %s";
 
-$_['text_subject'] = "Félicitations! Vous gagnez lors du jeu de Roue de la Chance sur MyLED.com!";
+$_['text_subject'] = "Félicitations! Vous gagnez lors du jeu de Roue de la Chance sur moresku.com!";
 
 
 $_['text_mail_send_tip'] = "Nous vous avons envoyé un mail sur l'information de gagne, veuillez vérifier votre mail. ";

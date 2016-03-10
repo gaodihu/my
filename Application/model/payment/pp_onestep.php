@@ -325,7 +325,7 @@ class ModelPaymentPPOnestep extends Model {
                 'PWD' => $this->config->get('pp_onestep_password'),
                 'SIGNATURE' => $this->config->get('pp_onestep_signature'),
                 'VERSION' => '106.0',
-                'BUTTONSOURCE' => 'myled',
+                'BUTTONSOURCE' => 'opencart',
             );
             
             if($settings){
@@ -362,7 +362,7 @@ class ModelPaymentPPOnestep extends Model {
             'PWD' => $this->config->get('pp_onestep_password'),
             'SIGNATURE' => $this->config->get('pp_onestep_signature'),
             'VERSION' => '106.0',
-            'BUTTONSOURCE' => 'myled',
+            'BUTTONSOURCE' => 'opencart',
         );
         return $settings;
     }

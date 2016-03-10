@@ -9,6 +9,6 @@ Indirizzo: 8F, Building #2, Huaqiang Group, Huaqiang North Rd, Futian District, 
 <br/>
 Nota:<br/>
 1. I CLienti che scelgono Western Union sono responsabili di tutte le tasse di gestione locali di Western Union.<br/>
-2. Ti preghiamo di inviare la ricevuta ed il numero del tuo ordine a cs@myled.com dopo aver completato il pagamento.';
+2. Ti preghiamo di inviare la ricevuta ed il numero del tuo ordine a cs@moresku.com dopo aver completato il pagamento.';
 $_['text_payment'] = 'Elaboreremo il tuo ordine soltanto dopo aver confermato il tuo pagamento.';
 ?>

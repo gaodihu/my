@@ -99,3 +99,13 @@
 2016-03-10 5:23:38 - PHP Warning:  include_once(): Failed opening 'mobile/view/default/template/checkout/include/billing_address_from.tpl' for inclusion (include_path='.;D:\xampp2\php\PEAR') in E:\www\opencart\charles_0127\Application\mobile\view\default\template\checkout\include\payment_method.tpl on line 33
 2016-03-10 5:23:51 - PHP Warning:  filemtime(): stat failed for catalog/view/theme/default/stylesheet/account.css in E:\www\opencart\charles_0127\Application\system\library\document.php on line 47
 2016-03-10 5:23:51 - PHP Warning:  filemtime(): stat failed for catalog/view/javascript/Address.js in E:\www\opencart\charles_0127\Application\system\library\document.php on line 67
+2016-03-10 7:03:59 - PHP Warning:  fopen(E:/www/opencart/charles_0127//download/test): failed to open stream: No such file or directory in E:\www\opencart\charles_0127\myadmin034j8so9t\controller\common\home.php on line 99
+2016-03-10 7:03:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in E:\www\opencart\charles_0127\myadmin034j8so9t\controller\common\home.php on line 101
+2016-03-10 7:03:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in E:\www\opencart\charles_0127\myadmin034j8so9t\controller\common\home.php on line 103
+2016-03-10 7:04:00 - PHP Notice:  Undefined index: filter_store_id in E:\www\opencart\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 105
+2016-03-10 7:04:00 - PHP Notice:  Undefined index: filter_status in E:\www\opencart\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 117
+2016-03-10 7:04:00 - PHP Notice:  Undefined index: filter_is_publish in E:\www\opencart\charles_0127\myadmin034j8so9t\model\catalog\review.php on line 121
+2016-03-10 7:32:23 - PHP Warning:  filemtime(): stat failed for catalog/view/theme/default/stylesheet/account.css in E:\www\opencart\charles_0127\Application\system\library\document.php on line 47
+2016-03-10 7:32:23 - PHP Warning:  filemtime(): stat failed for catalog/view/javascript/User.js in E:\www\opencart\charles_0127\Application\system\library\document.php on line 67
+2016-03-10 7:35:04 - PHP Warning:  filemtime(): stat failed for catalog/view/theme/default/stylesheet/account.css in E:\www\opencart\charles_0127\Application\system\library\document.php on line 47
+2016-03-10 7:35:04 - PHP Warning:  filemtime(): stat failed for catalog/view/javascript/User.js in E:\www\opencart\charles_0127\Application\system\library\document.php on line 67

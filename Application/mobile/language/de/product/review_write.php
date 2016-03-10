@@ -22,7 +22,7 @@ $_['error_content_empty'] = 'Bitte geben Sie Inhalte der Bewertung ein.';
 $_['error_content_html'] = ' HTML-Tags sind nicht erlaubt.';
 $_['error_nickname'] = 'Bitte geben Sie 3 bis 30 Zeichen für Ihren Spitzname ein.';
 $_['text_review_posting_guidelines'] = '<h4> Richtlinien für Veröffentlichung der Bewertung</h4> 
-   MyLED überprüft alle Bewertungen vor der Veröffentlichung und können einige Bewertungen ablehnen, wenn sie sich nicht an die Richtlinien befolgen. 
+    überprüft alle Bewertungen vor der Veröffentlichung und können einige Bewertungen ablehnen, wenn sie sich nicht an die Richtlinien befolgen. 
                  <h4> Tipps für Schreiben der Bewertung: </h4> 
                  1. Hauptinhalte über das Produkt oder Ihre Erfahrungen mit 
                  dem Produkt; </br> 

@@ -23,8 +23,8 @@ class ControllerAccountForgotten extends Controller {
             $this->session->data['resetpassword']['time'] =time();
             $validate_link =$this->url->link('account/forgotten/resetPwd','query_token='.$validate_code."&email=".$this->request->post['email']);
             $email_data =array();
-            $email_data['store_id'] =$this->config->get('config_store_id');
-            $email_data['email_from'] ='MyLED ';
+            $email_data['store_id'] = $this->config->get('config_store_id');
+            $email_data['email_from'] =$this->config->get('config_name');
             $email_data['email_to'] =$this->request->post['email'];
             $template = new Template();
             $template->data['title'] =$this->language->get('text_subject_validate');

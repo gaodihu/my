@@ -14,5 +14,5 @@ $_['express_button_confirm'] = 'Bestätigen';
 $_['express_button_login'] = 'Weiter zu PayPal';
 $_['express_button_shipping'] = 'Versand aktualisieren';
 $_['express_entry_coupon'] = 'Geben Sie hier Ihren Gutschein ein:';
-$_['text_description'] = 'Hinweis: Sie können über PayPal mit Ihrer Kreditkarte oder EC-Karte zahlen. Die Zahlung durch diese Art ist nachvollziehbar, sofort und bequem, und die Zahlung wird direkt in MyLED Konto hinterlegt. Darüber hinaus Kreditkarten-Unternehmen bieten in der Regel ein gewisses Maß von Identität und Käuferschutz.';
+$_['text_description'] = 'Hinweis: Sie können über PayPal mit Ihrer Kreditkarte oder EC-Karte zahlen. Die Zahlung durch diese Art ist nachvollziehbar, sofort und bequem, und die Zahlung wird direkt in  Konto hinterlegt. Darüber hinaus Kreditkarten-Unternehmen bieten in der Regel ein gewisses Maß von Identität und Käuferschutz.';
 ?>

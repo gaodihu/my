@@ -62,7 +62,7 @@ class ModelAccountCustomer extends Model {
         $validate_link =$this->url->link('account/login/validate','customer_id='.$customer_id.'&validate_code='.$customer_validate_code."&email=".$data['email']);
         $email_data =array();
         $email_data['store_id'] =$this->config->get('config_store_id');
-        $email_data['email_from'] ='MyLED ';
+        $email_data['email_from'] =$this->config->get('config_name');
         $email_data['email_to'] =$data['email'];
         $template = new Template();
         $template->data['title'] =$this->language->get('text_subject_confim');

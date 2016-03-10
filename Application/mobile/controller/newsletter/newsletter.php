@@ -171,7 +171,7 @@ class ControllerNewsletterNewsletter extends Controller {
         $validate_link =$this->url->link('newsletter/newsletter/validate','code='.$validate_code);
         $email_data =array();
         $email_data['store_id'] =$this->config->get('config_store_id');
-        $email_data['email_from'] ='MyLED ';
+        $email_data['email_from'] =$this->config->get('config_name'); 
         $email_data['email_to'] =$email;
         $template = new Template();
         $template->data['title'] =$this->language->get('text_subject_validate');
@@ -209,7 +209,7 @@ class ControllerNewsletterNewsletter extends Controller {
         $this->language->load('mail/newsletter');
         $email_data =array();
         $email_data['store_id'] =$this->config->get('config_store_id');
-        $email_data['email_from'] ='MyLED ';
+        $email_data['email_from'] =$this->config->get('config_name');
         $email_data['email_to'] =$email;
         $template = new Template();
         $template->data['title'] =$this->language->get('text_subject_sucess');
@@ -247,7 +247,7 @@ class ControllerNewsletterNewsletter extends Controller {
         $this->language->load('mail/newsletter');
         $email_data =array();
         $email_data['store_id'] =$this->config->get('config_store_id');
-        $email_data['email_from'] ='MyLED ';
+        $email_data['email_from'] =$this->config->get('config_name');
         $email_data['email_to'] =$email;
         $template = new Template();
         $template->data['title'] =$this->language->get('text_subject_unsubcribe');

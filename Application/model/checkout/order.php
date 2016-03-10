@@ -737,12 +737,12 @@ class ModelCheckoutOrder extends Model {
     public function SetOrderNumber() {
         //require_once(DIR_SYSTEM . 'helper/fun.inc.php');
         /*
-        11 - myled英文站     0
-        15 - myled德语站     52
-        16 - myled法语站     54
-        17 - myled意大利语站  55
-        18 - myled西语种     53
-        19 - myled葡语站     56
+        11 - 英文站     0
+        15 - 德语站     52
+        16 - 法语站     54
+        17 - 意大利语站  55
+        18 - 西语种     53
+        19 - 葡语站     56
          * *
          */
         $pre_store = '';

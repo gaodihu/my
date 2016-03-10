@@ -1,7 +1,7 @@
 <?php
 //页面3要素
 $_['page_title']          = 'Ruleta de Sorteo';
-$_['page_description']    = 'El 2do aniversario de MyLED.com';
+$_['page_description']    = 'El 2do aniversario de moresku.com';
 $_['page_keyword']        = 'Ruleta de Sorteo';
 
 //页面内容
@@ -19,7 +19,7 @@ $_['text_08']    = "Si quieres intentarlo de nuevo, por favor ingresa tu número
 
 $_['text_conditions']     = 'Términos y Condiciones:';
 
-$_['text_rule_01'] = "Sorteo gratuito una vez para todos. Otra oportunidad necesitará el número de pedido válido en MyLED.com y cada número de orden solo tiene una oportunidad para jugar a la ruleta en línea.";
+$_['text_rule_01'] = "Sorteo gratuito una vez para todos. Otra oportunidad necesitará el número de pedido válido en moresku.com y cada número de orden solo tiene una oportunidad para jugar a la ruleta en línea.";
 $_['text_rule_02'] = "Hay 8 premios, incluyendo cuatro cupones, tres ítems de LED y un iPhone 6 Plus.";
 $_['text_rule_03'] = "Todo ganador será contáctado via email. Por favor, asegúrate de confirmarlo. ";
 $_['text_rule_04'] = "Periodo: 1 de Sept – 30 de Sept de 2015";
@@ -46,7 +46,7 @@ $_['error_action_data']     = " 'Ruleta de Sorteo' has ended.<br> Thank you for 
 
 $_['text_congrats']     = "Felicidades %s  gana el  %s";
 
-$_['text_subject'] = "¡Felicitaciones! ¡Ganaste el juego de la Ruleta Suertuda de MyLED.com!";
+$_['text_subject'] = "¡Felicitaciones! ¡Ganaste el juego de la Ruleta Suertuda de moresku.com!";
 
 
 $_['text_mail_send_tip'] = "Hemos enviado un correo con la información ganadora, por favor revise el buzón de entrada de su correo.";
