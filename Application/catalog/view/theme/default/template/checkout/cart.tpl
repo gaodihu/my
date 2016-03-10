@@ -53,7 +53,7 @@
 
 		<?php foreach($totals as $total){ ?>
 			 <?php if($total['code']=='total'){ ?>
-			 	<div class="alignright font20">Cart Total: <span class="red" ><?php echo $currency_code;?> <span id='cart_total'><?php echo $total['text'];?></span></span></div>
+			 	<div class="alignright font20">Cart Total: <span class="red" ><span id='cart_total'><?php echo $total['text'];?></span></span></div>
 		<?php } ?>
 		<?php } ?>
 

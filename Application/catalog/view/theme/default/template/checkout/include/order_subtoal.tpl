@@ -13,7 +13,7 @@
     <?php if(isset($total_data) && is_array($total_data) && count($total_data)>0) { ?>
     <?php foreach($total_data as $total){ ?>
     <?php if($total['code']!=='total'){ ?>
-    <div class="t6 font14 clearfix"><?php echo $total['title'];?>: <span class="bold"><?php echo $currency_code;?><?php echo $total['text'];?></span></div>
+    <div class="t6 font14 clearfix"><?php echo $total['title'];?>: <span class="bold"><?php echo $total['text'];?></span></div>
     <?php } ?>
     <?php } ?>
     <?php } ?>
@@ -23,7 +23,7 @@
 <div class="clear"></div>
 <?php if(isset($total_data) && is_array($total_data) && count($total_data)>0) { ?>
 <?php $end =end($total_data);?>
-<div class="alignright checkTotal font20"><?php echo $end['title'];?> : <span class="red"><?php echo $currency_code;?>
+<div class="alignright checkTotal font20"><?php echo $end['title'];?> : <span class="red">
         <span><?php echo $end['text'];?></span>
     </span></div>
 <?php } ?>
