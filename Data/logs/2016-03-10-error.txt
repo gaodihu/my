@@ -160,3 +160,26 @@
 2016-03-10 8:25:46 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
 2016-03-10 8:25:46 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
 2016-03-10 8:25:46 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:53:17 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:53:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:53:37 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:53:56 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:53:56 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:54:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:20 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:54:20 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:20 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:54:20 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:27 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:54:27 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:27 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:54:27 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:54:51 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:54:55 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:54:59 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:55:03 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:55:15 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
+2016-03-10 8:55:29 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 75
+2016-03-10 8:55:29 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\checkout\include\cart_product.tpl on line 76
+2016-03-10 8:55:45 - PHP Warning:  Invalid argument supplied for foreach() in E:\www\opencart\charles_0127\Application\catalog\view\theme\default\template\product\category.tpl on line 52
