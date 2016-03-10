@@ -7,7 +7,7 @@
             <div class="checkout_menu">
 
                 <ul>
-                    <li ><a href="/index.php?route=checkout/cart"><?php echo  $text_cart ;?></a></li>
+                    <li ><a href="index.php?route=checkout/cart"><?php echo  $text_cart ;?></a></li>
 
                     <li class="active"><a href="javascript:void(0)"><?php echo   $text_checkout_confirm_order;?></a></li>
                     <li><a href="javascript:void(0)"><?php echo $text_checkout_pay_order;?></a></li>

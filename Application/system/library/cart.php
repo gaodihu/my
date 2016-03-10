@@ -292,7 +292,10 @@ class Cart {
                     $currency_total = $currency_price * $product['goods_number'];
                     
                     $usd_total = $this->currency->convert($currency_total,$this->currency->getCode(),'USD');
-                    
+
+					$currency_price_text = $this->currency->onlyformat($currency_price);
+					$currency_total_text = $this->currency->onlyformat($currency_total);
+
                     $battery_type = $product_query->row['battery_type'];
                     
 					$this->data[] = array(
@@ -336,7 +339,9 @@ class Cart {
                         'special_price'             => $special_price,
                         'exclusive_price'           => $exclusive_price,
                         'currency_total'            => $currency_total,
-                        'currency_price'           => $currency_price,
+						'currency_total_text'      => $currency_total_text,
+                        'currency_price'            => $currency_price,
+						'currency_price_text'       => $currency_price_text,
                         'battery_type'              => $battery_type,
                         'weight'                    => ($product_query->row['weight'] + $option_weight),
 					);
