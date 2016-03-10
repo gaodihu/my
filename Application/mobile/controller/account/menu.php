@@ -17,12 +17,14 @@ class ControllerAccountMenu extends Controller {
 			'link'  =>$this->url->link('account/order', '', 'SSL'),
 			'is_active'	=>($route =='account/order'||$route =='account/order/info')? 1:0
 		);
-        
+
+		/*
         $account_menus[] =array(
 			'text' =>$this->language->get('text_paypal_onestep'),
 			'link'  =>$this->url->link('account/onestep', '', 'SSL'),
 			'is_active'	=>$route =='account/onestep' ? 1:0
 		);
+		*/
         
 		$account_menus[] =array(
 			'text' =>$this->language->get('text_wishlist'),

@@ -41,7 +41,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42585019-1', 'auto');
+  ga('create', 'UA-74239275-1', 'auto');
   ga('require', 'displayfeatures');
   <?php  if($this->session->data['customer_id']){ ?>
   ga('set', '&uid', "<?php echo $this->session->data['customer_id'];?>"); 
