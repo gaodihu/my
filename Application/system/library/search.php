@@ -4,7 +4,7 @@ require_once DIR_SYSTEM . 'lib/Elasticsearch/vendor/autoload.php';
 
 class Search {
 
-    const PRE_INDEX = 'mk_';
+    const PRE_INDEX = 'myled9_';
 
     private $hosts;
     private $index;

@@ -35,6 +35,7 @@ class ModelPaymentPPOnestep extends Model {
 			CURLOPT_TIMEOUT => 0,
 			CURLOPT_SSL_VERIFYPEER => 0,
 			CURLOPT_SSL_VERIFYHOST => 0,
+			CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2,
 			CURLOPT_POSTFIELDS => http_build_query($data, '', "&")
 		);
 
