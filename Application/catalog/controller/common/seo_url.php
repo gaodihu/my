@@ -81,6 +81,8 @@ class ControllerCommonSeoUrl extends Controller {
 
             } else {
                 $parts = explode('/', $this->request->get['_route_']);
+
+              
                 $last = $parts[count($parts) - 1];
 
                 //分类页面分页
@@ -225,7 +227,7 @@ class ControllerCommonSeoUrl extends Controller {
 
                     if ($is_rewrite) {
                         if (isset($data['page'])) {
-                            if (substr($url, -1, 5) != '.html') {
+                            if (substr($url, -1, 5) == '.html') {
                                 $url = substr($url, 0, -5);
                             }
                             if ($data['page'] == '{page}') {

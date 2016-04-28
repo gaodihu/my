@@ -32,18 +32,18 @@ define('DIR_DATA',        DIR_BASE . 'Data/');
 
 define('DB_DRIVER', 'mysqli');
 
-define('DB_HOSTNAME', '172.168.90.236');
-define('DB_USERNAME', 'myled');
+define('DB_HOSTNAME', '127.0.0.1');
+define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '123456');
-define('DB_DATABASE', 'charles_20160202');
+define('DB_DATABASE', 'charles');
 
 define('COOKIE_DOMAIN','mydev.com');
 
 define('DB_PREFIX', 'oc_');
 define('CACHE_DRIVER', 'memcached');
-define('MEMCACHE_HOSTNAME', '192.168.1.236');
+define('MEMCACHE_HOSTNAME', '127.0.0.1');
 define('MEMCACHE_PORT', '1121133');
-define('MEMCACHE_NAMESPACE', 'myled');
+define('MEMCACHE_NAMESPACE', 'mydev');
 
 define('DHL_URL', 'http://www.dhl.com/en.html');
 define('GLOBALMAIL_URL', 'http://webtrack.dhlglobalmail.com/?locale=en-US');

@@ -5,7 +5,7 @@ define('HTTP_CATALOG', 'http://www.mydev.com/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://admin.mydev.com/');
-define('HTTPS_CATALOG', 'http://dev.myled.com/');
+define('HTTPS_CATALOG', 'http://www.mydev.com/');
 
 // DIR
 

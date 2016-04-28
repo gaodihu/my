@@ -21,7 +21,7 @@ $data = array(
 );
 foreach($data as $item){
     $search = new Search(array('127.0.0.1:9200'), $item[0], $item[1]);
-    //$search->create();
+    $search->create();
     $search->importData();
 }
 
