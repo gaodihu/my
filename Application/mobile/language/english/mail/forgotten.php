@@ -9,10 +9,10 @@ Please be noted that the above link is valid only once in 2 hours.
 <br/><br/>If you did not make this request, you can ignore this message and your password will remain the same.
 
 <br/><br/>PLEASE DO NOT REPLY to this email. This email message was sent from a notification-only email address that cannot accept incoming email.
-<br/><br/>If you have any other questions, please contact customer service at: cs@myled.com
+<br/><br/>If you have any other questions, please contact customer service at: cs@moresku.com
 
 <br/><br/>
 Sincerely,<br/>
-<span style="color:#62b400; font-weight:bold;">MyLED Team</span><br/>
-cs@myled.com';
+<span style="color:#62b400; font-weight:bold;"> Team</span><br/>
+cs@moresku.com';
 ?>

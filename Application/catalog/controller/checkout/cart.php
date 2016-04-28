@@ -1108,9 +1108,12 @@ class ControllerCheckoutCart extends Controller {
 				}
                
                 $is_wishlist =$this->model_catalog_product->isWishlist($product['product_id']);
-                if($this->currency->getCode() =='EUR'){
-                    $price  =number_format($price,2,',','.');
-                }
+
+                $price_text = $this->currency->format($price);
+
+                //if($this->currency->getCode() =='EUR'){
+                //    $price  =number_format($price,2,',','.');
+                //}
 				$format_products[] = array(
                     'rec_id'                 => $product['rec_id'],
                     'product_id'          => $product['product_id'],
@@ -1122,8 +1125,8 @@ class ControllerCheckoutCart extends Controller {
 					'quantity'            => $product['quantity'],
 					'stock'               => $product['stock'] ? true : !(!$this->config->get('config_stock_checkout') || $this->config->get('config_stock_warning')),
 					'reward'              => ($product['reward'] ? sprintf($this->language->get('text_points'), $product['reward']) : ''),
-					'price'               => $price,
-					'total_format'               => $total_format,
+					'price'               => $price_text,
+					'total_format'        => $total_format,
 					'href'                => $this->url->link('product/product', 'product_id=' . $product['product_id']),
 					'remove'              => $this->url->link('checkout/cart', 'remove=' . $product['product_id']),
 					'recurring'           => $product['recurring'],

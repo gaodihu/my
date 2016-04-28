@@ -11,17 +11,17 @@ Lorsque vous vous connectez à votre compte, vous serez en mesure d\'effectuer l
 – Obtenez des points et élevez le niveau ;<br/>
 – Profitez de rabais pour les membres, etc.<br/><br/> 
 Ne pas répondre à cet e-mail. Ce message a été envoyé d\'une adresse e-mail qui reçoit seulement la notification et n\'accepte pas le courrier entrant.<br/><br/>
-Si vous avez des questions, contactez le service client: cs@myled.com
+Si vous avez des questions, contactez le service client: cs@moresku.com
 <br/><br/>
 Cordialement,<br/>
-<span style=\'color:#62b400; font-weight:bold;\'>Equipe MyLED</span><br/>
-cs@myled.com';
-$_['text_subject_sucess'] = 'Merci de votre inscription sur MyLED.com!';
-$_['text_main_content_sucess'] = '<span style=\'font-size:24px; line-height:50px; font-weight:bold;\'>Cher Client,</span><br/><span style=\'font-size:18px; line-height:22px; font-weight:bold; color:#c10100;\'>Votre e-mail a été confirmé avec succès.</span><br/><br/>Merci de vous enregistrer sur MyLED.com! Pour vous connecter lorsque vous visitez notre site, il suffit de cliquer <a style=\'color:#0092cd; text-decoration:underline; font-weight:bold;\' href=\'%s\'>Inscrivez-vous</a> ou <a style=\'color:#0092cd; text-decoration:underline; font-weight:bold;\' href=\'%s\'>Mon Compte</a> en haut de chaque page, puis entrez votre adresse e-mail et mot de passe.
+<span style=\'color:#62b400; font-weight:bold;\'>Equipe </span><br/>
+cs@moresku.com';
+$_['text_subject_sucess'] = 'Merci de votre inscription sur moresku.com!';
+$_['text_main_content_sucess'] = '<span style=\'font-size:24px; line-height:50px; font-weight:bold;\'>Cher Client,</span><br/><span style=\'font-size:18px; line-height:22px; font-weight:bold; color:#c10100;\'>Votre e-mail a été confirmé avec succès.</span><br/><br/>Merci de vous enregistrer sur moresku.com! Pour vous connecter lorsque vous visitez notre site, il suffit de cliquer <a style=\'color:#0092cd; text-decoration:underline; font-weight:bold;\' href=\'%s\'>Inscrivez-vous</a> ou <a style=\'color:#0092cd; text-decoration:underline; font-weight:bold;\' href=\'%s\'>Mon Compte</a> en haut de chaque page, puis entrez votre adresse e-mail et mot de passe.
 <br/><br/>Ne pas répondre à cet e-mail. Ce message a été envoyé d\'une adresse e-mail qui reçoit seulement la notification et n\'accepte pas le courrier entrant.
-<br/><br/>Si vous avez des questions, contactez le service client: cs@myled.com
+<br/><br/>Si vous avez des questions, contactez le service client: cs@moresku.com
 <br/><br/>
 Cordialement,<br/>
-<span style=\'color:#62b400; font-weight:bold;\'>Equipe MyLED</span><br/>
-cs@myled.com';
+<span style=\'color:#62b400; font-weight:bold;\'>Equipe </span><br/>
+cs@moresku.com';
 ?>

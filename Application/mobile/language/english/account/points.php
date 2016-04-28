@@ -21,7 +21,7 @@ $_['text_reward']="Reward Points";
 $_['text_total']="Your total reward points is:";
 $_['text_empty']="You do not have any reward points!";
 $_['text_no_records']="- No Records -";
-$_['text_how_to_get_bonus_point_in_myled']="<p class='red2'>How to get bonus point in MyLED?</p>
+$_['text_how_to_get_bonus_point_in_myled']="<p class='red2'>How to get bonus point in ?</p>
         <p class='gray'>Purchasing point:</p>
         <p>Point is issued to any purchase, at the rate of 1 dollar to 1 point and only integral amount is accounted (Discount, return, refund, consumed Points, freightage and insurance excluded). Take an order of $19.99 for example, you will get 19 points. As the points sent to your account is in 'Pending' status, so that points can be used only when the Pending points become Active (After the order is in Complete status).</p>";
 ?>

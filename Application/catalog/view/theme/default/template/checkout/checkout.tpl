@@ -7,7 +7,7 @@
             <div class="checkout_menu">
 
                 <ul>
-                    <li ><a href="/index.php?route=checkout/cart"><?php echo  $text_cart ;?></a></li>
+                    <li ><a href="index.php?route=checkout/cart"><?php echo  $text_cart ;?></a></li>
 
                     <li class="active"><a href="javascript:void(0)"><?php echo   $text_checkout_confirm_order;?></a></li>
                     <li><a href="javascript:void(0)"><?php echo $text_checkout_pay_order;?></a></li>
@@ -61,7 +61,7 @@
     <div id='address_form'>
         <?php include_once(DIR_TEMPLATE.'/default/template/checkout/include/shipping_address_from.tpl');?>
     </div>
-    <div class='grey-bg' style='text-align:center;display:none'><img src='css/images/lod2.gif' width='60' height='60' style='margin-top:25%'></div>
+    <div class='grey-bg' style='text-align:center;display:none'><img src='<?php echo STATIC_SERVER; ?>css/images/lod2.gif' width='60' height='60' style='margin-top:25%'></div>
     <script>
           $("body").ajaxStart(function(){
               $(".grey-bg").show();

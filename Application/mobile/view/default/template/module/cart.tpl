@@ -30,7 +30,7 @@
 
                 <a class="pic" href="<?php echo $product['href'];?>"><img src="<?php echo $product['thumb'];?>"
                                                                           height="60" width="60"></a>
-                <a class="title" href="<?php echo $product['href'];?>" title="myled"><?php echo $product['name'];?></a>
+                <a class="title" href="<?php echo $product['href'];?>" ><?php echo $product['name'];?></a>
 									  <span class="price">
                                           <a class="delete"
                                              href="javascript:deleteCart('<?php echo $product['product_id'];?>');"></a>

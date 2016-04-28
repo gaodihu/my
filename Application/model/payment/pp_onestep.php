@@ -35,6 +35,7 @@ class ModelPaymentPPOnestep extends Model {
 			CURLOPT_TIMEOUT => 0,
 			CURLOPT_SSL_VERIFYPEER => 0,
 			CURLOPT_SSL_VERIFYHOST => 0,
+			CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2,
 			CURLOPT_POSTFIELDS => http_build_query($data, '', "&")
 		);
 
@@ -325,7 +326,7 @@ class ModelPaymentPPOnestep extends Model {
                 'PWD' => $this->config->get('pp_onestep_password'),
                 'SIGNATURE' => $this->config->get('pp_onestep_signature'),
                 'VERSION' => '106.0',
-                'BUTTONSOURCE' => 'myled',
+                'BUTTONSOURCE' => 'opencart',
             );
             
             if($settings){
@@ -362,7 +363,7 @@ class ModelPaymentPPOnestep extends Model {
             'PWD' => $this->config->get('pp_onestep_password'),
             'SIGNATURE' => $this->config->get('pp_onestep_signature'),
             'VERSION' => '106.0',
-            'BUTTONSOURCE' => 'myled',
+            'BUTTONSOURCE' => 'opencart',
         );
         return $settings;
     }

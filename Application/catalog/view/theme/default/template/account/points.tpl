@@ -199,7 +199,7 @@
         	
         </section>
         <section>
-        <?php echo $text_how_to_get_bonus_point_in_myled;?>
+
         </section>
 		
         <?php echo $right_bottom;?>

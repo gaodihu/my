@@ -21,7 +21,7 @@ $_['text_reward'] = 'Punti Ricompensa';
 $_['text_total'] = 'I tuoi punti ricompensa totali sono:';
 $_['text_empty'] = 'Non hai nessun punto ricompensa!';
 $_['text_no_records'] = '/- Nessuna Entrata -';
-$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Come ottenere punti bonus su MyLED?</p>
+$_['text_how_to_get_bonus_point_in_myled'] = '<p class=\'red2\'>Come ottenere punti bonus su ?</p>
         <p class=\'gray\'>Punti acquisti:</p>
         <p>I Punti vengono immessi con ogni acquisto, in proporzione di 1 dollaro per 1 punto e vengono contati solo totali interi (esclusi sconti, restituzioni, rimborsi, punti consumati, ordini bulk e assicurazioni). Prendete ad esempio un ordine di $19.99, con esso otterrete 19 punti.  I punti vengono inviati sul vostro account in stato \'In Sospeso\', quindi potrete usare tali, Solo quando diventeranno Attivi (dopo che l\'ordine passerà in stato Completo).</p>
         <p class=\'gray\'>Punti Recensione</p>

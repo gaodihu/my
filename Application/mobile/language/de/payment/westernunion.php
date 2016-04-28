@@ -9,7 +9,7 @@ Adresse: 8F, Building #2, Huaqiang Group, Huaqiang North Rd, Futian District, Sh
 <br/>
 Hinweis: <br/>
 1. Kunden nehmen die alle Western Union Überweisungsgebühren über. <br/>
-2. Nachdem Sie die Überweisung erledigt haben, schicken Sie den Beleg und Ihre Bestellung an cs@myled.com.
+2. Nachdem Sie die Überweisung erledigt haben, schicken Sie den Beleg und Ihre Bestellung an cs@moresku.com.
 ';
 $_['text_payment'] = 'Ihre Bestellung wird bearbeitet, nachdem wir die Zahlung erhalten.';
 ?>

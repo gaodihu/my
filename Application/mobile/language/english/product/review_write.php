@@ -22,7 +22,7 @@ $_['error_content_empty']="Please enter your review content.";
 $_['error_content_html']="HTML tags are not allowed.";
 $_['error_nickname']="Please enter 3 to 30 characters for your nickname.";
 $_['text_review_posting_guidelines']="<h4>Review Posting Guidelines</h4>
-                MyLED read all reviews before posting them and may reject some reviews if they don't follow the guidelines.
+                 read all reviews before posting them and may reject some reviews if they don't follow the guidelines.
                 <h4>Tips for getting your reviews published:</h4>
                 1. Focus on reviewing the product or your experience with
                 it;</br>

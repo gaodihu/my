@@ -46,7 +46,9 @@
                         <?php if($logged){ ?>
                             <?php if(!$is_binding_onestep) { ?>
                             <div class="payforinfo-li payforcont">
+                                <!--
                                 <div><input type="checkbox" value="1" name="is_paypal_onestep" checked="checked" title="<?php echo $text_paypal_onestep_install_tips; ?>"><b class="red"><?php echo $text_paypal_one_step_title; ?></b></div>
+                                -->
                                 <div><?php echo $payment_method['desc'];?></div>
                                 <div><?php echo $text_paypal_one_step; ?></div>
                             </div>

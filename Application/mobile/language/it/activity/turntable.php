@@ -1,7 +1,7 @@
 <?php
 //页面3要素
 $_['page_title']          = 'Fortunato Sorteggio Roulette';
-$_['page_description']    = 'Il Secondo Anniversario di MYLED.com';
+$_['page_description']    = 'Il Secondo Anniversario di moresku.com';
 $_['page_keyword']        = 'Fortunato Sorteggio Roulette';
 
 //页面内容
@@ -19,7 +19,7 @@ $_['text_08']    = "Se vuoi provare un'altra volta, ti preghiamo di inserire il 
 
 $_['text_conditions']     = 'Termini & Condizioni';
 
-$_['text_rule_01'] = "Lotteria gratis una volta per tutti.  Per ottenere un'altra occasione è necessario avere un numero d'ordine valido a MyLED.com. E ogni numero d'ordine ha solo un'opportunità a giocare alla roulette online.";
+$_['text_rule_01'] = "Lotteria gratis una volta per tutti.  Per ottenere un'altra occasione è necessario avere un numero d'ordine valido a moresku.com. E ogni numero d'ordine ha solo un'opportunità a giocare alla roulette online.";
 $_['text_rule_02'] = "Ci sono 8 premi fortunati, compresi 4 codici di sconto, 3 LED items e 1 iPhone 6 plus.";
 $_['text_rule_03'] = "Ogni vincitore riceverà una e-mail. Si prega di assicurare a confermarlo.";
 $_['text_rule_04'] = "Tempo:  Il primo Settembre-il 30 Settembre, 2015";
@@ -43,7 +43,7 @@ $_['error_action_data']     = " 'Fortunato Sorteggio Roulette' has ended.<br> Th
 
 $_['text_congrats']     = "Congratulazioni %s hai vinto %s";
 
-$_['text_subject'] = "Complimenti! Vinci nel gioco di Fortunato Sorteggio Roulette @MyLED.com!";
+$_['text_subject'] = "Complimenti! Vinci nel gioco di Fortunato Sorteggio Roulette @moresku.com!";
 
 $_['text_mail_send_tip'] = "Ti abbiamo inviato una e-mail sulle informazioni del premio, controlla per favore il tuo e-mail box.";
 $_['no_cookie_tip'] = "If you are troubleshooting problems with starting the roulette, make sure Accept third party cookies is also not set to Never.";

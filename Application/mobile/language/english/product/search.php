@@ -9,5 +9,5 @@ $_['text_no_res']="Sorry, no results found for:<span class='red-color'>%s";
 $_['text_suggestions']="Suggestions:";
 $_['text_suggestions_01']="•Make sure all words are spelled correctly. ";
 $_['text_suggestions_02']="•Try again with other keywords.";
-$_['text_suggestions_03']="•You can also contact our customer service for help: cs@myled.com";
+$_['text_suggestions_03']="•You can also contact our customer service for help: cs@moresku.com";
 ?>

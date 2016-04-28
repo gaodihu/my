@@ -9,7 +9,7 @@ $_['heading_title']="Erfolgreich abonniert!";
 $_['error_email']="Eine gültige E-Mail-Adresse erfordlich!";
 $_['error_email_exist']="E-Mail-Adresse ist ungültig!";
 $_['error_email_not_active']="Ihre E-Mail-Adresse wird nicht bestätigt! Bitte melden Sie sich Ihre E-Mail an und die Link  klicken, um die E-Mail zu bestätigen.";
-$_['newsletter_sucess']="Vielen Dank für Abonnieren von MyLED.com Newsletter!<br/>
+$_['newsletter_sucess']="Vielen Dank für Abonnieren von moresku.com Newsletter!<br/>
 Sie erhalten Gutscheine-, Sonderangebote-Informationen durch :%s von nun an .<br/>
 Ihre E-Mail-Adresse wird nicht bestätigt! Bitte melden Sie sich Ihre E-Mail an und die Link  klicken, um die E-Mail zu bestätigen!
 ";

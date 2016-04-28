@@ -6,5 +6,5 @@ $_['text_basket'] = 'Einkaufswagen';
 $_['text_checkout'] = 'Zur Kasse';
 $_['text_success'] = 'scheitern';
 $_['text_button_continue'] = 'Weitershoppen';
-$_['text_error_tips'] = 'Sie können Ihre Bestellung per PayPal erneut zahlen, oder kontaktieren Sie unseren Kundendienst unter <a href=\"mailto:cs@myled.com\">cs@myled.com</a>  für weitere Informationen über die fehlgeschlagene Zahlung.<p>Vielen Dank für Einkauf bei uns!</p>';
+$_['text_error_tips'] = 'Sie können Ihre Bestellung per PayPal erneut zahlen, oder kontaktieren Sie unseren Kundendienst unter <a href=\"mailto:cs@moresku.com\">cs@moresku.com</a>  für weitere Informationen über die fehlgeschlagene Zahlung.<p>Vielen Dank für Einkauf bei uns!</p>';
 ?>

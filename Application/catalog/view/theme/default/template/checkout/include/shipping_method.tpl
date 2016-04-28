@@ -31,9 +31,9 @@
 					
                     <ul class="clearfix">
                         <li class="textoverflow textleft15"><a href="<?php echo $this->url->link('product/product', 'product_id=' . $product['product_id']);?>" title="<?php echo $product['name'];?>"><?php echo $product['name'];?></a></li>
-                        <li><?php echo $currency_code;?> <?php echo $product['currency_price'];?></li>
+                        <li><?php echo $product['currency_price_text'];?></li>
                         <li><?php echo $product['quantity'];?></li>
-                        <li><?php echo $currency_code;?> <?php echo $product['currency_total'];?></li>
+                        <li><?php echo $product['currency_total_text'];?></li>
                     </ul>
                     <?php } ?>
 

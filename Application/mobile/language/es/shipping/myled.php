@@ -1,4 +1,4 @@
 <?php 
-$_['text_title'] = 'myled Shipping';
-$_['text_description'] = 'myled Shipping';
+$_['text_title'] = 'Shipping';
+$_['text_description'] = 'Shipping';
 ?>

@@ -3,7 +3,7 @@
 <section class="clearfix" >
 		<?php if($products && is_array($products)>0) { ?>
 			<div id="cart_content">
-			<?php include_once('mobile/view/default/template/checkout/include/cart_product.tpl');?>
+			<?php include_once(DIR_TEMPLATE . '/default/template/checkout/include/cart_product.tpl');?>
 			</div>
 			 
 		 <div class="spacing"></div>

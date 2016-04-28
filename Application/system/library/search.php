@@ -4,7 +4,7 @@ require_once DIR_SYSTEM . 'lib/Elasticsearch/vendor/autoload.php';
 
 class Search {
 
-    const PRE_INDEX = 'es_';
+    const PRE_INDEX = 'myled9_';
 
     private $hosts;
     private $index;
@@ -28,9 +28,9 @@ class Search {
         $user = DB_USERNAME;
         $passwd = DB_PASSWORD;
         if (!$this->db) {
-            $db = mysql_connect($host, $user, $passwd, true);
-            mysql_select_db($dbname, $db);
-            mysql_query("set names utf8;");
+            $db = mysqli_connect($host, $user, $passwd, $dbname);
+            mysqli_select_db($db,$dbname);
+            mysqli_query($db,"set names utf8;");
             $this->db = $db;
         }
         return $this->db;
@@ -40,8 +40,8 @@ class Search {
         $language_id = $this->language_id;
         $db = $this->getDb();
         $sql = "select * from oc_language where language_id = '{$language_id}'";
-        $rs = mysql_query($sql, $db);
-        $row = mysql_fetch_assoc($rs);
+        $rs = mysqli_query($db,$sql );
+        $row = mysqli_fetch_assoc($rs);
         $language_code = $row['code'];
         $language_code = strtoupper($language_code);
         $lang_code_arr = array(
@@ -217,8 +217,8 @@ class Search {
         $limit = 100;
         $cnt_sql = "SELECT count(*) as cnt FROM oc_product p LEFT JOIN  `oc_product_description` d ON d.product_id = p.product_id  LEFT JOIN oc_product_to_store s ON  s.product_id = p.product_id where  d.language_id = '{$language_id}'  AND  s.store_id = '{$store_id}' ";
         $db = $this->getDb();
-        $cnt_rs = mysql_query($cnt_sql, $db);
-        $cnt_row = mysql_fetch_assoc($cnt_rs);
+        $cnt_rs = mysqli_query($db,$cnt_sql );
+        $cnt_row = mysqli_fetch_assoc($cnt_rs);
         $cnt = $cnt_row['cnt'];
 
         $pages = ceil($cnt / $limit);
@@ -229,11 +229,11 @@ class Search {
             $sql = "SELECT p.product_id,p.model,d.name,p.price,p.stock_status_id,p.quantity,d.language_id,p.date_added,p.status,s.sales_num,s.review_rating FROM oc_product p LEFT JOIN  `oc_product_description` d ON d.product_id = p.product_id LEFT JOIN oc_product_to_store s ON  s.product_id = p.product_id  where  d.language_id = '{$language_id}' AND  s.store_id = '{$store_id}' order by p.product_id  limit  $start, $limit";
 
             $db = $this->getDb();
-            $stmt = mysql_query($sql, $db);
+            $stmt = mysqli_query($db,$sql);
 
             $doc_data = array();
 
-            while ($rtn_row = mysql_fetch_assoc($stmt)) {
+            while ($rtn_row = mysqli_fetch_assoc($stmt)) {
                 $product_id = $rtn_row['product_id'];
                 $sku = $rtn_row['model'];
                 $price = $rtn_row['price'];
@@ -258,9 +258,9 @@ class Search {
                 $category_arr = array();
                 $cat_sql = "select category_id,	position from oc_product_to_category where product_id = '{$product_id}'";
                 $db = $this->getDb();
-                $cat_rs = mysql_query($cat_sql, $db);
+                $cat_rs = mysqli_query($db,$cat_sql );
                 $cat_data = array();
-                while ($item = mysql_fetch_assoc($cat_rs)) {
+                while ($item = mysqli_fetch_assoc($cat_rs)) {
                     $cat_data[] = array('category_id' => intval($item['category_id']), 'position' => intval($item['position']));
                     $category_arr[] = intval($item['category_id']);
                 }
@@ -270,8 +270,8 @@ class Search {
                 foreach($category_arr as $_category_id) {
                     $all_category_sql = "select path from oc_category where category_id = '$_category_id'";
                     $db = $this->getDb();
-                    $all_category_rs = mysql_query($all_category_sql,$db);
-                    $all_category_row = mysql_fetch_assoc($all_category_rs);
+                    $all_category_rs = mysqli_query($db,$all_category_sql);
+                    $all_category_row = mysqli_fetch_assoc($all_category_rs);
                     $path = $all_category_row['path'];
                     $path_arr = explode('/',$path);
                     
@@ -287,8 +287,8 @@ class Search {
                 //special price
                 $special_sql = "select price from oc_product_special where product_id = '$product_id'  and (date_start > now() or date_start = '0000-00-00 00:00:00'  ) and (date_end < now() or  date_end = '0000-00-00 00:00:00') ";
                 $db = $this->getDb();
-                $special_rs = mysql_query($special_sql, $db);
-                $special_row = mysql_fetch_array($special_rs);
+                $special_rs = mysqli_query($db,$special_sql );
+                $special_row = mysqli_fetch_array($special_rs);
                 if ($special_row) {
                     $rtn_row['price'] = $special_row['price'];
                 }
@@ -296,8 +296,8 @@ class Search {
                 $product_attribute = array();
                 $attribute_sql = "select * from oc_new_product_attribute where product_id = '{$product_id}'";
                 $db = $this->getDb();
-                $attribute_rs = mysql_query($attribute_sql);
-                while($attribute_row = mysql_fetch_assoc($attribute_rs)){
+                $attribute_rs = mysqli_query($db,$attribute_sql);
+                while($attribute_row = mysqli_fetch_assoc($attribute_rs)){
                     $attribute_id = $attribute_row['attribute_id'];
                     $attr_option_value_id = $attribute_row['attr_option_value_id'];
                     if(isset($product_attribute[$attribute_id])){
@@ -366,11 +366,11 @@ class Search {
         $sql = "SELECT p.product_id,p.model,d.name,p.price,d.language_id,p.date_added,p.status,s.sales_num,s.review_rating FROM oc_product p LEFT JOIN  `oc_product_description` d ON d.product_id = p.product_id LEFT JOIN oc_product_to_store s ON  s.product_id = p.product_id  where  d.language_id = '{$language_id}' AND  s.store_id = '{$store_id}' and $where";
 
         $db = $this->getDb();
-        $stmt = mysql_query($sql, $db);
+        $stmt = mysqli_query($db,$sql );
 
         $doc_data = array();
 
-        while ($rtn_row = mysql_fetch_assoc($stmt)) {
+        while ($rtn_row = mysqli_fetch_assoc($stmt)) {
             $product_id = $rtn_row['product_id'];
             $sku = $rtn_row['model'];
             $price = $rtn_row['price'];
@@ -382,16 +382,16 @@ class Search {
             //category
             $cat_sql = "select category_id,	position from oc_product_to_category where product_id = '{$product_id}'";
             $db = $this->getDb();
-            $cat_rs = mysql_query($cat_sql, $db);
+            $cat_rs = mysqli_query($db,$cat_sql);
             $cat_data = array();
-            while ($item = mysql_fetch_assoc($cat_rs)) {
+            while ($item = mysqli_fetch_assoc($cat_rs)) {
                 $cat_data[] = array('category_id' => $item['category_id'], 'position' => $item['position']);
             }
             //special price
             $special_sql = "select price from oc_product_special where product_id = '$product_id'  and (date_start > now() or date_start = '0000-00-00 00:00:00'  ) and (date_end < now() or  date_end = '0000-00-00 00:00:00') ";
             $db = $this->getDb();
-            $special_rs = mysql_query($special_sql, $db);
-            $special_row = mysql_fetch_array($special_rs);
+            $special_rs = mysqli_query($db, $special_sql );
+            $special_row = mysqli_fetch_array($special_rs);
             if ($special_row) {
                 $rtn_row['price'] = $special_row['price'];
             }
@@ -399,8 +399,8 @@ class Search {
                 $product_attribute = array();
                 $attribute_sql = "select * from oc_new_product_attribute where product_id = '{$product_id}'";
                 $db = $this->getDb();
-                $attribute_rs = mysql_query($attribute_sql);
-                while($attribute_row = mysql_fetch_assoc($attribute_rs)){
+                $attribute_rs = mysqli_query($db,$attribute_sql);
+                while($attribute_row = mysqli_fetch_assoc($attribute_rs)){
                     $attribute_id = $attribute_row['attribute_id'];
                     $attr_option_value_id = $attribute_row['attr_option_value_id'];
                     if(isset($product_attribute[$attribute_id])){

@@ -6,5 +6,5 @@ $_['text_basket'] = 'Carrello';
 $_['text_checkout'] = 'Checkout';
 $_['text_success'] = 'fallire';
 $_['text_button_continue'] = 'Continua l\'acquisto';
-$_['text_error_tips'] = 'You may try to pay your order by PayPal again, or contact our customer service <a href=\'mailto:cs@myled.com\'>cs@myled.com</a> for further information on the failed payment.<p>Grazie per aver fatto shopping da noi!</p>';
+$_['text_error_tips'] = 'You may try to pay your order by PayPal again, or contact our customer service <a href=\'mailto:cs@moresku.com\'>cs@moresku.com</a> for further information on the failed payment.<p>Grazie per aver fatto shopping da noi!</p>';
 ?>

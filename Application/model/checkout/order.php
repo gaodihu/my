@@ -2,7 +2,7 @@
 
 class ModelCheckoutOrder extends Model {
 
-    public function addOrder($data) {
+    public function addOrder($data,$is_suborder = 0) {
         $coupon_code = isset($this->session->data['coupon']) ? $this->session->data['coupon'] : '';
         $user_points = isset($this->session->data['points']) ? $this->session->data['points'] : 0;
         $order_number = $this->SetOrderNumber(11);
@@ -119,16 +119,19 @@ class ModelCheckoutOrder extends Model {
                 
         
         foreach ($data['products'] as $product) {
-            $base_price = round($product['price'],2);
+            $base_price = round($product['price'], 2);
             $default_currency = $this->currency->getWebDefaultCurrency();
-            $currency_price = $this->currency->convert($product['price'],$default_currency,$data['currency_code']);
-            $currency_total = round($currency_price * $product['quantity'],2);
-            $base_total =  $this->currency->convert($currency_total,$data['currency_code'],$default_currency);
-            
-            $this->db->query("INSERT INTO " . DB_PREFIX . "order_product SET order_id = '" . (int) $order_id . "', product_id = '" . (int) $product['product_id'] . "', name = '" . $this->db->escape($product['name']) . "', model = '" . $this->db->escape($product['model']) . "', quantity = '" . (int) $product['quantity'] . "',original_price='".$product['original_price']."', price = '" . (float) $product['price'] . "', total = '" . (float) $product['total'] . "', tax = '" . (float) $product['tax'] . "', reward = '" . (int) $product['reward'] . "',base_price='{$base_price}',base_total='{$base_total}',currency_price='{$currency_price}',currency_total='{$currency_total}'");
-            
+            $currency_price = $this->currency->convert($product['price'], $default_currency, $data['currency_code']);
+            $currency_total = round($currency_price * $product['quantity'], 2);
+            $base_total = $this->currency->convert($currency_total, $data['currency_code'], $default_currency);
+
+            $this->db->query("INSERT INTO " . DB_PREFIX . "order_product SET order_id = '" . (int)$order_id . "', product_id = '" . (int)$product['product_id'] . "', name = '" . $this->db->escape($product['name']) . "', model = '" . $this->db->escape($product['model']) . "', quantity = '" . (int)$product['quantity'] . "',original_price='" . $product['original_price'] . "', price = '" . (float)$product['price'] . "', total = '" . (float)$product['total'] . "', tax = '" . (float)$product['tax'] . "', reward = '" . (int)$product['reward'] . "',base_price='{$base_price}',base_total='{$base_total}',currency_price='{$currency_price}',currency_total='{$currency_total}'");
+
+            if ($is_suborder) {
+
             //扣减库存
-            $this->db->query("UPDATE " . DB_PREFIX . "product SET quantity = (quantity - " .  (int) $product['quantity'] . ") WHERE product_id = " . (int) $product['product_id']);
+            $this->db->query("UPDATE " . DB_PREFIX . "product SET quantity = (quantity - " . (int)$product['quantity'] . ") WHERE product_id = " . (int)$product['product_id']);
+            }
             
             $order_product_id = $this->db->getLastId();
 
@@ -737,12 +740,12 @@ class ModelCheckoutOrder extends Model {
     public function SetOrderNumber() {
         //require_once(DIR_SYSTEM . 'helper/fun.inc.php');
         /*
-        11 - myled英文站     0
-        15 - myled德语站     52
-        16 - myled法语站     54
-        17 - myled意大利语站  55
-        18 - myled西语种     53
-        19 - myled葡语站     56
+        11 - 英文站     0
+        15 - 德语站     52
+        16 - 法语站     54
+        17 - 意大利语站  55
+        18 - 西语种     53
+        19 - 葡语站     56
          * *
          */
         $pre_store = '';

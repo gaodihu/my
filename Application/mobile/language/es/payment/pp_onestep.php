@@ -14,5 +14,5 @@ $_['express_button_confirm'] = 'Confirmar';
 $_['express_button_login'] = 'Continuar a PayPal';
 $_['express_button_shipping'] = 'Actualizar de envío';
 $_['express_entry_coupon'] = 'Introduzca su cupón aquí:';
-$_['text_description'] = 'Nota: Usted puede pagar a través de PayPal con su tarjeta de crédito o débito. El pago de esta manera se puede rastrear, inmediata y cómoda, y el pago se deposita directamente en la cuenta de MyLED. Por otra parte, las compañías de tarjetas de crédito suelen ofrecer algunos nivel de identidad y adquirir protección.';
+$_['text_description'] = 'Nota: Usted puede pagar a través de PayPal con su tarjeta de crédito o débito. El pago de esta manera se puede rastrear, inmediata y cómoda, y el pago se deposita directamente en la cuenta de . Por otra parte, las compañías de tarjetas de crédito suelen ofrecer algunos nivel de identidad y adquirir protección.';
 ?>

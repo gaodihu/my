@@ -1,7 +1,7 @@
 <?php
 //页面3要素
 $_['page_title']          = 'Lucky Draw Roulette';
-$_['page_description']    = 'The 2nd anniversary of MyLED.com';
+$_['page_description']    = 'The 2nd anniversary of moresku.com';
 $_['page_keyword']        = 'Lucky Draw Roulette';
 
 //页面内容
@@ -19,7 +19,7 @@ $_['text_08']    = "If you want to try again, please enter your order number:";
 
 $_['text_conditions']     = 'Terms & Conditions';
 
-$_['text_rule_01'] = " Free raffle once for anyone. Another chance will need the valid order number at MyLED.com. And each order number has only one chance to play the online roulette.";
+$_['text_rule_01'] = " Free raffle once for anyone. Another chance will need the valid order number at moresku.com. And each order number has only one chance to play the online roulette.";
 $_['text_rule_02'] = "There are 8 lucky prizes, including four coupons, three LED items and one iPhone 6 plus.";
 $_['text_rule_03'] = "Every winner will be contacted via e-mail. Please make sure to confirm it. ";
 $_['text_rule_04'] = "Time:  Sep.1st – Sep.30th, 2015";
@@ -42,7 +42,7 @@ $_['error_twe_order_number'] = 'Sorry! Each order number has only one chance to 
 $_['error_action_data']     = " 'Lucky Draw Roulette' has ended.<br> Thank you for your participation in our events!";
 
 
-$_['text_subject'] = "Congratulations! You win in the Lucky Draw Roulette game @MyLED.com!";
+$_['text_subject'] = "Congratulations! You win in the Lucky Draw Roulette game @moresku.com!";
 
 $_['text_mail_send_tip'] = "We have sent you an email with the winning information, please check your email inbox.";
 $_['no_cookie_tip'] = "If you are troubleshooting problems with starting the roulette, make sure Accept third party cookies is also not set to Never.";

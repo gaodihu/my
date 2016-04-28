@@ -171,7 +171,7 @@ class ControllerCheckoutSuccess extends Controller {
         $data['shipping_address'] = str_replace(array("\r\n", "\r", "\n"), '<br />', preg_replace(array("/\s\s+/", "/\r\r+/", "/\n\n+/"), '<br />', trim(str_replace($find, $replace, $data['shipping_address_format']))));
         $email_data = array();
         $email_data['store_id'] = $this->config->get('config_store_id');
-        $email_data['email_from'] = 'MyLED';
+        $email_data['email_from'] = $this->config->get('config_name'); 
         $email_data['email_to'] = $data['email'];
         $template = new Template();
         $template->data['logo'] = $this->config->get('config_url') . 'image/' . $this->config->get('config_logo');

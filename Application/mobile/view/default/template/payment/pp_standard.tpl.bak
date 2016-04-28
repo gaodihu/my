@@ -45,7 +45,7 @@
   <input type="hidden" name="cancel_return" value="<?php echo $cancel_return; ?>" />
   <input type="hidden" name="paymentaction" value="<?php echo $paymentaction; ?>" />
   <input type="hidden" name="custom" value="<?php echo $custom; ?>" />
-  <input type="hidden" name="bn" value="myled" />
+  <input type="hidden" name="bn" value="opencart" />
   <div class="buttons" >
     <div class="right">
       <input type="submit" value="Click here if you are not redirected within 10 seconds..." class="button" id="paypal_button"/>

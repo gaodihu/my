@@ -9,6 +9,6 @@ Dirección: 8F, Building #2, Huaqiang Group, Huaqiang North Rd, Futian District,
 <br/>
 Nota:<br/>
 1. Clientes que elijan Western Union son responsables de los costos de envío locales.<br/>
-2. enviar el recibo y el número de pedido para cs@myled.com después de realizado el pago.';
+2. enviar el recibo y el número de pedido para cs@moresku.com después de realizado el pago.';
 $_['text_payment'] = 'Sólo procesaremos su orden después de que confirmemos su pago.';
 ?>

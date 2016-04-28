@@ -48,8 +48,8 @@ You will be redirected to the PayPal website in a few seconds.<br/>
   <input type="hidden" name="cancel_return" value="<?php echo $cancel_return; ?>" />
   <input type="hidden" name="paymentaction" value="<?php echo $paymentaction; ?>" />
   <input type="hidden" name="custom" value="<?php echo $custom; ?>" />
-  <input type="hidden" name="bn" value="myled" />
-  <input id="item_name" name="item_name" value="MyLED.com" type="hidden"/>
+  <input type="hidden" name="bn" value="opencart" />
+  <input id="item_name" name="item_name" value="moresku.com" type="hidden"/>
   <input id="shipping" name="shipping" value="2.52" type="hidden"/>
   <div class="buttons" >
     <div class="right">

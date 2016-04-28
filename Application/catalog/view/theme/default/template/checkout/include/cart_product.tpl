@@ -150,7 +150,7 @@
 					  <?php if($total['code']=='total'){ ?>
 					  <!--div class="t6"><span class="bold"><?php echo $total['title'];?>:</span><span class="font20 red"><?php echo $currency_code;?> <?php echo $total['text'];?></span></div-->
 					 <?php  } else{ ?>
-					  <div class="t4" style="margin-top: 5px"><?php echo $total['title'];?>: <span class="red font14"><?php echo $currency_code;?> <?php echo $total['text'];?></span></div>
+					  <div class="t4" style="margin-top: 5px"><?php echo $total['title'];?>: <span class="red font14"><?php echo $total['text'];?></span></div>
 					 <?php  } ?>
 					 <?php }?>
 

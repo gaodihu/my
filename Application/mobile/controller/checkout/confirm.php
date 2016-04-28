@@ -481,7 +481,7 @@ class ControllerCheckoutConfirm extends Controller {
                 $_package_data['parent_id'] = $this->session->data['order_id'];
                 
                 $_package_order_data = array_merge($data, $_package_data);
-                $_pack_order_id = $this->model_checkout_order->addOrder($_package_order_data);
+                $_pack_order_id = $this->model_checkout_order->addOrder($_package_order_data,1);
                 $this->session->data['package_order_id'][] = $_pack_order_id;
             }
            

@@ -22,7 +22,7 @@ $_['error_content_empty'] = 'Per favore inserisci il contenuto della tua recensi
 $_['error_content_html'] = 'HTML tags non sono ammessi.';
 $_['error_nickname'] = 'Per favore inserisci dai 3 ai 30 caratteri per il tuo nickname.';
 $_['text_review_posting_guidelines'] = '<h4>Linee Guida per la Pubblicazione di Recensioni</h4>
-                MyLED legge tutte le recensioni prima di pubblicarle e potrebbe rifiutarne alcune se non seguono le linee guida.
+                 legge tutte le recensioni prima di pubblicarle e potrebbe rifiutarne alcune se non seguono le linee guida.
                 <h4>Consigli per far pubblicare la propria recensione:</h4>
                 1. Concentratevi sulla recensione del prodotto o sulla vostra esperienza con esso;</br>
                 2. Raccontateci i pro e i contro del prodotto (vogliamo davvero saperli);</br>

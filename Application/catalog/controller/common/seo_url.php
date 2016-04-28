@@ -92,7 +92,7 @@ class ControllerCommonSeoUrl extends Controller {
                     $url = $this->request->get['_route_'];
                     $len = strlen($last);
                     $url = substr($url, 0, strlen($url) - $len - 1);
-                    $url = $url . '.html';
+
 
                     $cat_page = str_replace('.html', '', $last);
                     $cat_page = intval($cat_page);
@@ -106,8 +106,12 @@ class ControllerCommonSeoUrl extends Controller {
                 //搜索
 
                 $this->load->model('catalog/category');
-
                 $category = $this->model_catalog_category->getCategoryByUrl($url);
+                if(!$category){
+                    $url = $url . '.html';
+                    $category = $this->model_catalog_category->getCategoryByUrl($url);
+                }
+
 
                 if ($category) {
                     $path = $category['path'];
@@ -227,7 +231,12 @@ class ControllerCommonSeoUrl extends Controller {
 
                     if ($is_rewrite) {
                         if (isset($data['page'])) {
+<<<<<<< HEAD
                             if (substr($url, -1, 5) == '.html') {
+=======
+
+                            if (substr($url, -5) == '.html') {
+>>>>>>> 27f5783fc38dbc27417ee3e9b4c94fe3042b4fde
                                 $url = substr($url, 0, -5);
                             }
                             if ($data['page'] == '{page}') {

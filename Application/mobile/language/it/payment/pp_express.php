@@ -14,5 +14,5 @@ $_['express_button_confirm'] = 'Conferma';
 $_['express_button_login'] = 'Continua su PayPal';
 $_['express_button_shipping'] = 'Aggiorna Spedizione';
 $_['express_entry_coupon'] = 'Inserisci qui il tuo coupon:';
-$_['text_description'] = 'Nota: Puoi pagare via PayPal con la tua carta di credito o debito. Il pagamento in questo modo è rintracciabile, immediato e conveniente, ed il pagamento viene depositato direttamente sul conto di MyLED. Inoltre, le aziende di carta di credito tipicamente forniscono un qualche livello di protezione per quanto riguarda identità e acquisti.';
+$_['text_description'] = 'Nota: Puoi pagare via PayPal con la tua carta di credito o debito. Il pagamento in questo modo è rintracciabile, immediato e conveniente, ed il pagamento viene depositato direttamente sul conto di . Inoltre, le aziende di carta di credito tipicamente forniscono un qualche livello di protezione per quanto riguarda identità e acquisti.';
 ?>

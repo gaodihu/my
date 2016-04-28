@@ -278,6 +278,7 @@ class ControllerPaymentPPOnestep extends Controller {
         curl_setopt($curl, CURLOPT_HEADER, false);
         curl_setopt($curl, CURLOPT_TIMEOUT, 30);
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
 
         $response = trim(curl_exec($curl));
 
@@ -784,7 +785,7 @@ class ControllerPaymentPPOnestep extends Controller {
             'PWD' => $this->config->get('pp_onestep_password'),
             'SIGNATURE' => $this->config->get('pp_onestep_signature'),
             'VERSION' => '106.0',
-            'BUTTONSOURCE' => 'myled',
+            'BUTTONSOURCE' => 'opencart',
         );
         return $settings;
     }

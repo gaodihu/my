@@ -80,7 +80,7 @@ class Edm {
                         mkdir($this->file_pth.'/banner/'.$stroe_code,0777);
                     }
                     $banner_name =$this->file_pth.'/banner/'.$stroe_code.'/'.$_FILES[$file_upload_name]['name'][$i];
-                    $img_name = "https://www.myled.com/edm/$this->today/images/banner/".$stroe_code."/".$_FILES[$file_upload_name]['name'][$i];
+                    $img_name = "https://www.moresku.com/edm/$this->today/images/banner/".$stroe_code."/".$_FILES[$file_upload_name]['name'][$i];
                     if(file_exists($banner_name)){
                         unlink($banner_name);
                     }
@@ -165,7 +165,7 @@ class Edm {
     public function get_sku_detail($sku,$store_info){
         $pro_info =array();
         $sku =trim($sku);
-        $img_path = "https://www.myled.com/edm/$this->today/images/";
+        $img_path = "https://www.moresku.com/edm/$this->today/images/";
         $_pro =$this->get_pro_info($sku,$store_info['store_id'],$store_info['huilv']);
         $image_array =explode('/',$_pro['image']);
         $image_str =end($image_array);
