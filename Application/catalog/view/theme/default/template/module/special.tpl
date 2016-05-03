@@ -19,23 +19,10 @@
                 <div class="img"><a href="<?php echo $product['href'];?>"><img src="<?php echo $product['thumb'];?>"
                                                                                width="207" height="160" alt=""/></a>
 
-                    <div class="img_Text">
-                        <div class="addthis_toolbox addthis_default_style addthis_16x16_style">
-                            <a class="addthis_button_facebook at300b f" title="Facebook" href="#"><span
-                                        class="at16nc at300bs at15nc at15t_facebook at16t_facebook"><span
-                                            class="at_a11y"></span></span></a>
-                            <a class="addthis_button_twitter at300b n" title="Tweet" href="#"><span
-                                        class="at16nc at300bs at15nc at15t_twitter at16t_twitter"><span
-                                            class="at_a11y"></span></span></a>
-                            <a class="addthis_button_pinterest_share at300b tqq" target="_blank" title="Pinterest"
-                               href="#"><span class=" at300bs at15nc at15t_pinterest_share"><span
-                                            class="at_a11y"></span></span></a>
 
-                            <div class="atclear"></div>
-                        </div>
-
-                    </div>
+                 
                 </div>
+                
                 <a href="<?php echo $product['href'];?>"><p class="tt"><?php echo $product['name'];?></p>
                      <?php if($product['special']) { ?>
                      <p class="howmuch"><span class="xj"><?php echo $product['special'];?></span><span

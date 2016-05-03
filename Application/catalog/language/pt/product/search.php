@@ -32,4 +32,5 @@ $_['text_suggestions']="Suggestions:";
 $_['text_suggestions_01']="•Make sure all words are spelled correctly. ";
 $_['text_suggestions_02']="•Try again with other keywords.";
 $_['text_suggestions_03']="•You can also contact our customer service for help: cs@MoreSKU.com";
+$_['top_seller']="Mais Vendidos";
 ?>

@@ -779,7 +779,7 @@ class ModelCheckoutOrder extends Model {
         $date = date('ymd');
         $number = mt_rand(0, 99999);
         $number = sprintf('%05d', $number);
-        $chars =  $pre_store . $date . $number . '0';
+        $chars =  $date . $pre_store . $number . '0';
         return $chars;
     }
 
