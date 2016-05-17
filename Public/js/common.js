@@ -82,6 +82,21 @@ $(document).ready(function(){
                 }
 	});
 
+$("li[dom=nav-menu]").hover(function(){
+        //$(this).addClass("active");
+        var popup = $(this).attr('popup');
+        $("div[dom=" + popup  + "]").show();
+               
+     
+    },
+    function(){
+        //$(this).removeClass("active");
+        var popup = $(this).attr('popup');
+        $("div[dom=" + popup  + "]").hide();
+    });
+
+
+
 	//
 	$(".prolist li").hover(function(){
 		$(this).find(".img_Text").animate({"bottom":"0"},"fast");	

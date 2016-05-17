@@ -103,84 +103,45 @@
         </div>
         <nav class="nav">
             <div class="wrap clearfix">
-                <?php if($show_cat){
-			?>
-                <div class="navleft" id="indexnav">
-                    <?php }else{ ?>
-                    <div class="navleft" id="infornav">
-                        <?php }?>
 
-                        <div class="first_link">
-                            <?php if($show_cat){ ?>
-                            <span><?php echo $text_led_categories;?></span>
-                        </div>
-                        <?php }else{ ?>
-                        <a class="list_img"><?php echo $text_led_categories;?></a>
-                    </div>
-                    <?php } ?>
+               <div class="menu ">
 
-                    <div class="navbar">
-                        <ul>
+
+                        <ul  >
                             <?php foreach($categories['top'] as $key => $categorie_top){
                             ?>
-                            <li class="<?php echo $key; ?>"><a href="<?php echo $categorie_top['href'];?>"
-                                                               dom="<?php echo $key; ?>"><?php echo $categorie_top['name'];?></a>
+                            <li class="<?php echo $key; ?>" dom="nav-menu" popup="<?php echo $key; ?>">
+                            <a href="<?php echo $categorie_top['href'];?>"  ><?php echo $categorie_top['name'];?></a>
+
+                              <?php  if( isset($categories['child'][$key]['children'])  &&  $categories['child'][$key]['children'] ) {  ?>
+                               <div class="popup "  dom='<?php echo $key; ?>' style="display: none;z-index: 99;">
+
+                                        <ul class="navlink clearfix">
+                                            <?php foreach($categories['child'][$key]['children'] as $child_2){ ?>
+                                            <li><a href="<?php echo $child_2['href'];?>"><?php echo $child_2['name'];?></a></li>
+                                            <?php  }  ?>
+                                        </ul>
+
+                                </div>
+
+                                <?php }  ?>
+
+
+
+
                             </li>
                             <?php
-						}
-						?>
+                        }
+                        ?>
                         </ul>
-                    </div>
-                    <div class="thirdnav">
-                        <?php if(isset($categories['child']) && is_array($categories['child']) && count($categories['child'])>
-                        0){ ?>
-                        <?php foreach($categories['child'] as $c_k => $child){ ?>
-                        <section class="thirdnavbox  nofigure <?php if(!$child['bg_image']) { ?> nofigure <?php } ?>"
-                                 dom='<?php echo $c_k; ?>'>
-                            <!--
-                            <?php if($child['bg_image']) { ?>
-                                    <figure class="img"><img class="third-nav-img"  src="<?php  echo STATIC_SERVER; ?>css/images/grey.gif"  _src="<?php echo $child['bg_image'];?>" alt=""/></figure>
-                            <?php } ?>
-                            -->
-
-                            <article class="text">
-                                <ul class="navlink clearfix">
-                                    <?php foreach($child['children'] as $child_2){
-								?>
-                                    <li><a href="<?php echo $child_2['href'];?>"><?php echo $child_2['name'];?></a></li>
-                                    <?php
-								}
-								?>
-                                </ul>
-                                <?php if($child['action_description']) { ?>
-                                <ul class="navlink rightlink">
-                                    <?php echo $child['action_description'];?>
-                                </ul>
-                                <?php } ?>
-                            </article>
-
-                        </section>
-                        <?php
-                             }
-                          }
-					?>
-                    </div>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <?php foreach($menus as $key => $menu){ ?>
-                        <?php if($menu['is_active']){ ?>
-                        <li class="active">
-                            <?php }else{ ?>
-                        <li>
-                            <?php }?>
-                            <a href="<?php echo $menu['link'];?>"><span></span><?php echo $menu['text'];?></a>
-                        </li>
-                        <?php } ?>
-
-
                     </ul>
                 </div>
+
+
+          
+
+                </div>
+
             </div>
         </nav>
         <input type="hidden" name="is_login" value="<?php echo $is_login;?>" id='if_login'/>
