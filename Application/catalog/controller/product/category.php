@@ -482,6 +482,7 @@ class ControllerProductCategory extends Controller {
                     if($filter_type == 1){
                         $op_id = intval($op_id);
                         $option_info = $this->model_catalog_category->getOptionInfo($op_id);
+
                     }else if($filter_type == 2){
                         $filter_id = intval($op_id);
                         $filter_info = $this->model_catalog_category->getFilterName($filter_id);
@@ -490,6 +491,7 @@ class ControllerProductCategory extends Controller {
                             'attribute_id' => $_item_attr_id,
                             'option_value' => $filter_info['name'],
                         );
+
                     }
                     if ($select_option_array_count > 1) {
                         $del_attr = $select_attr_array;

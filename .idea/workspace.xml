@@ -2,20 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe00ccb5-4526-4d07-8ddc-111499c0d10d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/Application/catalog/controller/product/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl" afterPath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl" afterPath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/review.tpl" afterPath="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/review.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/config.php" afterPath="$PROJECT_DIR$/Application/config.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-attribute-group-21fc37604fc8f0db9935171a9109d203.1464331920" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-attribute-group-cf1f54eb053b777c0cd7b2c213a42afe.1464331951" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-119.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-120.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-121.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-122.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-123.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-126.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-127.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-128.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-129.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-130.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-131.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-132.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-133.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-134.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-135.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-136.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-137.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-138.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-139.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-140.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-141.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-142.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-143.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-145.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-146.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-151.1464331920" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-152.1464331919" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-206.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-207.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-208.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-209.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-211.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-253.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-256.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-257.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-breadcrumbs-119.1.0.1464331950" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-breadcrumbs-152.1.0.1464331919" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-04784d694aa490700eac159874815be2.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-07e2610b6900c433419389edb1643f95.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-088ed87f6ff70c932ebbfbf0577f5617.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-1c6a4b10c5d8090a8167e6d136c52b53.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-1c6b955dc843704b7b1e35b43228a43b.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-27ecd53a2efdd42153e327169a69aed5.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-39ddcfecd515cb4b099f6b72b86f13a5.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-3f58ce2b0af8e59385f43a33c001eb6b.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4428ca1f3e08bf2e0948df786604f55a.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4d26532f699fb83f54cee37478cd5797.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4e25990371fd1f4d5feef4c3945fa893.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-51f38a4b05cf370e33b1660550c151b3.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-5a3a9933c6807af40214252058c7bfe7.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-5c5db859f6cf4808968b0e1aba2cf080.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-6117be3df90818f2658912689c592c25.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-62d09290cc87823560d3bcc8a9407d04.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-66167866dbcc65d976653d766e960394.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-72ea20d691976087d5c0a1195565de2d.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-7306d850b6f4953ad3d6416f820f5cfd.1464335073" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-78e05f35895947afa12c0690b9014ce2.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-78fbd5ea4fdbb4c4b579ca75fff67347.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-859c38bd3879cb45eebe7391166c4a00.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-8c165b7787852cc13379234a50f51a52.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-8e0593a60dd461cf53523389c3f3fa5f.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-9a94dd9f78893c9496f148d37606cc34.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-a77d85e7ed93ff4438ca6f8c9b933647.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-aae86414dd14f8482e4c96d8cca3c32c.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-bc230439f489adb9e888b60875548569.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-c02ec3065bf5ae2e9a584fb9a57410bb.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-c4b71b31c9f00ee067e2927fb465cb9a.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-ecb5e27cf0de61bbd3db4c9a02d2cc77.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-eeb67b3197900c725c20ff935c5ecc53.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-f1f0e123febdae93dcb02b540fcfab94.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-f4fffec2e6a89b4c06b418b8d9f82574.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-fa8cd4055bd3d20ae43ca5993453bec1.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.currency.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.header.categories.1.0.1464335073" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.language.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-10315.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-11262.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-13781.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-16681.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-16942.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-17390.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-17840.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18370.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18655.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18926.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-19017.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-1961.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-3252.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-3253.1464331886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5667.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5977.1464331933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5985.1464331933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6019.1464331933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6923.1464331933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6942.1464331933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6946.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6948.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6949.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6950.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6951.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6952.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6953.1464331932" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8054.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8068.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8837.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9062.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9064.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9098.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9615.1464331885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.store.1464331886" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/controller/product/category.php" afterPath="$PROJECT_DIR$/Application/catalog/controller/product/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/logs/2016-05-27-error.txt" afterPath="$PROJECT_DIR$/Data/logs/2016-05-27-error.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/stylesheet/base.css" afterPath="$PROJECT_DIR$/Public/css/stylesheet/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/common.js" afterPath="$PROJECT_DIR$/Public/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myadmin034j8so9t/config.php" afterPath="$PROJECT_DIR$/myadmin034j8so9t/config.php" />
     </list>
     <ignored path="charles_0127.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,66 +138,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl">
+      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="328" column="81" selection-start-line="328" selection-start-column="74" selection-end-line="328" selection-end-column="81" />
+            <state relative-caret-position="247">
+              <caret line="71" column="52" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="52" />
               <folding>
-                <marker date="1464331167447" expanded="false" signature="14670:14681" placeholder="..." />
-                <marker date="1464331167447" expanded="true" signature="31982:32031" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/js/cart.js">
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/catalog/controller/product/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <state relative-caret-position="285">
+              <caret line="538" column="15" selection-start-line="538" selection-start-column="15" selection-end-line="538" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/js/common.js">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/css/stylesheet/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
-              <folding>
-                <marker date="1464331354837" expanded="true" signature="15483:15502" placeholder="..." />
-                <marker date="1464331354837" expanded="true" signature="15523:15538" placeholder="..." />
-                <marker date="1464331354837" expanded="true" signature="16110:16124" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/catalog/controller/product/product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="598" column="192" selection-start-line="598" selection-start-column="192" selection-end-line="598" selection-end-column="192" />
+            <state relative-caret-position="247">
+              <caret line="2106" column="18" selection-start-line="2106" selection-start-column="18" selection-end-line="2106" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="currency.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/system/library/currency.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="51" column="58" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="58" />
-              <folding>
-                <element signature="n#__construct#0;n#Currency#0;n#!!top" expanded="false" />
-                <element signature="n#format#0;n#Currency#0;n#!!top" expanded="false" />
-                <element signature="n#convert#0;n#Currency#0;n#!!top" expanded="false" />
-                <element signature="e#3445#3558#0#PHP" expanded="false" />
-                <element signature="n#onlyFormat#0;n#Currency#0;n#!!top" expanded="false" />
-                <marker date="1464322153176" expanded="true" signature="399:438" placeholder="SELECT * FRO... ${DB_PREFIX}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,13 +184,14 @@
         <option value="$PROJECT_DIR$/Application/model/payment/pp_express.php" />
         <option value="$PROJECT_DIR$/Application/mobile/controller/payment/pp_express.php" />
         <option value="$PROJECT_DIR$/Application/mobile/controller/payment/pp_onestep.php" />
-        <option value="$PROJECT_DIR$/Public/css/stylesheet/base.css" />
         <option value="$PROJECT_DIR$/Application/config.php" />
         <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/review.tpl" />
         <option value="$PROJECT_DIR$/Application/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/Public/js/common.js" />
+        <option value="$PROJECT_DIR$/Application/catalog/controller/product/category.php" />
+        <option value="$PROJECT_DIR$/Public/css/stylesheet/base.css" />
       </list>
     </option>
   </component>
@@ -212,7 +282,43 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheet" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charles_0127" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charles_0127" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charles_0127" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charles_0127" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,12 +372,12 @@
       <updated>1461832415574</updated>
       <workItem from="1461832418056" duration="1442000" />
       <workItem from="1462412760530" duration="52000" />
-      <workItem from="1464322608573" duration="3453000" />
+      <workItem from="1464322608573" duration="4954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4947000" />
+    <option name="totallyTimeSpent" value="6448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -382,26 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/stylesheet/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="1661" column="21" selection-start-line="1661" selection-start-column="21" selection-end-line="1661" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/review.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -429,10 +519,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+          <folding>
+            <marker date="1464331354837" expanded="true" signature="15483:15502" placeholder="..." />
+            <marker date="1464331354837" expanded="true" signature="15523:15538" placeholder="..." />
+            <marker date="1464331354837" expanded="true" signature="16110:16124" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/catalog/controller/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="598" column="192" selection-start-line="598" selection-start-column="192" selection-end-line="598" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -448,23 +558,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/cart.js">
+    <entry file="file://$PROJECT_DIR$/Application/catalog/view/theme/default/template/product/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="247">
+          <caret line="71" column="52" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/catalog/controller/product/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="538" column="15" selection-start-line="538" selection-start-column="15" selection-end-line="538" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/common.js">
+    <entry file="file://$PROJECT_DIR$/Public/css/stylesheet/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
-          <folding>
-            <marker date="1464331354837" expanded="true" signature="15483:15502" placeholder="..." />
-            <marker date="1464331354837" expanded="true" signature="15523:15538" placeholder="..." />
-            <marker date="1464331354837" expanded="true" signature="16110:16124" placeholder="..." />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="2106" column="18" selection-start-line="2106" selection-start-column="18" selection-end-line="2106" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
