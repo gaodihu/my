@@ -2,121 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe00ccb5-4526-4d07-8ddc-111499c0d10d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-attribute-group-21fc37604fc8f0db9935171a9109d203.1464331920" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-attribute-group-cf1f54eb053b777c0cd7b2c213a42afe.1464331951" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-119.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-120.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-121.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-122.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-123.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-126.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-127.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-128.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-129.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-130.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-131.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-132.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-133.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-134.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-135.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-136.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-137.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-138.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-139.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-140.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-141.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-142.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-143.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-145.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-146.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-151.1464331920" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-152.1464331919" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-206.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-207.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-208.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-209.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-211.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-253.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-256.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-url-257.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-breadcrumbs-119.1.0.1464331950" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-breadcrumbs-152.1.0.1464331919" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-04784d694aa490700eac159874815be2.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-07e2610b6900c433419389edb1643f95.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-088ed87f6ff70c932ebbfbf0577f5617.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-1c6a4b10c5d8090a8167e6d136c52b53.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-1c6b955dc843704b7b1e35b43228a43b.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-27ecd53a2efdd42153e327169a69aed5.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-39ddcfecd515cb4b099f6b72b86f13a5.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-3f58ce2b0af8e59385f43a33c001eb6b.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4428ca1f3e08bf2e0948df786604f55a.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4d26532f699fb83f54cee37478cd5797.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-4e25990371fd1f4d5feef4c3945fa893.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-51f38a4b05cf370e33b1660550c151b3.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-5a3a9933c6807af40214252058c7bfe7.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-5c5db859f6cf4808968b0e1aba2cf080.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-6117be3df90818f2658912689c592c25.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-62d09290cc87823560d3bcc8a9407d04.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-66167866dbcc65d976653d766e960394.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-72ea20d691976087d5c0a1195565de2d.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-7306d850b6f4953ad3d6416f820f5cfd.1464335073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-78e05f35895947afa12c0690b9014ce2.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-78fbd5ea4fdbb4c4b579ca75fff67347.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-859c38bd3879cb45eebe7391166c4a00.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-8c165b7787852cc13379234a50f51a52.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-8e0593a60dd461cf53523389c3f3fa5f.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-9a94dd9f78893c9496f148d37606cc34.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-a77d85e7ed93ff4438ca6f8c9b933647.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-aae86414dd14f8482e4c96d8cca3c32c.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-bc230439f489adb9e888b60875548569.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-c02ec3065bf5ae2e9a584fb9a57410bb.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-c4b71b31c9f00ee067e2927fb465cb9a.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-ecb5e27cf0de61bbd3db4c9a02d2cc77.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-eeb67b3197900c725c20ff935c5ecc53.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-f1f0e123febdae93dcb02b540fcfab94.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-f4fffec2e6a89b4c06b418b8d9f82574.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-fa8cd4055bd3d20ae43ca5993453bec1.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.currency.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.header.categories.1.0.1464335073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.language.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-10315.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-11262.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-13781.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-16681.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-16942.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-17390.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-17840.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18370.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18655.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18926.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-19017.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-1961.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-3252.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-3253.1464331886" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5667.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5977.1464331933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-5985.1464331933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6019.1464331933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6923.1464331933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6942.1464331933" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6946.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6948.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6949.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6950.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6951.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6952.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6953.1464331932" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8054.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8068.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8837.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9062.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9064.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9098.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9615.1464331885" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.store.1464331886" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/catalog/controller/product/category.php" afterPath="$PROJECT_DIR$/Application/catalog/controller/product/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/logs/2016-05-27-error.txt" afterPath="$PROJECT_DIR$/Data/logs/2016-05-27-error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/stylesheet/base.css" afterPath="$PROJECT_DIR$/Public/css/stylesheet/base.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.categories-attribute-group-4c866574ed8dc014d0c2908592b2df4d.1464333987" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.category-file-7306d850b6f4953ad3d6416f820f5cfd.1464336838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.header.categories.1.0.1464336838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-1678.1464334268" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18025.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18099.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-18141.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-2428.1464334268" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-4976.1464334166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6757.1464334166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6796.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-6811.1464334166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-7081.1464334268" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-7123.1464334268" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-7988.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8155.1464334300" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8293.1464334166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8600.1464334165" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8601.1464334165" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-8955.1464334166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/cache/cache.product-url-9713.1464334268" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/image/cache/demo-1000x1000.jpg" afterPath="$PROJECT_DIR$/Public/image/cache/demo-1000x1000.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/image/cache/demo-170x170.jpg" afterPath="$PROJECT_DIR$/Public/image/cache/demo-170x170.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/image/cache/demo-47x47.jpg" afterPath="$PROJECT_DIR$/Public/image/cache/demo-47x47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/image/demo.jpg" afterPath="$PROJECT_DIR$/Public/image/demo.jpg" />
     </list>
     <ignored path="charles_0127.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -372,16 +282,16 @@
       <updated>1461832415574</updated>
       <workItem from="1461832418056" duration="1442000" />
       <workItem from="1462412760530" duration="52000" />
-      <workItem from="1464322608573" duration="4954000" />
+      <workItem from="1464322608573" duration="5552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6448000" />
+    <option name="totallyTimeSpent" value="7046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
