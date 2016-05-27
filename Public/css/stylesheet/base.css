@@ -1642,6 +1642,8 @@ header .menu_slide {
 .menu > ul  {
     overflow: hidden;
     height: 40px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 .menu > ul > li {
@@ -1656,10 +1658,10 @@ header .menu_slide {
 
 .menu > ul > li > a, .first_link a {
     display: block;
-    color:#fff;
-    margin-left:18px;
-    margin-right:18px; 
-    font-weight: 500;
+    color:#efefef;
+    margin-left:14px;
+    margin-right:14px;
+    font-weight: 300;
 
 }
 
@@ -1720,7 +1722,7 @@ header .menu_slide {
 }
 
 .sidemenu a:hover, .navlink a:hover {
-    font-weight: bold;
+    color:#0092cd;
 
 }
 
@@ -5891,8 +5893,8 @@ ul.aToz-categories {
     text-align: left;
     padding: 0;
     margin: 0;
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 13px;
+    line-height: 20px;
 }
 .menu .popup .navlink{
     width: none;

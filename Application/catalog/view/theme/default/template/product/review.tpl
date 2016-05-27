@@ -37,7 +37,7 @@
 			</div>
 			<div class="review_tip hide"></div>
 			</div>
-			<div class="fb-like gray"><a href="javascript:void(0)"><img src="<?php  echo STATIC_SERVER; ?>css/images/fb.jpg" alt=""/><?php echo $text_review_share;?></a></div>
+
 		</li>
 		<?php } ?>
 										

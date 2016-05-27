@@ -323,6 +323,7 @@
                                     <input name="quantity" class="mid-input" onKeyUp="this.value=this.value.replace(/\D/g,'')" type="text" maxlength="3" value="1" id='pro_qty'>
                                     <input id="quantity-inc"  type="button"  class="btnup edtbtn"  value="+"/>
 
+									<!--
                                     <span class="subtotal" style="float: left">
                                         <?php echo $text_subtotal;?>
                                         <span class="red bold font13" id='subtoal'>
@@ -335,6 +336,7 @@
                                         ?>
                                         </span>
                                     </span>
+                                    -->
                                 </div>
 
 						</div>

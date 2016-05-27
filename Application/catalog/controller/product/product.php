@@ -596,7 +596,7 @@ class ControllerProductProduct extends Controller {
 				);
 			}	
 			if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
-				$this->data['format_price'] = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')));
+				$this->data['format_price'] = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')),'','',false);
                 $this->data['currency_price'] = $this->currency->convert($product_info['price'],'USD',$this->data['currency_code']);
 			} else {
 				$this->data['format_price'] = false;
@@ -610,7 +610,7 @@ class ControllerProductProduct extends Controller {
             }
 			if($product_info['special']){
                 $this->data['special_price']=$product_info['special'];
-				$this->data['format_special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')));
+				$this->data['format_special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')),'','',false);
                 $this->data['currency_special'] = $this->currency->convert($product_info['special'],'USD',$this->data['currency_code']);
 				//特价倒计时
                 if($exclusive_price_info){

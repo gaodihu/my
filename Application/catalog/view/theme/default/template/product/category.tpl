@@ -85,7 +85,7 @@
 			<?php if(isset($categories['child']) && $categories['child']){ ?>
 			<div class="proLabel ">
 				<dl>
-					<dt>sub categories: </dt>
+					<dt>Categories: </dt>
 					<dd>
 						<div class="icheck">
 							<ul id="check-ul" class="check-ul ">

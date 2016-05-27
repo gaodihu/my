@@ -155,6 +155,7 @@ $("li[dom=nav-menu]").hover(function(){
         $(this).next("input").val(VV);
 		var product_id =$('#product_id').val();
 		if(VV>=0){
+            /*
 			$.ajax({
 				url: 'index.php?route=product/product/get_subtotal',
 				type: 'post',
@@ -170,6 +171,7 @@ $("li[dom=nav-menu]").hover(function(){
 					$('#subtoal').html(json['subtotal']);
 				}
 			});
+			*/
 		}
 	})
 
