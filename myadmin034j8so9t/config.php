@@ -33,9 +33,9 @@ define('DIR_DATA',        DIR_BASE . 'Data/');
 define('DB_DRIVER', 'mysqli');
 
 define('DB_HOSTNAME', '172.168.90.236');
-define('DB_USERNAME', 'myled');
-define('DB_PASSWORD', '123456');
-define('DB_DATABASE', 'charles_20160202');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'charles');
 
 define('COOKIE_DOMAIN','mydev.com');
 
