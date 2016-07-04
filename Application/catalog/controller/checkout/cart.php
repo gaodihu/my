@@ -434,7 +434,7 @@ class ControllerCheckoutCart extends Controller {
                 $subtoal =$total['text'];
             }
         }
-        $this->template = 'default/template/checkout/include/cart_product.tpl';
+        $this->template =  $this->config->get('config_template') . '/template/checkout/include/cart_product.tpl';
         $content = $this->render();
         $json['content'] =$content;
         $json['message'] =sprintf($this->language->get('coupon_cancelled_sucess'),$coupon);
@@ -486,7 +486,7 @@ class ControllerCheckoutCart extends Controller {
 					$subtoal =$total['text'];
 				}
 			}
-			$this->template = 'default/template/checkout/include/cart_product.tpl';
+			$this->template =   $this->config->get('config_template') . '/template/checkout/include/cart_product.tpl';
 			$content = $this->render();
 			$json['content'] =$content;
 			$json['message'] =sprintf($this->language->get('coupon_sucess'),$this->request->post['coupon']);
@@ -899,7 +899,7 @@ class ControllerCheckoutCart extends Controller {
             }
             
             $json['ship_cost'] = $ship_result;
-            $this->template = 'default/template/checkout/include/cart_product.tpl';
+            $this->template =  $this->config->get('config_template') .  '/template/checkout/include/cart_product.tpl';
             $content = $this->render();
             $json['content'] =$content;
             $json['message'] =$this->language->get('update_sucess');
@@ -1000,7 +1000,7 @@ class ControllerCheckoutCart extends Controller {
             
             
             
-			$this->template = 'default/template/checkout/include/cart_product.tpl';
+			$this->template =  $this->config->get('config_template') . '/template/checkout/include/cart_product.tpl';
 			$content = $this->render();
 			$json['content'] =$content;
 			$json['message'] =$this->language->get('update_sucess');

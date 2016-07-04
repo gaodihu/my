@@ -54,7 +54,7 @@ class ControllerCheckoutAddress extends Controller {
         $this->data['default_address'] = $this->session->data['shipping_address'];
         $this->data['checked_address'] = $this->session->data['shipping_address'];
 
-        $this->template = 'default/template/checkout/include/shipping_address_list.tpl';
+        $this->template =    $this->config->get('config_template') . '/template/checkout/include/shipping_address_list.tpl';
         $html = $this->render();
         $d = array('html' => $html,'empty'=>$is_empty_address);
         return $d;
@@ -149,7 +149,7 @@ class ControllerCheckoutAddress extends Controller {
             $this->data['zones'] = $this->model_localisation_zone->getZonesByCountryId($address_info['country_id']);
         }
         $this->data['logged'] = $this->customer->isLogged();
-        $this->template = 'default/template/checkout/include/shipping_address_from.tpl';
+        $this->template =  $this->config->get('config_template') . '/template/checkout/include/shipping_address_from.tpl';
         $content = $this->render();
         $json['content'] = $content;
         $this->response->setOutput(json_encode($json));

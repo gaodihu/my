@@ -1,0 +1,1 @@
+2016-07-04 15:25:03 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47

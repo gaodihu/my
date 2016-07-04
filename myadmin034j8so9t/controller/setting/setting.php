@@ -427,7 +427,8 @@ class ControllerSettingSetting extends Controller {
 
 		foreach ($directories as $directory) {
 			$this->data['templates'][] = basename($directory);
-		}					
+		}
+		print_r($this->data['templates']);					
 
 		if (isset($this->request->post['config_country_id'])) {
 			$this->data['config_country_id'] = $this->request->post['config_country_id'];

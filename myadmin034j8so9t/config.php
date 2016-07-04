@@ -24,7 +24,7 @@ define('DIR_IMAGE',       DIR_BASE . 'Public/image/');
 define('DIR_CACHE',       DIR_BASE . 'Data/cache/');
 define('DIR_DOWNLOAD',    DIR_BASE . '/download/');
 define('DIR_LOGS',        DIR_BASE . 'Data/logs/');
-define('DIR_CATALOG',     DIR_BASE . '/catalog/');
+define('DIR_CATALOG',     DIR_BASE . 'Application/catalog/');
 define('DIR_MODEL',       DIR_BASE . '/myadmin034j8so9t/model/');
 define('DIR_DATA',        DIR_BASE . 'Data/');
 
@@ -32,7 +32,7 @@ define('DIR_DATA',        DIR_BASE . 'Data/');
 
 define('DB_DRIVER', 'mysqli');
 
-define('DB_HOSTNAME', '172.168.90.236');
+define('DB_HOSTNAME', '127.0.0.1');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'charles');
