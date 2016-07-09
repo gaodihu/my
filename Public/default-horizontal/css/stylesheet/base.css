@@ -1635,25 +1635,33 @@ header .menu_slide {
 /* menu */
 .menu {
     font-size: 15px;
-    margin-left: 215px;
     position: relative;
     z-index: 10;
+    clear: both;
+}
+.menu > ul  {
+    overflow: hidden;
+    height: 40px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 .menu > ul > li {
-    width: 18%;
     float: left;
     text-align: center;
-    /*background: url(../images/line.png) no-repeat left top;*/
+
     height: 40px;
-    line-height: 40px;
-    margin-left: -2px;
+    line-height: 37px;
+   
     overflow: hidden;
 }
 
 .menu > ul > li > a, .first_link a {
     display: block;
-    color:#fff;
+    color:#efefef;
+    margin-left:14px;
+    margin-right:14px;
+    font-weight: 300;
 
 }
 
@@ -1714,7 +1722,7 @@ header .menu_slide {
 }
 
 .sidemenu a:hover, .navlink a:hover {
-    font-weight: bold;
+    color:#0092cd;
 
 }
 
@@ -1760,7 +1768,7 @@ header .menu_slide {
 }
 
 .nav .wrap {
-    height: 40px;
+    height: 43px;
 
 
     background: #000;
@@ -1875,16 +1883,14 @@ header .menu_slide {
 }
 
 .navlink {
-    width: 400px;
     float: left;
 }
 
 .navlink a {
     display: block;
-    width: 180px;
     color: #333;
-    padding-left: 20px;
-    margin: 10px 0 0 0;
+
+    margin: 5px  20px  10px 20px;
 }
 
 .rightlink {
@@ -2096,9 +2102,9 @@ header .menu_slide {
 }
 
 .xj {
-    color: #f60;
-    font-size: 20px;
-    font-weight: 600;
+    color: rgb(204, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .yj {
@@ -3541,7 +3547,7 @@ header .menu_slide {
 }
 
 .top-banner {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 20px 0;
 }
 
 .animation {
@@ -5440,13 +5446,13 @@ ul.aToz-categories {
 }
 
 .slideBox {
-    width: 750px;
-    height: 250px;
+    width: 1200px;
+    height: 350px;
     overflow: hidden;
     position: relative;
     border: 1px solid #ddd;
     background: #f1f1f1;
-    margin-left: 215px
+    margin-left: 0;
 }
 
 .slideBox .hd {
@@ -5877,6 +5883,21 @@ ul.aToz-categories {
 }
 .searchcontent .prolist_info li{
     width: 25%;
+}
+
+ .menu .popup {
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+.menu .popup .navlink{
+    width: none;
 }
 
 

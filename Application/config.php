@@ -9,7 +9,7 @@ define('HTTPS_SERVER', 'http://www.mydev.com/');
 
 define('IMG_SERVER', 'http://www.mydev.com/image/');
 
-define("STATIC_SERVER",'http://www.mydev.com/default-vertical/');
+define("STATIC_SERVER",'http://www.mydev.com/default-horizontal/');
 
 $dir = str_replace("\\",'/',__DIR__);
 $dir = substr($dir,0,0 -strlen('Application'));

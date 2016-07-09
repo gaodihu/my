@@ -1,0 +1,91 @@
+2016-07-09 2:07:17 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:07:17 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:07:17 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:07:21 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for css/stylesheet/product.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery-1.7.2.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.artDialog.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:33 - PHP Warning:  filemtime(): stat failed for js/jquery/jcarousellite_1.0.1.pack.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:08:37 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:08:38 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:16:59 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:16:59 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:16:59 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:16:59 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:05 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:05 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:05 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:06 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:17 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:17 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:19 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:19 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:17:19 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:19 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:21 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:21 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:17:21 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:21 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:22 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:17:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:17:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:17:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:03 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:03 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:04 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:04 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:18:07 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:07 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:07 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:07 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:19 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:19 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:19 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:19 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/product.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery-1.7.2.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.artDialog.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jcarousellite_1.0.1.pack.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:18:23 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:18:23 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:19 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:19 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:20 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:20 - PHP Warning:  Invalid argument supplied for foreach() in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/product/category.tpl on line 52
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/product.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/flexslider.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/icheck.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.icheck.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.countdown.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.flexslider.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery-1.7.2.min.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jquery.artDialog.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for js/jquery/jcarousellite_1.0.1.pack.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:43:22 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:44:24 - PHP Warning:  filemtime(): stat failed for css/stylesheet/account.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:44:24 - PHP Warning:  filemtime(): stat failed for css/stylesheet/product.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:44:24 - PHP Warning:  filemtime(): stat failed for js/Cart.js in /home/dev/work/www/my/Application/system/library/document.php on line 67
+2016-07-09 2:44:25 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:44:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/checkout/include/cart_product.tpl on line 75
+2016-07-09 2:44:25 - PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/checkout/include/cart_product.tpl on line 76
+2016-07-09 2:44:29 - PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/checkout/include/cart_product.tpl on line 75
+2016-07-09 2:44:29 - PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/dev/work/www/my/Application/catalog/view/theme/default-horizontal/template/checkout/include/cart_product.tpl on line 76
+2016-07-09 2:45:09 - PHP Warning:  filemtime(): stat failed for css/stylesheet/base.css in /home/dev/work/www/my/Application/system/library/document.php on line 47
+2016-07-09 2:45:48 - PHP Warning:  fopen(/home/dev/work/www/my//download/test): failed to open stream: No such file or directory in /home/dev/work/www/my/myadmin034j8so9t/controller/common/home.php on line 99
+2016-07-09 2:45:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/dev/work/www/my/myadmin034j8so9t/controller/common/home.php on line 101
+2016-07-09 2:45:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/dev/work/www/my/myadmin034j8so9t/controller/common/home.php on line 103
+2016-07-09 2:45:50 - PHP Notice:  Undefined index: filter_store_id in /home/dev/work/www/my/myadmin034j8so9t/model/catalog/review.php on line 105
+2016-07-09 2:45:50 - PHP Notice:  Undefined index: filter_status in /home/dev/work/www/my/myadmin034j8so9t/model/catalog/review.php on line 117
+2016-07-09 2:45:50 - PHP Notice:  Undefined index: filter_is_publish in /home/dev/work/www/my/myadmin034j8so9t/model/catalog/review.php on line 121
